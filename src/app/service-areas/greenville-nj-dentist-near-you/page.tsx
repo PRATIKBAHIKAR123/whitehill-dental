@@ -1,0 +1,213 @@
+"use client";
+
+import React, { useState } from "react";
+import Image from "next/image";
+import { CheckCircle } from "lucide-react";
+import BookCallBtn from "@/app/services/book-call-btn";
+import { Bounce, Fade, Zoom } from "react-awesome-reveal";
+import LocationTabs from "@/app/home/addresses";
+import Link from "next/link";
+
+export default function ServiceAreaPage() {
+  const locations = [
+    {
+      id: "harrisburg",
+      name: "Harrisburg, PA",
+      address: "2017 Eg Drive, Suite 200, Harrisburg, PA 17110",
+      phone: "717-745-2700",
+      hours: [
+        "Monday: 9:00 AM - 6:00 PM",
+        "Tuesday: 9:00 AM - 6:00 PM",
+        "Wednesday: 9:00 AM - 6:00 PM",
+        "Thursday: 9:00 AM - 6:00 PM",
+        "Friday: 9:00 AM - 6:00 PM",
+        "Saturday: 9:00 AM - 3:30 PM",
+        "Sunday: Closed",
+      ],
+      mapUrl:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.388699662395!2d-76.84668282549382!3d40.33372256068962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8c79a41f0e96d%3A0xc67e52466ec7a803!2s2017%20Eg%20Dr%20%23200%2C%20Harrisburg%2C%20PA%2017112%2C%20USA!5e0!3m2!1sen!2sin!4v1754646104764!5m2!1sen!2sin",
+    },
+  ];
+  const [selected, setSelected] = useState(locations[0]);
+  return (
+    <div>
+      {/* Header Section */}
+      <div className="details-page-header-section ">
+        <h1>Family & Cosmetic Dentist in Greenville, NJ 07305</h1>
+      </div>
+
+      {/* Main Content Section */}
+      <div className="max-w-7xl mx-auto px-4 py-12 flex flex-col gap-16">
+        {/* Top Section: Image + Intro */}
+        <div className="details-page-desc-section">
+          {/* Image Section */}
+          <div className="image_section">
+            <div className="image_section-cover">
+              <div className="main-image">
+                <img
+                  src="/Images/areas/Modern Dental Care in Greenville.webp"
+                  alt="Main Banner"
+                  className="rounded-xl"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Text Section with Fade-in after delay */}
+          <div className="desc-text-section">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
+              Modern Dental Care in Greenville | Urban Dental & Braces | Dentist
+              Near You
+            </h2>
+            <p>
+              At{" "}
+              <Link href="/" className="text-primary hover:underline">
+                Urban Dental & Braces Greenville
+              </Link>
+              , our mission is to create healthy, beautiful smiles for the whole
+              family. Conveniently located in Greenville, NJ 07305, we provide
+              patients with advanced treatment options in a comfortable,
+              welcoming environment. Whether you’re searching for a “dentist
+              near me” for routine checkups or specialized care, our{" "}
+              <Link href="/providers" className="text-primary hover:underline">
+                dedicated team
+              </Link>{" "}
+              is here for you every step of the way.
+            </p>
+          </div>
+        </div>
+
+        {/* Comprehensive Dental Care Section */}
+        <div className="flex flex-col gap-4 p-6 md:p-0">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
+            Complete Dental Services for All Ages
+          </h2>
+          <p>
+            Our Greenville dental office is fully equipped with modern
+            technology and designed to make your visits stress-free. We proudly
+            offer:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
+            <li>
+              <h3 className="text-lg font-semibold">Emergency Dentistry</h3>
+              <p>
+                <Link
+                  href="/services/dental-emergencies-greenville-nj"
+                  className="text-primary hover:underline"
+                >
+                  Immediate care
+                </Link>{" "}
+                for tooth pain, broken teeth, or urgent dental needs
+              </p>
+            </li>
+            <li>
+              <h3 className="text-lg font-semibold">Preventive Dentistry</h3>
+              <p>
+                Regular checkups, cleanings, and guidance to maintain lifelong
+                oral health
+              </p>
+            </li>
+            <li>
+              <h3 className="text-lg font-semibold">Cosmetic Dentistry</h3>
+              <p>
+                Professional whitening, veneers,{" "}
+                <Link
+                  href="/services/invisalign-clear-aligners-greenville-nj"
+                  className="text-primary hover:underline"
+                >
+                  Invisalign
+                </Link>
+                , and treatments to enhance your smile
+              </p>
+            </li>
+            <li>
+              <h3 className="text-lg font-semibold">Restorative Dentistry</h3>
+              <p>
+                Crowns, bridges, dental implants, and fillings to restore both
+                function and aesthetics{" "}
+              </p>
+            </li>
+            <li>
+              <h3 className="text-lg font-semibold">Pediatric Dentistry</h3>
+              <p>
+                Gentle, child-friendly dental care that makes visits positive
+                for kids and teens
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        {/* Why Choose Us Section */}
+        <div className="wcu-section">
+          <div className="wcu-text-section">
+            <div className="wcu-title">
+              <h2>Why Greenville Families Choose Urban Dental & Braces</h2>
+            </div>
+            <div className="wcu-desc">
+              Families across Greenville (07305),{" "}
+              <Link
+                href="/service-areas/bayonne-nj-dentist-near-you"
+                className="text-white font-semibold hover:underline"
+              >
+                Bayonne (07002)
+              </Link>{" "}
+              and surrounding neighborhoods trust us because:
+            </div>
+            <div className="wcu-points-section">
+              <ul className="wcu-points">
+                <li>
+                  <CheckCircle />
+                  We provide personalized, patient-centered dental care
+                </li>
+                <li>
+                  <CheckCircle />
+                  Our technology ensures efficient and comfortable treatments
+                </li>
+                <li>
+                  <CheckCircle />
+                  Same-day and flexible scheduling options are available
+                </li>
+                <li>
+                  <CheckCircle />
+                  Insurance-friendly with budget-friendly payment plans
+                </li>
+                <li>
+                  <CheckCircle />
+                  Conveniently located near Greenville and surrounding
+                  communities
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="wcu-img-section">
+            <img
+              src="/Images/areas/Why Greenville Families Choose Urban Dental.webp"
+              alt="dental"
+              className="rounded-xl block"
+            />
+          </div>
+        </div>
+
+        {/* Schedule Appointment Section */}
+        <div className="features-section">
+          <h2 className="features-heading">
+            Schedule Your Appointment in Greenville Today
+          </h2>
+          <p className="features-description">
+            From preventive checkups to advanced restorative and cosmetic
+            procedures,{" "}
+            <Link href="/" className="text-primary hover:underline">
+              Urban Dental & Braces
+            </Link>{" "}
+            is proud to serve Greenville families with care and expertise. If
+            you’ve been searching for a trusted “dentist near me” in Greenville,
+            NJ, our friendly team is ready to help.
+          </p>
+
+          <BookCallBtn />
+        </div>
+      </div>
+      <LocationTabs />
+    </div>
+  );
+}
