@@ -39,7 +39,7 @@ export default function BlogPostClient({ slug }: BlogPostClientProps) {
         {post.slug !== "how-urban-dental-transforms-kids-smiles-bayonne-nj" &&
           post.slug !==
             "why-urban-dental-bayonne-nj-top-choice-tooth-extractions" &&
-          post.slug !== "same-day-dentistry-bayonne-nj-urban-dental" &&
+          post.slug !== "same-day-dentistry-levittown-pa-urban-dental" &&
           post.slug !== "how-urban-dental-uses-modern-dental-fillings-prevent-tooth-decay-bayonne-nj" &&
           post.slug !== "dentures-or-implants-urban-dental-bayonne-informed-choice" &&
           post.slug !== "what-problems-can-cosmetic-dentistry-fix-urban-dental-bayonne" && (

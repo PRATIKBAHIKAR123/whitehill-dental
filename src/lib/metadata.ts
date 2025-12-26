@@ -124,7 +124,7 @@ export const metadataConfig = {
       keywords:
         "permanent teeth replacement bayonne nj, dental implants bayonne, tooth replacement bayonne, missing teeth bayonne, dental restoration bayonne",
     },
-    "wisdom-teeth-removal-bayonne-nj": {
+    "wisdom-teeth-removal-levittown-pa": {
       title:
         "Wisdom Teeth Treatment in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
       description:
@@ -132,7 +132,7 @@ export const metadataConfig = {
       keywords:
         "wisdom teeth removal bayonne nj, wisdom tooth extraction bayonne, oral surgery bayonne, tooth extraction bayonne, dental surgery bayonne",
     },
-    "endodontics-bayonne-nj": {
+    "endodontics-levittown-pa": {
       title:
         "Endodontics in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
       description:
@@ -140,7 +140,7 @@ export const metadataConfig = {
       keywords:
         "endodontics bayonne nj, root canal specialist bayonne, endodontist bayonne, root canal therapy bayonne, endodontic treatment bayonne",
     },
-    "same-day-dentistry-bayonne-nj": {
+    "same-day-dentistry-levittown-pa": {
       title:
         "Same Day Dentistry in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
       description:
@@ -148,7 +148,7 @@ export const metadataConfig = {
       keywords:
         "same day dentistry bayonne nj, quick dental care bayonne, same day crowns bayonne, immediate dental treatment bayonne, fast dental care bayonne",
     },
-    "painless-dental-treatment-bayonne-nj": {
+    "painless-dental-treatment-levittown-pa": {
       title:
         "Painless Dental Treatment in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
       description:
@@ -172,7 +172,7 @@ export const metadataConfig = {
       keywords:
         "halitosis treatment bayonne nj, bad breath treatment bayonne, chronic bad breath bayonne, halitosis cure bayonne, fresh breath bayonne",
     },
-    "sports-dentistry-bayonne-nj": {
+    "sports-dentistry-levittown-pa": {
       title:
         "Sports Dentistry in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
       description:
@@ -357,7 +357,7 @@ export const metadataConfig = {
         "Learn why patients choose Urban Dental in Bayonne, NJ for tooth extractions. Expert oral surgery with comfortable, safe extraction procedures.",
       keywords: "Tooth Extractions Bayonne NJ",
     },
-    "same-day-dentistry-bayonne-nj-urban-dental": {
+    "same-day-dentistry-levittown-pa-urban-dental": {
       title: "Same-Day Dental Services Bayonne NJ: Urban Dental Complete Guide",
       description:
         "Discover what to expect with same-day dental services at Urban Dental in Bayonne, NJ. Fast, convenient treatments that save you time and trips.",

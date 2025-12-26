@@ -17,38 +17,38 @@ export default function Page() {
   const features = [
     {
       icon: "/Images/icons/medicine.png",
-      title: "Root Canal Therapy",
+      title: "Endodontic Retreatment",
       description:
-        "Root canal treatment removes infected or damaged pulp from inside your tooth, eliminating pain and preventing the need for extraction. Modern techniques make this procedure comfortable and highly successful with proper aftercare.",
+        "",
       points: [
-        "Digital imaging and microscopic precision for accurate treatment",
-        "Advanced rotary instruments for gentle, efficient cleaning",
-        "Effective local anesthesia and sedation options available",
-        "Same-day or multi-visit treatment plans based on your needs",
+        "Repairs teeth that didn’t fully heal after prior treatment",
+        "Eliminates lingering infection or discomfort",
+        "Reinforces your tooth with upgraded restorative materials",
+        "Helps avoid unnecessary extraction",
       ],
     },
     {
       icon: "/Images/icons/dental-drill.png",
-      title: "Endodontic Retreatment",
+      title: "Root Canal Therapy for Infected Teeth",
       description:
-        "Sometimes a previously treated root canal may develop new problems or fail to heal properly. Retreatment can often save the tooth and resolve persistent issues without requiring extraction.",
+        "",
       points: [
-        "Comprehensive evaluation of previous endodontic work",
-        "Removal of old filling materials and thorough re-cleaning",
-        "Treatment of missed canals or new infections",
-        "Advanced sealing techniques for long-term success",
+        "Removes harmful bacteria causing pain and swelling",
+        "Restores stability while preventing future complications",
+        "Allows you to keep your natural tooth securely in place",
+        "Completed with precision for reliable results",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Apicoectomy & Surgical Endodontics",
+      title: "Emergency Pain Relief for Dental Infections",
       description:
-        "When nonsurgical retreatment isn't sufficient, surgical procedures like apicoectomy can address persistent infections at the root tip. These minor surgical interventions can save teeth that might otherwise need extraction.",
+        "",
       points: [
-        "Minimally invasive surgical techniques with faster healing",
-        "Precise removal of infected tissue and root tip resection",
-        "Biocompatible materials for optimal tissue regeneration",
-        "Post-surgical care and monitoring for successful outcomes",
+        "Rapid care for severe toothaches or abscesses",
+        "Targets inflammation to protect surrounding bone",
+        "Same-day or prompt visits whenever possible",
+        "Personalized follow-up to ensure full healing",
       ],
     },
   ];
@@ -58,11 +58,11 @@ export default function Page() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Endodontics in Bayonne, NJ</h1>
+              <h1>Endodontics in Levittown, PA</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Advanced Endodontic Care in Bayonne | Urban Dental & Braces
+                Protecting Natural Teeth with Expert Internal Care | White Hill Dental
               </h2>
             </Fade>
           </div>
@@ -83,47 +83,13 @@ export default function Page() {
             <div className="desc-text-section">
               <div className="desc-text-subtitle">Endodontics </div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Endodontics
+                What You Need to Know About Endodontics
               </h2>
               <p>
-                <Link
-                  href="/services/root-canal-treatment-levittown-pa"
-                  className="text-primary hover:underline"
-                >
-                  Endodontics
-                </Link>{" "}
-                focuses on treating the inner structures of your teeth -
-                specifically the pulp, nerves, and root canals that can become
-                infected or severely damaged due to decay, trauma, or repeated
-                dental procedures. At{" "}
-                <Link href="/" className="text-primary hover:underline">
-                  Urban Dental & Braces in Bayonne
-                </Link>
-                , we specialize in advanced endodontic treatments that can save
-                your natural teeth and eliminate pain effectively. Our
-                state-of-the-art technology and gentle techniques make
-                procedures like root canal therapy comfortable and successful,
-                helping you maintain your smile for years to come.
+                When decay, trauma, or deep infection reaches the inner nerve of a tooth, discomfort can become intense - and fast. Endodontic care focuses on treating the inside of the tooth to stop pain at its source while preserving your natural smile. By carefully removing irritated or infected pulp and sealing the tooth, these treatments prevent the need for extraction and restore healthy function.
               </p>
               <p>
-                We proudly serve patients from{" "}
-                <Link
-                  href="/service-areas/bayonne-nj-dentist-near-you"
-                  className="text-primary hover:underline"
-                >
-                  Bayonne (07002)
-                </Link>
-                ,{" "}
-                <Link
-                  href="/service-areas/greenville-nj-dentist-near-you"
-                  className="text-primary hover:underline"
-                >
-                  Greenville, NJ (07305)
-                </Link>
-                , and nearby communities. If you're searching for "root canal
-                near me" or experiencing severe tooth pain, our experienced
-                endodontic specialists are here to provide the expert care you
-                need.
+                If you’re searching for endodontic treatment near me or a root canal specialist in Levittown (19054, 19055, 19056, 19057), White Hill Dental proudly supports patients across Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007) with advanced techniques designed to protect long-term oral health.
               </p>
             </div>
           </div>
@@ -131,8 +97,7 @@ export default function Page() {
             <div className="wcu-text-section">
               <div className="wcu-title">
                 <h2>
-                  Top Reasons to Choose Urban Dental & Braces for Endodontic
-                  Care
+                  Your Best Choice for Endodontics in Levittown
                 </h2>
               </div>
               <div className="wcu-points-section">
@@ -140,31 +105,31 @@ export default function Page() {
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Advanced Microscopic Technology
+                      Focus on Saving Natural Teeth First
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Pain-Free Treatment Methods
+                      Gentle Techniques for a More Comfortable Experience
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Specialized Endodontic Expertise
+                      Skilled Team with Advanced Diagnostic Technology
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Same-Day Emergency Services
+                      Timely Care When Pain Can’t Wait
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Convenient Bayonne Location
+                      Convenient Location for Bucks County Patients
                     </h3>
                   </li>
                 </ul>
@@ -179,22 +144,11 @@ export default function Page() {
             </div>
           </div>
           <div className="features-section">
-            <h2 className="features-heading">Our Endodontic Services</h2>
+            <h2 className="features-heading">Explore Our Endodontic Treatment Solutions</h2>
             <p className="features-description">
-              At Urban Dental & Braces, we understand that endodontic problems
-              can cause significant discomfort and anxiety. That's why{" "}
-              <Link href="/providers" className="text-primary hover:underline">
-                our team
-              </Link>{" "}
-              uses the latest technology and proven techniques to provide
-              precise, comfortable treatments that save your natural teeth.
-              Whether you need routine root canal therapy or complex
-              retreatment, we're equipped to handle all aspects of endodontic
-              care with expertise and compassion.
+              A healthy smile begins from within - and our endodontic services are designed to stop infection, relieve sensitivity, and keep natural teeth strong for years ahead. Our goal is simple: protect your smile now and help it stay healthy for the future.
             </p>
-            <p className="features-description">
-              Here's how we restore your oral health:
-            </p>
+            
 
             <div className="features-grid">
               {features.map((service, idx) => (
@@ -226,15 +180,12 @@ export default function Page() {
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Is root canal treatment painful?
+                      Will the procedure hurt?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      With modern anesthesia and advanced techniques, root canal
-                      therapy is typically no more uncomfortable than having a
-                      large filling. Most patients experience significant pain
-                      relief immediately after treatment.
+                      Modern numbing and careful techniques make treatment comfortable - most patients feel instant relief.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -242,15 +193,12 @@ export default function Page() {
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How long does a root canal procedure take?
+                      How do I know if I need endodontic treatment?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Most root canals can be completed in one to two
-                      appointments, each lasting 60-90 minutes. Complex cases or
-                      retreatments may require additional visits for optimal
-                      results.{" "}
+                      Common signs include lingering sensitivity, sharp pain when chewing, swelling, or darkened tooth color.{" "}
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -258,15 +206,12 @@ export default function Page() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What happens if I don't get a root canal?
+                      Do endodontically treated teeth last long?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Without treatment, infected pulp can lead to severe pain,
-                      abscess formation, bone loss, and eventually tooth loss.
-                      The infection can also spread to surrounding tissues and
-                      become life-threatening.
+                      With a final restoration like a crown and great oral care, they can last a lifetime.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -274,14 +219,12 @@ export default function Page() {
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      How successful are root canal treatments?
+                      Can endodontics help after an accident?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Root canal therapy has a success rate of over 90% when
-                      performed properly. With good oral hygiene and regular
-                      dental care, treated teeth can last a lifetime.
+                      Yes - trauma can damage the nerve, and treatment can save the tooth from dying or needing removal.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -289,15 +232,12 @@ export default function Page() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Does insurance cover endodontic treatment?
+                      What happens after treatment?
                     </h3>{" "}
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Most dental insurance plans cover a significant portion of
-                      endodontic procedures, including root canals. We accept
-                      most insurance plans, including Medicaid, and offer
-                      flexible payment options for your convenience.
+                      A protective crown is usually recommended to restore full strength and prevent cracking.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -306,20 +246,10 @@ export default function Page() {
           </div>
           <div className="features-section">
             <h2 className="features-heading">
-              Need Endodontic Care in Bayonne?
+              Where Can You Get Endodontic Care in Levittown?
             </h2>
             <p className="features-description">
-              At{" "}
-              <Link
-                href="/contact-whitehill-dental-levittown-pa"
-                className="text-primary hover:underline"
-              >
-                Urban Dental & Braces
-              </Link>
-              , we're committed to saving your natural teeth through expert
-              endodontic care. Whether you're experiencing severe tooth pain or
-              need specialized root canal treatment, our skilled team provides
-              advanced, comfortable care to restore your oral health.
+              White Hill Dental is a top-rated choice for endodontic treatment near me in Levittown. Our experienced team is committed to stopping infection early, protecting vulnerable teeth, and helping you enjoy a strong, confident smile again. Contact us today - your natural tooth deserves the best care.
             </p>
           </div>
           <BookCallBtn />

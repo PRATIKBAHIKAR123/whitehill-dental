@@ -79,27 +79,27 @@ const services = [
   {
     title: "Sports Dentistry",
     image: "/Images/services/sports-dentistry.webp",
-    link: "/services/sports-dentistry-bayonne-nj",
+    link: "/services/sports-dentistry-levittown-pa",
   },
   {
     title: "Wisdom Teeth",
     image: "/Images/Wisdom Teeth.webp",
-    link: "/services/wisdom-teeth-removal-bayonne-nj",
+    link: "/services/wisdom-teeth-removal-levittown-pa",
   },
   {
     title: "Endodontics",
     image: "/Images/services/patient-dentist-endodontics.webp",
-    link: "/services/endodontics-bayonne-nj",
+    link: "/services/endodontics-levittown-pa",
   },
   {
     title: "Same-day Dentistry",
     image: "/Images/services/same-day-dentistry.webp",
-    link: "/services/same-day-dentistry-bayonne-nj",
+    link: "/services/same-day-dentistry-levittown-pa",
   },
   {
     title: "Painless Treatment",
     image: "/Images/services/painless-treatment.webp",
-    link: "/services/painless-dental-treatment-bayonne-nj",
+    link: "/services/painless-dental-treatment-levittown-pa",
   },
   {
     title: "Perio Protect",

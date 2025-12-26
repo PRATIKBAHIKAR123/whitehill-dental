@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="space-y-4 col-span-1">
           <div className="flex items-center gap-2 mb-4">
             <Image
-              src="/Images/urban dental.braces - bluewhite1.png"
+              src="/Images/White Hill Logo_new.png"
               alt="urban Dental Logo"
               width={160}
               height={100}

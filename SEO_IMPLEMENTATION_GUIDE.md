@@ -43,12 +43,12 @@ All service pages have been updated with SEO-optimized routes:
 - **Kids & Children Dentistry:** `/services/kids-and-children-dentistry-levittown-pa`
 - **Permanent Teeth Replacement:** `/services/permanent-teeth-replacement-levittown-pa`
 - **Wisdom Teeth:** `/services/wisdom-teeth-bayonne-nj`
-- **Endodontics:** `/services/endodontics-bayonne-nj`
-- **Same-Day Dentistry:** `/services/same-day-dentistry-bayonne-nj`
+- **Endodontics:** `/services/endodontics-levittown-pa`
+- **Same-Day Dentistry:** `/services/same-day-dentistry-levittown-pa`
 - **Painless Treatment:** `/services/painless-treatment-bayonne-nj`
 - **Perio Protect:** `/services/perio-protect-bayonne-nj`
 - **Halitosis:** `/services/halitosis-bayonne-nj`
-- **Sports Dentistry:** `/services/sports-dentistry-bayonne-nj`
+- **Sports Dentistry:** `/services/sports-dentistry-levittown-pa`
 
 ### 6. Service Area Pages
 All service area pages have been updated with SEO-optimized routes:

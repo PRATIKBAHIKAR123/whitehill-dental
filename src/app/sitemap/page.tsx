@@ -42,7 +42,7 @@ export default function SitemapPage() {
       },
       {
         name: "Wisdom Teeth",
-        link: "/services/wisdom-teeth-removal-bayonne-nj",
+        link: "/services/wisdom-teeth-removal-levittown-pa",
       },
       {
         name: "Invisalign",
@@ -58,7 +58,7 @@ export default function SitemapPage() {
       },
       {
         name: "Sports Dentistry",
-        link: "/services/sports-dentistry-bayonne-nj",
+        link: "/services/sports-dentistry-levittown-pa",
       },
       {
         name: "Whitening & Veneers",
@@ -66,16 +66,16 @@ export default function SitemapPage() {
       },
       {
         name: "Same Day Dentistry",
-        link: "/services/same-day-dentistry-bayonne-nj",
+        link: "/services/same-day-dentistry-levittown-pa",
       },
       { name: "Perio Protect", link: "/services/perio-protect-bayonne-nj" },
       {
         name: "Painless Treatment",
-        link: "/services/painless-dental-treatment-bayonne-nj",
+        link: "/services/painless-dental-treatment-levittown-pa",
       },
       { name: "Halitosis", link: "/services/halitosis-treatment-bayonne-nj" },
       { name: "Dentures", link: "/services/dentures-bayonne-nj" },
-      { name: "Endodontics", link: "/services/endodontics-bayonne-nj" },
+      { name: "Endodontics", link: "/services/endodontics-levittown-pa" },
     ],
     "Service Areas": [
       {

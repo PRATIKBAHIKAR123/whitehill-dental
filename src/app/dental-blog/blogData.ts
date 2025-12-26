@@ -1009,7 +1009,7 @@ export const blogPostsData: BlogPost[] = [
     `,
   },
   {
-    slug: "same-day-dentistry-bayonne-nj-urban-dental",
+    slug: "same-day-dentistry-levittown-pa-urban-dental",
     title: "Same-Day Dentistry in Bayonne, NJ: What to Expect at Urban Dental",
     image: "/Images/Blogs/blog3.jpg",
     datetime: "Oct 31, 2025",
@@ -1212,7 +1212,7 @@ export const blogPostsData: BlogPost[] = [
     <li><strong>Tooth Decay & Cavities </strong>- When decay penetrates the enamel and reaches the inner layers, it can irritate the nerve, causing sharp or throbbing pain.</li>
     <li><strong>Gum Infections & Abscesses </strong>- An untreated infection can lead to swelling, pus buildup, and severe discomfort.</li>
     <li><strong>Cracked or Broken Teeth </strong>- Even small cracks expose sensitive nerves, especially when chewing or drinking hot/cold beverages.</li>
-    <li><strong>Impacted Wisdom Teeth </strong>- <a href="/services/wisdom-teeth-removal-bayonne-nj" class="text-primary hover:underline">Wisdom teeth</a> that don’t erupt properly may press against other teeth and cause pain and swelling.</li>
+    <li><strong>Impacted Wisdom Teeth </strong>- <a href="/services/wisdom-teeth-removal-levittown-pa" class="text-primary hover:underline">Wisdom teeth</a> that don’t erupt properly may press against other teeth and cause pain and swelling.</li>
     <li><strong>Teeth Grinding (Bruxism) </strong>- Grinding wears down enamel and creates pressure on teeth, often leading to morning jaw pain and sensitivity.</li>
   </ul>
 </section>

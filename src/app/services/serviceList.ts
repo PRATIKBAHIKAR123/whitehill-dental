@@ -73,27 +73,27 @@ export const services = [
   {
     name: "Sports Dentistry",
     icon: "/Images/icons/dental-chair.png",
-    link: "/services/sports-dentistry-bayonne-nj",
+    link: "/services/sports-dentistry-levittown-pa",
   },
   {
     name: "Wisdom Teeth",
     icon: "/Images/icons/injection.png",
-    link: "/services/wisdom-teeth-removal-bayonne-nj",
+    link: "/services/wisdom-teeth-removal-levittown-pa",
   },
   {
     name: "Endodontics",
     icon: "/Images/icons/orthodontics.png",
-    link: "/services/endodontics-bayonne-nj",
+    link: "/services/endodontics-levittown-pa",
   },
   {
     name: "Same-Day-Dentistry",
     icon: "/Images/icons/dental-care.png",
-    link: "/services/same-day-dentistry-bayonne-nj",
+    link: "/services/same-day-dentistry-levittown-pa",
   },
   {
     name: "Painless Treatment",
     icon: "/Images/icons/medicine.png",
-    link: "/services/painless-dental-treatment-bayonne-nj",
+    link: "/services/painless-dental-treatment-levittown-pa",
   },
   {
     name: "Perio Protect",

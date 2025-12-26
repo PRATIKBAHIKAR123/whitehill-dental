@@ -179,20 +179,20 @@ export default function Header() {
                   },
                   {
                     name: "Sports Dentistry",
-                    link: "sports-dentistry-bayonne-nj",
+                    link: "sports-dentistry-levittown-pa",
                   },
                   {
                     name: "Wisdom Teeth",
-                    link: "wisdom-teeth-removal-bayonne-nj",
+                    link: "wisdom-teeth-removal-levittown-pa",
                   },
-                  { name: "Endodontics", link: "endodontics-bayonne-nj" },
+                  { name: "Endodontics", link: "endodontics-levittown-pa" },
                   {
                     name: "Same-Day Dentistry",
-                    link: "same-day-dentistry-bayonne-nj",
+                    link: "same-day-dentistry-levittown-pa",
                   },
                   {
                     name: "Painless Treatment",
-                    link: "painless-dental-treatment-bayonne-nj",
+                    link: "painless-dental-treatment-levittown-pa",
                   },
                   { name: "Perio Protect", link: "perio-protect-bayonne-nj" },
                   {
@@ -491,20 +491,20 @@ export default function Header() {
                         },
                         {
                           name: "Sports Dentistry",
-                          link: "sports-dentistry-bayonne-nj",
+                          link: "sports-dentistry-levittown-pa",
                         },
                         {
                           name: "Wisdom Teeth",
-                          link: "wisdom-teeth-removal-bayonne-nj",
+                          link: "wisdom-teeth-removal-levittown-pa",
                         },
-                        { name: "Endodontics", link: "endodontics-bayonne-nj" },
+                        { name: "Endodontics", link: "endodontics-levittown-pa" },
                         {
                           name: "Same-Day Dentistry",
-                          link: "same-day-dentistry-bayonne-nj",
+                          link: "same-day-dentistry-levittown-pa",
                         },
                         {
                           name: "Painless Treatment",
-                          link: "painless-dental-treatment-bayonne-nj",
+                          link: "painless-dental-treatment-levittown-pa",
                         },
                         {
                           name: "Perio Protect",

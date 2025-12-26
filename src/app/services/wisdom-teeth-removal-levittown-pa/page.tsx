@@ -17,38 +17,38 @@ export default function Page() {
   const features = [
     {
       icon: "/Images/icons/medicine.png",
-      title: "Wisdom Teeth Evaluation & Monitoring",
+      title: "Evaluation & Preventive Wisdom Tooth Care",
       description:
-        "Early assessment of wisdom teeth development helps prevent future complications and allows for better treatment planning. Regular monitoring ensures we can address issues before they become painful problems.",
+        "",
       points: [
-        "Digital X-rays and 3D imaging for precise evaluation",
-        "Assessment of eruption patterns and spacing",
-        "Early detection of impaction or crowding issues",
-        "Personalized treatment timeline recommendations",
+        "Digital X-rays to track tooth position and growth",
+        "Early monitoring to prevent crowding or infections",
+        "Expert guidance on the right time for removal",
+        "Focus on stopping problems before they begin",
       ],
     },
     {
       icon: "/Images/icons/dental-drill.png",
-      title: "Simple & Surgical Extractions",
+      title: "Simple Wisdom Tooth Extractions",
       description:
-        "When wisdom teeth need to be removed, our skilled team performs both simple and complex surgical extractions with the highest level of care. We prioritize your comfort throughout the entire process.",
+        "",
       points: [
-        "Minimally invasive extraction techniques",
-        "IV sedation and nitrous oxide options",
-        "Advanced pain management protocols",
-        "Same-day procedures with flexible scheduling",
+        "Ideal for wisdom teeth that have fully erupted",
+        "Fast, comfortable procedure using local numbing",
+        "Designed to prevent pressure and bite issues",
+        "Easy recovery with detailed home-care instructions",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Post-Extraction Care & Recovery",
+      title: "Surgical Removal for Impacted Teeth",
       description:
-        "Proper aftercare is essential for optimal healing and preventing complications like dry socket or infection. Our comprehensive follow-up care ensures a smooth, comfortable recovery process.",
+        "",
       points: [
-        "Detailed post-operative instructions and care kits",
-        "24/7 emergency contact for post-surgical concerns",
-        "Follow-up appointments to monitor healing",
-        "Prescription medications for pain and infection prevention",
+        "Best for partially erupted or misaligned wisdom teeth",
+        "Gentle surgical techniques to protect surrounding gums and bone",
+        "Sedation or comfort aids available when needed",
+        "Supportive follow-up to help manage healing smoothly",
       ],
     },
   ];
@@ -58,11 +58,11 @@ export default function Page() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Wisdom Teeth Treatment in Bayonne, NJ</h1>
+              <h1>Wisdom Teeth Removal in Levittown, PA</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Expert Wisdom Teeth Care in Bayonne | Urban Dental & Braces
+                Comfortable Care for Impacted & Painful Wisdom Teeth | White Hill Dental
               </h2>
             </Fade>
             {/* <div className='flex items-center justify-center gap-2'> <Link href={'/'} className='font-medium'>Home </Link><span><ChevronRight/></span> <span className='text-white/80'>Emergency Dentistry</span></div> */}
@@ -89,52 +89,13 @@ export default function Page() {
             <div className="desc-text-section">
               <div className="desc-text-subtitle">Wisdom Teeth</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Wisdom Teeth
+                What You Need to Know About Wisdom Teeth Removal
               </h2>
               <p>
-                Wisdom teeth, also known as third molars, typically emerge in
-                your late teens or early twenties - often causing pain,
-                crowding, and complications that require professional attention.
-                At{" "}
-                <Link href="/" className="text-primary hover:underline">
-                  Urban Dental & Braces in Bayonne
-                </Link>
-                , we specialize in comprehensive wisdom teeth care, from
-                monitoring their development to safe, comfortable{" "}
-                <Link
-                  href="/services/tooth-extraction-levittown-pa"
-                  className="text-primary hover:underline"
-                >
-                  extractions{" "}
-                </Link>
-                when necessary. Our experienced team uses advanced techniques
-                and sedation options to ensure your procedure is as smooth and
-                pain-free as possible.
+                Wisdom teeth often don’t have enough room to grow in properly - which can lead to swelling, pressure, pain, infections, and shifting of nearby teeth. Removing them early helps protect your oral health and prevent complications in the future. At White Hill Dental, we offer attentive care and advanced techniques to make the process smooth from start to finish.
               </p>
               <p>
-                We proudly serve patients from{" "}
-                <Link
-                  href="/service-areas/bayonne-nj-dentist-near-you"
-                  className="text-primary hover:underline"
-                >
-                  Bayonne (07002)
-                </Link>
-                ,{" "}
-                <Link
-                  href="/service-areas/greenville-nj-dentist-near-you"
-                  className="text-primary hover:underline"
-                >
-                  Greenville, NJ (07305)
-                </Link>
-                , and nearby communities. If you're searching for "wisdom teeth
-                removal near me" or experiencing wisdom tooth pain, our{" "}
-                <Link
-                  href="/providers"
-                  className="text-primary hover:underline"
-                >
-                  skilled dental professionals
-                </Link>{" "}
-                are here to provide the expert care you need.
+                We proudly support patients searching for wisdom teeth extraction near me in Levittown (19054, 19055, 19056, 19057), along with Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007). Whether the goal is preventive removal or relief from current discomfort, our team ensures a safe, stress-free experience.
               </p>
             </div>
           </div>
@@ -145,8 +106,7 @@ export default function Page() {
                     </div> */}
               <div className="wcu-title">
                 <h2>
-                  Top Reasons to Choose Urban Dental & Braces for Wisdom Teeth
-                  Care
+                  Your Best Choice for Wisdom Teeth Removal in Levittown
                 </h2>
               </div>
               <div className="wcu-points-section">
@@ -154,31 +114,31 @@ export default function Page() {
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Advanced Surgical Techniques{" "}
+                      Gentle Approach to Minimize Discomfort{" "}
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Multiple Sedation Options Available
+                      Modern Imaging for Accurate Treatment Planning
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Experienced Oral Surgery Team
+                      Emergency Appointments for Painful Symptoms
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Comprehensive Post-Operative Care
+                      Options That Fit Your Budget & Insurance
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Convenient Bayonne Location
+                      Convenient Location for Bucks County Families
                     </h3>
                   </li>
                 </ul>
@@ -193,18 +153,11 @@ export default function Page() {
             </div>
           </div>
           <div className="features-section">
-            <h2 className="features-heading">Our Wisdom Teeth Services</h2>
+            <h2 className="features-heading">Explore Our Wisdom Teeth Removal Solutions</h2>
             <p className="features-description">
-              At Urban Dental & Braces, we understand that wisdom teeth problems
-              can be concerning and uncomfortable. That's why our team provides
-              comprehensive evaluation and treatment options tailored to your
-              specific needs. Whether you need monitoring, extraction, or
-              post-surgical care, we're equipped to handle all aspects of wisdom
-              teeth treatment with precision and compassion.
+              Whether your wisdom teeth are fully erupted, partially visible, or trapped beneath the gums - we offer personalized solutions designed to protect your comfort and long-term oral health. Our goal is to prevent bigger issues later, while helping you heal quickly and stay pain-free.
             </p>
-            <p className="features-description">
-              Here's how we help you achieve optimal oral health:
-            </p>
+            
 
             <div className="features-grid">
               {features.map((service, idx) => (
@@ -236,28 +189,22 @@ export default function Page() {
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      When should wisdom teeth be removed?
+                      When is the best time to remove wisdom teeth?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans ">
-                    Wisdom teeth should be removed if they're impacted, causing
-                    crowding, difficult to clean, or leading to decay, gum
-                    disease, or pain. Most extractions are recommended between
-                    ages 16-25 when roots are less developed.
+                    Late teens to early adulthood is ideal before the roots fully develop and complications arise.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      Is wisdom teeth removal painful?
+                      Do all wisdom teeth need extraction?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      With modern anesthesia and sedation options, the procedure
-                      itself is comfortable. Most patients experience manageable
-                      discomfort for 3-5 days post-surgery, which responds well
-                      to prescribed pain medications.
+                      Not always - we only recommend removal when they pose health risks or cause pain.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -265,15 +212,12 @@ export default function Page() {
                 <AccordionItem value="q6" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      How long is the recovery period?
+                      Will the procedure hurt?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      Initial healing takes 7-10 days, with complete tissue
-                      healing occurring over 3-4 weeks. Most patients return to
-                      normal activities within 2-3 days and can eat regular
-                      foods within a week.
+                      You’ll be comfortably numbed, and sedation is available. Most patients feel pressure, not pain.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -281,30 +225,24 @@ export default function Page() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      What are the signs that my wisdom teeth need attention?
+                      How long does recovery take?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Pain, swelling, difficulty opening your mouth, bad breath,
-                      tender or bleeding gums around the back teeth, and
-                      crowding of other teeth are all signs to schedule an
-                      evaluation.
+                      Initial healing usually takes a few days, with full recovery over 1–2 weeks depending on the case.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      Does insurance cover wisdom teeth removal?
+                      Will wisdom teeth removal affect my appearance?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      Most dental insurance plans cover a significant portion of
-                      wisdom teeth extraction, especially when medically
-                      necessary. We accept most insurance plans, including
-                      Medicaid, and offer flexible payment options.
+                      No - removing the teeth is internal and does not change your visible facial structure.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -313,20 +251,10 @@ export default function Page() {
           </div>
           <div className="features-section">
             <h2 className="features-heading">
-              Need Wisdom Teeth Care in Bayonne?
+              Where Can You Get Wisdom Teeth Removal in Levittown?
             </h2>
             <p className="features-description">
-              At{" "}
-              <Link
-                href="/contact-whitehill-dental-levittown-pa"
-                className="text-primary hover:underline"
-              >
-                Urban Dental & Braces
-              </Link>
-              , we make wisdom teeth treatment as comfortable and stress-free as
-              possible. Whether you need an evaluation, extraction, or are
-              experiencing wisdom tooth pain, our experienced team is here to
-              provide expert care with compassion.
+              White Hill Dental is a top-rated choice for wisdom teeth removal near me in Levittown. If you’re experiencing pain, swelling, or crowding - or simply need an evaluation - our skilled team will provide the safest care for your smile. Contact us today and take the first step toward long-lasting relief!
             </p>
           </div>
           <BookCallBtn />

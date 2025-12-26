@@ -17,38 +17,38 @@ export default function PainlessTreatmentPage() {
   const features = [
     {
       icon: "/Images/icons/medicine.png",
-      title: "Painless Fillings",
+      title: "Preventive Visits Made Truly Comfortable",
       description:
-        "Cavities don't have to be a painful experience. Our tooth-colored fillings not only restore your tooth but also blend seamlessly with your natural smile.",
+        "",
       points: [
-        "Tooth-colored, natural-looking fillings",
-        "Quick and comfortable procedure",
-        "Advanced local anesthesia for a pain-free experience",
-        "Restores function and protects teeth from further decay",
+        "Soft-touch polishing designed to avoid gum irritation",
+        "Gentle cleanings that prioritize comfort for sensitive smiles",
+        "Simple, relaxing appointment flow to keep visits easy",
+        "Prevention-focused care that reduces future dental work",
       ],
     },
     {
       icon: "/Images/icons/dental-drill.png",
-      title: "Gentle Root Canal Therapy",
+      title: "Relaxed, Pressure-Free Restorative Care",
       description:
-        "A root canal may sound intimidating, but with today's technology, it's no more uncomfortable than getting a filling. Our focus is on saving your natural tooth while keeping you completely at ease.",
+        "",
       points: [
-        "Eliminates pain while saving your natural tooth",
-        "Modern techniques make treatment stress-free",
-        "Local anesthesia ensures maximum comfort",
-        "Long-lasting results with proper care",
+        "Pain-controlled treatments using quiet, low-vibration instruments",
+        "Careful handling to protect your jaw and surrounding tissues",
+        "Thoughtful pacing with breaks whenever needed",
+        "Restorations shaped to feel “right” the moment they’re placed",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Comfortable Tooth Extractions",
+      title: "Stress-Reducing Support for Dental Anxiety",
       description:
-        "Sometimes, removing a tooth is the best way to protect your overall oral health. At Urban Dental & Braces, we make extractions as smooth and painless as possible.",
+        "",
       points: [
-        "Safe and painless removal of damaged or impacted teeth",
-        "Options for local anesthesia and sedation",
-        "Gentle techniques for faster healing",
-        "Guidance for tooth replacement solutions if needed",
+        "Extra reassurance and clear communication to build trust",
+        "Calming techniques to settle nerves before treatment begins",
+        "Personalized comfort options for patients with gag reflex sensitivity",
+        "A compassionate dental team trained to support anxious patients",
       ],
     },
   ];
@@ -57,9 +57,9 @@ export default function PainlessTreatmentPage() {
       <main className="details-page-container">
         <div className="details-page">
           <div className="details-page-header-section">
-            <h1>Painless Dental Treatment in Bayonne, NJ</h1>
+            <h1>Painless Dental Treatments in Levittown, PA</h1>
             <h2 className="text-center">
-              Gentle, Stress-Free Dentistry | Urban Dental & Braces
+              Gentle, Stress-Free Dentistry for Every Patient | White Hill Dental
             </h2>
           </div>
           <div className="details-page-desc-section">
@@ -79,47 +79,13 @@ export default function PainlessTreatmentPage() {
             <div className="desc-text-section">
               <div className="desc-text-subtitle">Painless Dentistry</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Painless Dentistry
+                What Does Comfortable Dentistry Mean at White Hill Dental?
               </h2>
               <p>
-                At{" "}
-                <Link href="/" className="text-primary hover:underline">
-                  Urban Dental & Braces{" "}
-                </Link>
-                in Bayonne, we believe visiting the dentist should never be a
-                stressful or painful experience. Thanks to modern techniques,
-                advanced technology, and a compassionate approach, we make
-                dental treatments as comfortable and pain-free as possible. From
-                routine cleanings to complex procedures, our focus is always on
-                ensuring your comfort while providing exceptional care.
+                A positive dental experience can transform the way you care for your smile. That’s why we take a comfort-first approach - reducing anxiety, minimizing discomfort, and ensuring you feel fully supported from start to finish. Thanks to modern techniques and a compassionate team, your visit can be calm, smooth, and pain-free, even during advanced treatments.
               </p>
               <p>
-                If you’re searching for a <strong>dentist near me</strong> or
-                need <strong>painless dental treatment in Bayonne</strong>, our
-                <Link
-                  href="/providers"
-                  className="text-primary hover:underline"
-                >
-                  {" "}
-                  skilled team
-                </Link>{" "}
-                is here to help. We proudly serve patients from{" "}
-                <Link
-                  href="/service-areas/bayonne-nj-dentist-near-you"
-                  className="text-primary hover:underline"
-                >
-                  Bayonne (07002)
-                </Link>
-                ,{" "}
-                <Link
-                  href="/service-areas/greenville-nj-dentist-near-you"
-                  className="text-primary hover:underline"
-                >
-                  Greenville (07305)
-                </Link>
-                , NJ, and nearby communities. If you’ve been avoiding the
-                dentist due to fear of pain, we’re here to change the way you
-                feel about dental care.
+                We regularly welcome patients searching for a gentle dentist near me or painless dental care near me in Levittown (19054, 19055, 19056, 19057), as well as nearby areas including Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007). Whether it’s been months or years since your last visit, our goal is to help you feel safe, heard, and fully supported while we look after your smile.
               </p>
             </div>
           </div>
@@ -127,7 +93,7 @@ export default function PainlessTreatmentPage() {
             <div className="wcu-text-section">
               <div className="wcu-title">
                 <h2>
-                  Why Choose Urban Dental & Braces for Painless Dentistry?
+                  Your Best Choice for Painless Dentistry in Levittown
                 </h2>
               </div>
               <div className="wcu-points-section">
@@ -135,31 +101,31 @@ export default function PainlessTreatmentPage() {
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Modern Pain-Free Techniques{" "}
+                      Comfort-Based Care and Communication{" "}
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Gentle and Compassionate Care
+                      Technology That Minimizes Pain and Speeds Healing
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Advanced Anesthesia & Sedation Options
+                      Flexible Options for Anxiety and Sensitivity
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Stress-Free Environment
+                      Personalized Treatment for Every Comfort Level
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Convenient Bayonne Location
+                      Accessible Location Serving Bucks County Families
                     </h3>
                   </li>
                 </ul>
@@ -174,18 +140,9 @@ export default function PainlessTreatmentPage() {
             </div>
           </div>
           <div className="features-section">
-            <h2 className="features-heading">Our Painless Dental Services</h2>
+            <h2 className="features-heading">Explore Our Painless Treatment Solutions</h2>
             <p className="features-description">
-              At Urban Dental & Braces, comfort is at the heart of everything we
-              do. Whether you need restorative , cosmetic , or{" "}
-              <Link
-                href="/services/emergency-dentistry-levittown-pa"
-                className="text-primary hover:underline"
-              >
-                emergency{" "}
-              </Link>
-              treatment, our painless approach ensures you feel relaxed every
-              step of the way.
+              Dental care should feel manageable, not overwhelming. Our painless treatment options are designed to make every step - from cleanings to restorative care - as easy and comfortable as possible.
             </p>
 
             <div className="features-grid">
@@ -218,63 +175,54 @@ export default function PainlessTreatmentPage() {
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      Is dental treatment really painless?
+                      Can dental treatment really be pain-free?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans ">
-                    Yes. With today’s advanced techniques and anesthesia, most
-                    dental treatments can be performed with little to no
-                    discomfort.
+                    With today’s numbing options and gentle techniques, most patients feel little to no pain - often just mild pressure.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                    <h3 className="text-lg">What if I have dental anxiety?</h3>
+                    <h3 className="text-lg">Is painless dentistry right for anxious patients?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      We specialize in treating anxious patients with a caring
-                      approach and sedation options to help you feel completely
-                      at ease.
+                      es, it’s especially helpful. Our comfort-focused approach is designed with nervous and fearful patients in mind.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                    <h3 className="text-lg">Are painless treatments safe?</h3>
+                    <h3 className="text-lg">Will I still feel the injection for numbing?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Absolutely. We use proven, safe techniques and equipment
-                      to ensure your comfort while maintaining the highest
-                      standards of care.
+                      We use techniques that minimize the sting of numbing, and many patients are surprised by how little they feel.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      Do children benefit from painless dentistry?
+                      Can children benefit from painless dental care?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      Yes! Gentle and pain-free dentistry helps kids build a
-                      positive attitude toward dental visits and lifelong oral
-                      health.
+                      Absolutely - positive, pain-free visits help kids build trust and good lifelong habits.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q6" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      Does insurance cover painless treatments?
+                      What if I haven’t seen a dentist in years because of fear?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      Most procedures are covered by dental insurance. We also
-                      provide flexible payment options to make care affordable.
+                      You’re not alone. We see many patients returning after long gaps and work at your pace to rebuild confidence in dental care.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -283,23 +231,10 @@ export default function PainlessTreatmentPage() {
           </div>
           <div className="features-section">
             <h2 className="features-heading">
-              Ready for a Comfortable Dental Experience?
+              Where Can You Get Painless Dental Treatments in Levittown?
             </h2>
             <p className="features-description">
-              At{" "}
-              <Link
-                href="/contact-whitehill-dental-levittown-pa"
-                className="text-primary hover:underline"
-              >
-                Urban Dental & Braces
-              </Link>
-              , our mission is to redefine the way you think about dental
-              visits. Whether you’re searching for a trusted dentist in Bayonne
-              or need “painless dental treatment near me”, our caring team is
-              here for you. With our painless treatment approach, you can
-              finally relax while we take care of your smile. Schedule your
-              appointment today and experience stress-free, comfortable dental
-              care in Bayonne.
+              White Hill Dental is a top-rated choice for gentle, painless dentistry near me in Levittown. From routine checkups to more advanced care, our team is committed to keeping you comfortable while protecting your oral health. Schedule an appointment today and discover how relaxing a dental visit can truly feel.
             </p>
           </div>
           <BookCallBtn />
