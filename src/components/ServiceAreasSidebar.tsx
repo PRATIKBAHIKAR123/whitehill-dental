@@ -17,16 +17,31 @@ interface ServiceAreasSidebarProps {
 // Service areas data
 const serviceAreas: ServiceArea[] = [
   {
-    name: "Bayonne, NJ",
+    name: "Levittown, PA",
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    link: "/service-areas/bayonne-nj-dentist-near-you",
+    link: "/service-areas/levittown-pa-dentist-near-you",
   },
 
   {
-    name: "Greenville, NJ",
+    name: "Fairless Hills, PA",
     icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-    link: "/service-areas/greenville-nj-dentist-near-you",
+    link: "/service-areas/fairless-hills-pa-dentist-near-you",
   },
+  {
+    name: "Fallsington, PA",
+    icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
+    link: "/service-areas/fallsington-pa-dentist-near-you",
+  },
+  {
+    name: "Bristol, PA",
+    icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
+    link: "/service-areas/bristol-pa-dentist-near-you",
+  },
+  {
+    name: "Tullytown, PA",
+    icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
+    link: "/service-areas/tullytown-pa-dentist-near-you",
+  }
 ];
 
 export default function ServiceAreasSidebar({

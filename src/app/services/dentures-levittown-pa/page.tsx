@@ -1,5 +1,4 @@
-"use client";
-
+import type { Metadata } from "next";
 import {
   Accordion,
   AccordionContent,
@@ -12,43 +11,49 @@ import Link from "next/link";
 import ServiceSidebar from "@/components/ServiceSidebar";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
+import { generateServiceMetadata } from "@/lib/metadata";
 
-export default function Page() {
+export const metadata: Metadata = generateServiceMetadata(
+  "dentures-bayonne-nj",
+  "/Images/services/dentures.webp"
+);
+
+export default function DenturesPage() {
   const features = [
     {
       icon: "/Images/icons/medicine.png",
-      title: "Professional Dental Cleaning",
+      title: "Full Dentures for a Complete Smile",
       description:
-        "Plaque, tartar, and bacteria are leading causes of bad breath. Professional cleanings remove buildup that brushing and flossing alone can't reach.",
+        "",
       points: [
-        "Thorough cleaning of teeth and gums",
-        "Removal of odor-causing bacteria",
-        "Prevents gum disease and decay-related halitosis",
-        "Fresh, clean smile after each visit",
+        "Replace an entire upper or lower arch of teeth",
+        "Help maintain proper facial shape and support lips & cheeks",
+        "Designed to stay comfortable throughout the day",
+        "Crafted to look realistic and enhance your smile",
       ],
     },
     {
       icon: "/Images/icons/dental-drill.png",
-      title: "Gum Disease Treatment",
+      title: "Partial Dentures for Targeted Replacement",
       description:
-        "Periodontal infections are a common cause of chronic bad breath. Treating gum disease not only freshens your breath but also protects your overall oral health.",
+        "",
       points: [
-        "Deep cleaning (scaling & root planing) to eliminate bacteria",
-        "Antibacterial rinses and therapies",
-        "Stops gum bleeding and infection-related odors",
-        "Long-term maintenance plans for healthy gums",
+        "Replace multiple missing teeth while preserving healthy ones",
+        "Prevent shifting and bite issues over time",
+        "Removable and simple to clean",
+        "A discreet option that blends into your natural smile",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Dry Mouth & Lifestyle Solutions",
+      title: "Implant-Supported Dentures for Maximum Stability",
       description:
-        "Dry mouth, medications, and certain lifestyle habits can lead to halitosis. We offer targeted care to reduce dryness and restore balance.",
+        "",
       points: [
-        "Saliva-boosting solutions and hydration guidance",
-        "Custom fluoride treatments for dry mouth relief",
-        "Personalized dietary and hygiene recommendations",
-        "Long-lasting breath freshness",
+        "Snap securely onto implants - no rubbing or slipping",
+        "Improve chewing power for more food choices",
+        "Help prevent bone loss for long-term oral health",
+        "A closer feel to natural teeth than traditional dentures",
       ],
     },
   ];
@@ -58,11 +63,11 @@ export default function Page() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Halitosis Treatment in Bayonne, NJ</h1>
+              <h1>Dentures in Levittown, PA</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Fresh Breath Solutions in Bayonne | Urban Dental & Braces
+                Custom Dentures That Look Great and Feel Even Better | White Hill Dental
               </h2>
             </Fade>
           </div>
@@ -71,54 +76,23 @@ export default function Page() {
             <div className="image_section">
               <div className="image_section-cover">
                 <div className="main-image">
-                  <img
-                    src="/Images/services/halitosis.webp"
-                    alt="Main Banner"
-                  />
+                  <img src="/Images/services/denture.avif" alt="dentures" />
                 </div>
               </div>
             </div>
 
             {/* Text Section with Fade-in after delay */}
             <div className="desc-text-section">
-              <div className="desc-text-subtitle">Halitosis</div>
+              <div className="desc-text-subtitle">Dentures</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Halitosis
+                What You Need to Know About Dentures
               </h2>
               <p>
-                Halitosis, commonly known as chronic bad breath, is more than
-                just an embarrassing condition - it can also be a sign of
-                underlying{" "}
-                <Link href="/services" className="text-primary hover:underline">
-                  dental
-                </Link>{" "}
-                or medical issues. At{" "}
-                <Link href="/" className="text-primary hover:underline">
-                  Urban Dental & Braces
-                </Link>{" "}
-                in Bayonne, our experienced team provides comprehensive
-                halitosis treatment to identify the root cause and restore
-                confidence in your smile.
+                A complete smile plays a major role in how you eat, speak, and express yourself. When several or all teeth are missing, dentures offer a reliable and personalized way to bring back confidence and everyday comfort. At White Hill Dental, we design dentures that feel secure, fit properly, and look incredibly natural - so you can enjoy life without worry.
               </p>
               <p>
-                If you’ve been searching for a “<b>dentist near me</b>” or need{" "}
-                <strong>halitosis treatment in Bayonne</strong>, we proudly
-                serve patients from{" "}
-                <Link
-                  href="/service-areas/bayonne-nj-dentist-near-you"
-                  className="text-primary hover:underline"
-                >
-                  Bayonne (07002)
-                </Link>
-                ,{" "}
-                <Link
-                  href="/service-areas/greenville-nj-dentist-near-you"
-                  className="text-primary hover:underline"
-                >
-                  Greenville, NJ (07305)
-                </Link>
-                , and surrounding areas with advanced dental care and
-                personalized treatment plans.
+                Patients searching for dentures near me in Levittown (19054, 19055, 19056, 19057), and nearby communities like Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007), trust our friendly team for customized care and long-lasting results.
+                {" "}<strong>With today’s advanced materials and technology, your dentures can blend seamlessly with your smile and support strong bite function. We’re here to help you smile confidently again - every meal, every conversation, and every day.</strong>
               </p>
             </div>
           </div>
@@ -126,8 +100,7 @@ export default function Page() {
             <div className="wcu-text-section">
               <div className="wcu-title">
                 <h2>
-                  Top Reasons to Choose Urban Dental & Braces for Halitosis
-                  Treatment
+                  Your Best Choice for Dentures in Levittown
                 </h2>
               </div>
               <div className="wcu-points-section">
@@ -135,31 +108,31 @@ export default function Page() {
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Comprehensive Diagnosis{" "}
+                      Expert Guidance to Help You Choose the Right Option
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Gentle & Effective Treatments
+                      Comfort-Focused Designs for a Secure Everyday Fit
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Focus on Overall Oral Health
+                      Modern Materials That Look Like Natural Teeth{" "}
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Patient-Centered Approach
+                      Solutions Personalized for Your Lifestyle & Budget
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Convenient Bayonne Location
+                      Easy Access for Patients Across Bucks County
                     </h3>
                   </li>
                 </ul>
@@ -174,18 +147,11 @@ export default function Page() {
             </div>
           </div>
           <div className="features-section">
-            <h2 className="features-heading">
-              Our Halitosis Treatment Options
-            </h2>
+            <h2 className="features-heading">Explore Our Denture Solutions</h2>
             <p className="features-description">
-              At Urban Dental & Braces, we tailor halitosis treatments based on
-              your unique needs. Whether bad breath is linked to gum disease,
-              plaque buildup, or other oral health concerns, we provide
-              effective solutions to restore fresh breath. If you’re searching
-              for “halitosis treatment near me”, our Bayonne dental team can
-              help.
+              Every smile has different needs - which is why we customize every denture for stability, function, and appearance. Our goal is to ensure your replacement teeth not only look great but also help you eat, speak, and enjoy life comfortably every day.
             </p>
-            <p className="features-description">Here’s how we help:</p>
+            
 
             <div className="features-grid">
               {features.map((service, idx) => (
@@ -211,74 +177,62 @@ export default function Page() {
             </div>
           </div>
           <div className="faq-section">
-            <h2 className="faq-heading">Halitosis FAQs</h2>
+            <h2 className="faq-heading">Dentures FAQs</h2>
             <div className="faq-acc-container">
               <Accordion type="single" collapsible className="w-full space-y-6">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                    <h3 className="text-lg">What causes chronic bad breath?</h3>
+                    <h3 className="text-lg">How long does it take to adjust to new dentures?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans ">
-                    Persistent bad breath is often caused by poor oral hygiene,
-                    gum disease, tooth decay, dry mouth, or bacterial buildup on
-                    the tongue. Certain foods, smoking, and medical conditions
-                    can also contribute.
+                    Most patients adapt within a few weeks as speech and chewing patterns adjust. 
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      Can bad breath be permanently cured?
+                      Will dentures change how I speak?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      Yes - in many cases, halitosis can be resolved by
-                      addressing the underlying cause through professional
-                      cleanings, gum therapy, and improved oral hygiene habits.
+                      There is a brief learning period, but speech typically improves quickly with practice.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      How can I tell if I have halitosis?
+                      Do dentures look natural?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      If you notice constant bad breath despite brushing and
-                      flossing, or if others mention it to you, it’s time to
-                      visit a dentist for evaluation.
+                      Absolutely - modern dentures are designed to mimic natural tooth shape, shade, and alignment.
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="q4" className="faq-acc">
+                  <AccordionTrigger className="faq-qn rounded-md">
+                    <h3 className="text-lg">
+                      How do I maintain my dentures?
+                    </h3>
+                  </AccordionTrigger>
+                  <AccordionContent className="faq-ans">
+                    <p className="mt-2">
+                      Clean them daily, handle carefully, and attend regular dental visits for evaluations and fit adjustments.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      Can gum disease cause bad breath?
+                      Will I need to replace my dentures eventually?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      Yes, gum infections produce foul-smelling bacteria and
-                      toxins, making periodontal disease one of the leading
-                      causes of halitosis.
-                    </p>
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="q6" className="faq-acc">
-                  <AccordionTrigger className="faq-qn rounded-md">
-                    <h3 className="text-lg">
-                      Does dental insurance cover halitosis treatment?
-                    </h3>
-                  </AccordionTrigger>
-                  <AccordionContent className="faq-ans">
-                    <p className="mt-2">
-                      Most dental insurance plans cover professional cleanings
-                      and periodontal treatments that help with halitosis. We
-                      accept most insurance, including Medicaid, and offer
-                      flexible payment options.
+                      Yes - due to natural changes in bone and gums, most dentures need replacement every 5–10 years.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -287,22 +241,10 @@ export default function Page() {
           </div>
           <div className="features-section">
             <h2 className="features-heading">
-              Need Halitosis Treatment in Bayonne?
+              Where Can You Get Dentures in Levittown?
             </h2>
             <p className="features-description">
-              Don’t let bad breath affect your confidence or social life. At{" "}
-              <Link
-                href="/contact-whitehill-dental-levittown-pa"
-                className="text-primary hover:underline"
-              >
-                Urban Dental & Braces
-              </Link>
-              , we provide professional halitosis treatment in Bayonne to
-              restore freshness and improve your oral health. If you’re
-              searching for a trusted “dentist near me” for bad breath
-              solutions, our team is here for you. Serving Bayonne, Greenville,
-              and surrounding communities, we’re here to help you breathe easy
-              and smile with confidence.
+              White Hill Dental is a trusted provider of full dentures, partial dentures, and implant-supported dentures near me in Levittown. Our dedicated team is here to restore comfort, confidence, and function with a smile that looks great and feels natural. Schedule your consultation today and rediscover the ease of a complete smile!
             </p>
           </div>
           <BookCallBtn />

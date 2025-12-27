@@ -194,14 +194,14 @@ export default function Header() {
                     name: "Painless Treatment",
                     link: "painless-dental-treatment-levittown-pa",
                   },
-                  { name: "Perio Protect", link: "perio-protect-bayonne-nj" },
+                  { name: "Perio Protect", link: "perio-protect-levittown-pa" },
                   {
                     name: "Halitosis",
-                    link: "halitosis-treatment-bayonne-nj",
+                    link: "halitosis-treatment-levittown-pa",
                   },
                   {
                     name: "Dentures",
-                    link: "dentures-bayonne-nj",
+                    link: "dentures-levittown-pa",
                   },
                 ].map((service, index) => (
                   <Link
@@ -249,12 +249,18 @@ export default function Header() {
             {/* Desktop Dropdown */}
             <div className="absolute -left-5 mt-2 w-80 max-w-5xl bg-white border shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-40 rounded-lg">
               <div className="grid grid-cols-1 gap-6 p-6 text-sm">
-                {["Bayonne, NJ", "Greenville, NJ"].map((service, index) => {
+                {["Levittown, PA", "Fairless Hills, PA","Fallsington, PA", "Bristol, PA","Tullytown, PA"].map((service, index) => {
                   let slug = "";
-                  if (service === "Bayonne, NJ") {
-                    slug = "bayonne-nj-dentist-near-you";
-                  } else if (service === "Greenville, NJ") {
-                    slug = "greenville-nj-dentist-near-you";
+                  if (service === "Levittown, PA") {
+                    slug = "levittown-pa-dentist-near-you";
+                  } else if (service === "Fairless Hills, PA") {
+                    slug = "fairless-hills-pa-dentist-near-you";
+                  } else if (service === "Fallsington, PA") {
+                    slug = "fallsington-pa-dentist-near-you";
+                  } else if (service === "Bristol, PA") {
+                    slug = "bristol-pa-dentist-near-you";
+                  }else if (service === "Tullytown, PA") {
+                    slug = "tullytown-pa-dentist-near-you";
                   }
 
                   return slug ? (
@@ -508,11 +514,11 @@ export default function Header() {
                         },
                         {
                           name: "Perio Protect",
-                          link: "perio-protect-bayonne-nj",
+                          link: "perio-protect-levittown-pa",
                         },
                         {
                           name: "Halitosis",
-                          link: "halitosis-treatment-bayonne-nj",
+                          link: "halitosis-treatment-levittown-pa",
                         },
                       ].map((service, index) => (
                         <Link
@@ -577,13 +583,19 @@ export default function Header() {
                 {isServicesAreasOpen && (
                   <div className="bg-gray-50 px-4 py-2">
                     <div className="grid grid-cols-2 gap-3 mt-2 text-sm">
-                      {["Bayonne, NJ", "Greenville, NJ"].map(
+                      {["Levittown, PA", "Fairless Hills, PA","Fallsington, PA","Bristol, PA","Tullytown, PA"].map(
                         (service, index) => {
                           let slug = "";
-                          if (service === "Bayonne, NJ") {
-                            slug = "bayonne-nj-dentist-near-you";
-                          } else if (service === "Greenville, NJ") {
-                            slug = "greenville-nj-dentist-near-you";
+                          if (service === "Levittown, PA") {
+                            slug = "levittown-pa-dentist-near-you";
+                          } else if (service === "Fairless Hills, PA") {
+                            slug = "fairless-hills-pa-dentist-near-you";
+                          }else if (service === "Fallsington, PA") {
+                            slug = "fallsington-pa-dentist-near-you";
+                          } else if (service === "Bristol, PA") {
+                            slug = "bristol-pa-dentist-near-you";
+                          } else if (service === "Tullytown, PA") {
+                            slug = "tullytown-pa-dentist-near-you"
                           }
 
                           return slug ? (

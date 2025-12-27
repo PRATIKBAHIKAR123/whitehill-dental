@@ -33,7 +33,7 @@ export default function ServiceAreaPage() {
     <div>
       {/* Header Section */}
       <div className="details-page-header-section ">
-        <h1>Family & Cosmetic Dentist in Bayonne, NJ 07002</h1>
+        <h1>Dental Care Designed for You and Your Family in Fallsington, PA</h1>
       </div>
 
       {/* Main Content Section */}
@@ -56,20 +56,10 @@ export default function ServiceAreaPage() {
           {/* Text Section with Fade-in after delay */}
           <div className="desc-text-section">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
-              Comprehensive Dental Care in Bayonne | Urban Dental & Braces |
-              Your Local Dentist
+              Caring for Families Across Fallsington, PA | White Hill Dental | Local Dentistry You Can Trust
             </h2>
             <p>
-              At{" "}
-              <Link href="/" className="text-primary hover:underline">
-                Urban Dental & Braces Bayonne
-              </Link>
-              , we’re committed to keeping smiles healthy, confident, and bright
-              for patients of all ages. Conveniently located in Bayonne, NJ
-              07002, our office blends advanced dental technology with
-              compassionate care. Whether you’re new to the area or searching
-              for a trusted “dentist near me,” our team is here to provide the
-              personalized treatment you deserve.
+              A healthy smile should always feel within reach - especially right here in Fallsington, PA (19054). White Hill Dental proudly supports patients of all ages with care that feels comfortable, convenient, and personalized at every step. Whether you’re maintaining strong oral health, enhancing your smile’s appearance, or addressing a sudden dental concern, our team ensures each visit is smooth, stress-free, and focused on what matters most: your confidence and long-term well-being.
             </p>
           </div>
         </div>
@@ -77,63 +67,40 @@ export default function ServiceAreaPage() {
         {/* Comprehensive Dental Care Section */}
         <div className="flex flex-col gap-4 p-6 md:p-0">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
-            Complete Dental Solutions for Every Smile
+            High-Quality Dental Care Tailored to Your Needs in Fallsington, PA
           </h2>
           <p>
-            Our Bayonne dental office is modern, welcoming, and designed to meet
-            all your dental needs under one roof. We proudly provide:
+            White Hill Dental is committed to providing personalized treatments in Fallsington that protect your oral health, support comfortable function, and help your smile look its best. With advanced technology and a compassionate team, every visit is designed to be efficient, stress-free, and focused on what matters most - your long-term dental wellness.
           </p>
           <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
             <li>
-              <h3 className="text-lg font-semibold">Emergency Dentistry</h3>
+              <h3 className="text-lg font-semibold">Complete Smile Checkups & Cleanings</h3>
               <p>
-                Fast,{" "}
-                <Link
-                  href="/services/dental-emergencies-levittown-pa"
-                  className="text-primary hover:underline"
-                >
-                  same-day
-                </Link>{" "}
-                treatment for toothaches, broken teeth, or urgent concerns{" "}
+                Keep your oral health on track with routine visits designed to prevent problems early and maintain a fresh, healthy smile.{" "}
               </p>
             </li>
             <li>
-              <h3 className="text-lg font-semibold">Preventive Dentistry</h3>
+              <h3 className="text-lg font-semibold">Restoration & Bite Repair</h3>
               <p>
-                Professional cleanings, oral exams, and preventive care to
-                protect your smile
+                From matching tooth-colored fillings to custom-crafted crowns, we rebuild strength and comfort with durable results.
               </p>
             </li>
             <li>
-              <h3 className="text-lg font-semibold">Cosmetic Dentistry</h3>
+              <h3 className="text-lg font-semibold">Confident Smiles Through Cosmetic Care</h3>
               <p>
-                <Link
-                  href="/services/teeth-whitening-and-veneers-levittown-pa"
-                  className="text-primary hover:underline"
-                >
-                  {" "}
-                  Teeth whitening
-                </Link>
-                , veneers, Invisalign, and treatments to boost your confidence
+                Whitening, veneers, and other seamless enhancements that boost your esthetics while preserving your natural teeth.
               </p>
             </li>
             <li>
-              <h3 className="text-lg font-semibold">Restorative Dentistry</h3>
+              <h3 className="text-lg font-semibold">Solutions for Missing Teeth</h3>
               <p>
-                Fillings,{" "}
-                <Link
-                  href="/services/crowns-and-bridges-levittown-pa"
-                  className="text-primary hover:underline"
-                >
-                  crowns
-                </Link>
-                , implants, and bridges to restore function and aesthetics{" "}
+                Implant restorations, bridges, and prosthetic options that restore chewing power and complete your smile beautifully.
               </p>
             </li>
             <li>
-              <h3 className="text-lg font-semibold">Pediatric Dentistry</h3>
+              <h3 className="text-lg font-semibold">Stress-Free Care for Urgent Dental Needs</h3>
               <p>
-                Kid-friendly dental care in a comfortable, stress-free setting
+                Same-day relief for injuries, pain, or sudden issues - because dental concerns shouldn’t disrupt your day.
               </p>
             </li>
           </ul>
@@ -143,40 +110,32 @@ export default function ServiceAreaPage() {
         <div className="wcu-section">
           <div className="wcu-text-section">
             <div className="wcu-title">
-              <h2>Why Bayonne Families Trust Urban Dental & Braces</h2>
+              <h2>Making Exceptional Dental Care Easily Accessible in Fairless Hills, PA</h2>
             </div>
             <div className="wcu-desc">
-              Families across Bayonne (07002) ,{" "}
-              <Link
-                href="/service-areas/greenville-nj-dentist-near-you"
-                className="text-white font-semibold hover:underline"
-              >
-                Greenville, NJ (07305)
-              </Link>{" "}
-              and nearby communities choose us because:
+              Patients across Fallsington (19054), along with neighboring communities including Levittown (19054, 19055, 19056, 19057), Fairless Hills (19030), Bristol (19007), and Tullytown (19007), choose White Hill Dental because we make quality care simple, stress-free, and centered around what matters most to you:
             </div>
             <div className="wcu-points-section">
               <ul className="wcu-points">
                 <li>
                   <CheckCircle />
-                  We deliver personalized care for every patient
+                  Convenient access to a trusted dental team just minutes from home and work
                 </li>
                 <li>
                   <CheckCircle />
-                  Our office uses state-of-the-art dental technology
+                  A welcoming environment where questions are encouraged and explanations are clear
                 </li>
                 <li>
                   <CheckCircle />
-                  We offer same-day and flexible appointment scheduling
+                  Treatment plans tailored to your comfort level, timeline, and long-term goals
                 </li>
                 <li>
                   <CheckCircle />
-                  Insurance-friendly with affordable payment plan options
+                  A broad range of services available in one office, reducing the need for outside referrals
                 </li>
                 <li>
                   <CheckCircle />
-                  Conveniently located in Bayonne with easy access from nearby
-                  cities
+                  A caring team committed to building lasting relationships and supporting healthy smiles over time
                 </li>
               </ul>
             </div>
@@ -193,19 +152,10 @@ export default function ServiceAreaPage() {
         {/* Schedule Appointment Section */}
         <div className="features-section">
           <h2 className="features-heading">
-            Book Your Appointment in Bayonne Today
+            Your Smile Deserves the Best in Fallsington, PA
           </h2>
           <p className="features-description">
-            From preventive care to advanced cosmetic and restorative dentistry,
-            <Link
-              href="/contact-whitehill-dental-levittown-pa"
-              className="text-primary hover:underline"
-            >
-              Urban Dental & Braces
-            </Link>{" "}
-            is here to keep your smile healthy and bright. If you’re searching
-            for a caring “dentist near me” in Bayonne, your trusted local team
-            is just a call away.
+            A healthier smile starts with the right dental team by your side. At White Hill Dental, we’re here to make every visit feel comfortable, friendly, and tailored to what you need most. From routine hygiene to urgent care, our compassionate professionals are ready to support your smile at every stage of life - right here in Fallsington.
           </p>
 
           <BookCallBtn />

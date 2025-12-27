@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+"use client";
+
 import {
   Accordion,
   AccordionContent,
@@ -11,49 +12,43 @@ import Link from "next/link";
 import ServiceSidebar from "@/components/ServiceSidebar";
 import BookCallBtn from "../book-call-btn";
 import { CheckCircle } from "lucide-react";
-import { generateServiceMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = generateServiceMetadata(
-  "dentures-bayonne-nj",
-  "/Images/services/dentures.webp"
-);
-
-export default function DenturesPage() {
+export default function Page() {
   const features = [
     {
       icon: "/Images/icons/medicine.png",
-      title: "Full Dentures",
+      title: "Advanced Oral Cleaning & Bacteria Control",
       description:
-        "For individuals missing all teeth in the upper or lower arch, full dentures restore your smile and provide everyday functionality.",
+        "",
       points: [
-        "Natural-looking design",
-        "Improved chewing and speaking",
-        "Enhanced facial support",
-        "Secure, comfortable fit",
+        "Deep cleaning services to clear odor-producing buildup",
+        "Targeted techniques to refresh gums and enamel",
+        "Tongue-cleaning support for added freshness",
+        "Easy maintenance recommendations for daily success",
       ],
     },
     {
       icon: "/Images/icons/dental-drill.png",
-      title: "Partial Dentures",
+      title: "Gum Health & Infection Management",
       description:
-        "Ideal when some healthy teeth remain, partial dentures fill gaps while preserving your natural tooth structure.",
+        "",
       points: [
-        "Prevents teeth from shifting",
-        "Removable and easy to clean",
-        "Matches existing teeth in shape and shade",
-        "Cost-effective and durable",
+        "Professional gum care that stops infection at its source",
+        "Specialized treatment to reduce inflammation and odor",
+        "Monitoring to maintain long-term periodontal stability",
+        "Protects teeth from damage caused by untreated gum issues",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Implant-Supported Dentures",
+      title: "Dry Mouth & Breath-Friendly Lifestyle Care",
       description:
-        "For maximum stability, dentures can be anchored to dental implants placed in the jaw.",
+        "",
       points: [
-        "No slipping or irritation",
-        "Strong bite force for better eating",
-        "Helps maintain jawbone health",
-        "Long-term natural comfort",
+        "Support for saliva function with customized solutions",
+        "Guidance on medications, hydration, and nutrition",
+        "Options to reduce odor from everyday triggers",
+        "Long-term strategies for comfort and confidence",
       ],
     },
   ];
@@ -63,12 +58,11 @@ export default function DenturesPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Dentures in Bayonne, NJ</h1>
+              <h1>Halitosis Treatment in Levittown, PA</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Modern Dentures for Better Function in Bayonne | Urban Dental &
-                Braces
+                Fresh Breath Starts with a Healthy Mouth | White Hill Dental
               </h2>
             </Fade>
           </div>
@@ -77,45 +71,25 @@ export default function DenturesPage() {
             <div className="image_section">
               <div className="image_section-cover">
                 <div className="main-image">
-                  <img src="/Images/services/denture.avif" alt="dentures" />
+                  <img
+                    src="/Images/services/halitosis.webp"
+                    alt="Main Banner"
+                  />
                 </div>
               </div>
             </div>
 
             {/* Text Section with Fade-in after delay */}
             <div className="desc-text-section">
-              <div className="desc-text-subtitle">Dentures</div>
+              <div className="desc-text-subtitle">Halitosis</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Dentures
+                What You Need to Know About Halitosis
               </h2>
               <p>
-                Missing teeth can affect more than your appearance - they can
-                impact chewing, speaking, and confidence. At{" "}
-                <Link href="/" className="text-primary hover:underline">
-                  Urban Dental & Braces in Bayonne
-                </Link>
-                , we provide custom dentures designed to restore the look and
-                function of your smile. Whether you are missing one tooth or
-                several, our dentures are crafted to fit comfortably and provide
-                a natural appearance.
+                Persistent bad breath isn’t just embarrassing - it’s often a sign that something deeper is going on with your oral health. Gum disease, bacteria buildup, dry mouth, or underlying infections can all contribute to chronic odor that won’t fade with mints or mouthwash. At White Hill Dental, we go beyond masking the problem. We identify the root cause and design a personalized fresh-breath plan that restores comfort, confidence, and oral wellness.
               </p>
               <p>
-                We proudly serve patients from{" "}
-                <Link
-                  href="/service-areas/bayonne-nj-dentist-near-you"
-                  className="text-primary hover:underline"
-                >
-                  Bayonne (07002)
-                </Link>
-                ,{" "}
-                <Link
-                  href="/service-areas/greenville-nj-dentist-near-you"
-                  className="text-primary hover:underline"
-                >
-                  Greenville (07305)
-                </Link>
-                , NJ and surrounding communities who are searching for "dentures
-                near me" and reliable tooth replacement options.
+                We proudly care for patients searching for halitosis treatment near me in Levittown (19054, 19055, 19056, 19057) as well as surrounding communities including Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007). Fresh breath is possible - and we’re here to help you achieve it.
               </p>
             </div>
           </div>
@@ -123,7 +97,7 @@ export default function DenturesPage() {
             <div className="wcu-text-section">
               <div className="wcu-title">
                 <h2>
-                  Top Reasons to Choose Urban Dental & Braces for Dentures
+                  Your Best Choice for Halitosis Treatment in Levittown
                 </h2>
               </div>
               <div className="wcu-points-section">
@@ -131,31 +105,31 @@ export default function DenturesPage() {
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Personalized Fit for Maximum Comfort
+                      Comprehensive Evaluation to Find the Source
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Natural-Looking Design for a Confident Smile
+                      Personalized Plans for Long-Term Freshness
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Skilled Team Experienced in Tooth Replacement Solutions{" "}
+                      Gentle, Science-Based Breath Improvement
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Affordable Pricing and Financing Options
+                      Tools and Tips for Healthy Habits at Home
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Convenient Bayonne, NJ Location
+                      Convenient Bucks County Location for Seamless Care
                     </h3>
                   </li>
                 </ul>
@@ -170,23 +144,13 @@ export default function DenturesPage() {
             </div>
           </div>
           <div className="features-section">
-            <h2 className="features-heading">Our Custom Denture Services</h2>
+            <h2 className="features-heading">
+              Explore Our Halitosis Solutions
+            </h2>
             <p className="features-description">
-              Many patients are surprised by how comfortable and realistic
-              today's dentures can be. The right solution depends on your oral
-              health needs, lifestyle, and goals-and we're here to guide you
-              every step of the way.
+              Halitosis affects everyone differently - which is why our approach adjusts to your lifestyle, dental needs, and goals for fresher breath. By treating the true source of odor rather than just the symptoms, we help ensure results that are noticeable, lasting, and confidence-boosting.
             </p>
-            <p className="features-description">
-              Here's how we help you{" "}
-              <Link
-                href="/services/crowns-and-bridges-levittown-pa"
-                className="text-primary hover:underline"
-              >
-                replace missing teeth
-              </Link>{" "}
-              with confidence:
-            </p>
+            
 
             <div className="features-grid">
               {features.map((service, idx) => (
@@ -212,71 +176,62 @@ export default function DenturesPage() {
             </div>
           </div>
           <div className="faq-section">
-            <h2 className="faq-heading">Dentures FAQs</h2>
+            <h2 className="faq-heading">Halitosis FAQs</h2>
             <div className="faq-acc-container">
               <Accordion type="single" collapsible className="w-full space-y-6">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                    <h3 className="text-lg">How long do dentures last?</h3>
+                    <h3 className="text-lg">How do I know if I have halitosis?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans ">
-                    With proper care, dentures typically last 5–10 years before
-                    needing replacement or adjustment.
+                    If bad breath persists even after good brushing and hygiene, it could be chronic halitosis requiring professional care.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      Are dentures comfortable to wear?
+                      Can halitosis be caused by gum disease?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      Today's dentures are designed for a precise fit. Some
-                      adjustment is normal, but comfort improves quickly with
-                      daily use.
+                      Yes - gum infection is a major contributor to chronic odor and should be treated promptly.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      What is the difference between full and partial dentures?
+                      Could my diet be affecting my breath?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Full dentures replace all teeth in an arch, while partial
-                      dentures fill only the missing spaces and rely on
-                      remaining teeth for support.
-                    </p>
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="q4" className="faq-acc">
-                  <AccordionTrigger className="faq-qn rounded-md">
-                    <h3 className="text-lg">
-                      How do implant-supported dentures work?
-                    </h3>
-                  </AccordionTrigger>
-                  <AccordionContent className="faq-ans">
-                    <p className="mt-2">
-                      Dental implants secure the denture in place, providing a
-                      stable, more natural feel and preventing jawbone
-                      deterioration.
+                      Absolutely - certain foods and drinks can worsen odor. We help you identify helpful daily adjustments.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      Are dentures covered by insurance?
+                      Is halitosis treatment painful?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      Most dental insurance plans include coverage for dentures.
-                      We are happy to verify your benefits and discuss financing
-                      options to fit your budget.
+                      No - treatments are gentle and focused on improving comfort and freshness.
+                    </p>
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="q6" className="faq-acc">
+                  <AccordionTrigger className="faq-qn rounded-md">
+                    <h3 className="text-lg">
+                      Do kids and teens experience halitosis too?
+                    </h3>
+                  </AccordionTrigger>
+                  <AccordionContent className="faq-ans">
+                    <p className="mt-2">
+                      Yes - braces, poor hygiene, and cavities can all contribute, and we offer solutions for every age.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -285,20 +240,10 @@ export default function DenturesPage() {
           </div>
           <div className="features-section">
             <h2 className="features-heading">
-              Considering Dentures in Bayonne?
+              Where Can You Find Halitosis Treatment in Levittown?
             </h2>
             <p className="features-description">
-              <Link
-                href="/contact-whitehill-dental-levittown-pa"
-                className="text-primary hover:underline"
-              >
-                Urban Dental & Braces
-              </Link>{" "}
-              provides comfortable, natural-looking dentures tailored to your
-              needs. Whether you require full, partial, or implant-supported
-              options, you'll receive personalized care and results that restore
-              both function and confidence. Proudly serving Bayonne, Greenville,
-              and surrounding communities - we're here to help you smile again!
+              White Hill Dental is a trusted provider of fresh-breath solutions in Levittown. If you’re searching for the best halitosis dentist near me, our expert team is ready to help you breathe easy and smile with confidence again. Schedule a visit today and enjoy the comfort of long-lasting freshness!
             </p>
           </div>
           <BookCallBtn />

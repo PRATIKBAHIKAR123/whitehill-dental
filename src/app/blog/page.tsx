@@ -149,8 +149,8 @@ export default function BlogGridPage() {
       <div className="details-page-header-section">
         <div className="max-w-7xl mx-auto text-center">
           <Fade direction="down" triggerOnce>
-            <h1>Dental Tips, News & Updates from Maple Dental</h1>
-            <h2>Explore Expert Advice on Oral Health & Family Dentistry</h2>
+            <h1>Learn, Smile & Stay Informed with White Hill Dental</h1>
+            <h2>Tips & Dental Guidance for Families in Levittown, Fairless Hills & Bristol</h2>
           </Fade>
         </div>
       </div>

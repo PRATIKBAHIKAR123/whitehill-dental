@@ -68,23 +68,23 @@ export default function SitemapPage() {
         name: "Same Day Dentistry",
         link: "/services/same-day-dentistry-levittown-pa",
       },
-      { name: "Perio Protect", link: "/services/perio-protect-bayonne-nj" },
+      { name: "Perio Protect", link: "/services/perio-protect-levittown-pa" },
       {
         name: "Painless Treatment",
         link: "/services/painless-dental-treatment-levittown-pa",
       },
-      { name: "Halitosis", link: "/services/halitosis-treatment-bayonne-nj" },
-      { name: "Dentures", link: "/services/dentures-bayonne-nj" },
+      { name: "Halitosis", link: "/services/halitosis-treatment-levittown-pa" },
+      { name: "Dentures", link: "/services/dentures-levittown-pa" },
       { name: "Endodontics", link: "/services/endodontics-levittown-pa" },
     ],
     "Service Areas": [
       {
         name: "Bayonne, NJ",
-        link: "/service-areas/bayonne-nj-dentist-near-you",
+        link: "/service-areas/levittown-pa-dentist-near-you",
       },
       {
         name: "Greenville, NJ",
-        link: "/service-areas/greenville-nj-dentist-near-you",
+        link: "/service-areas/fairless-hills-pa-dentist-near-you",
       },
     ],
     "Legal & Information": [

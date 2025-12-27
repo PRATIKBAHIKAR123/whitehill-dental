@@ -188,7 +188,7 @@ export default function PainlessTreatmentPage() {
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      es, it’s especially helpful. Our comfort-focused approach is designed with nervous and fearful patients in mind.
+                      Yes, it’s especially helpful. Our comfort-focused approach is designed with nervous and fearful patients in mind.
                     </p>
                   </AccordionContent>
                 </AccordionItem>

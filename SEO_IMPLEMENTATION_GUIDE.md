@@ -46,7 +46,7 @@ All service pages have been updated with SEO-optimized routes:
 - **Endodontics:** `/services/endodontics-levittown-pa`
 - **Same-Day Dentistry:** `/services/same-day-dentistry-levittown-pa`
 - **Painless Treatment:** `/services/painless-treatment-bayonne-nj`
-- **Perio Protect:** `/services/perio-protect-bayonne-nj`
+- **Perio Protect:** `/services/perio-protect-levittown-pa`
 - **Halitosis:** `/services/halitosis-bayonne-nj`
 - **Sports Dentistry:** `/services/sports-dentistry-levittown-pa`
 

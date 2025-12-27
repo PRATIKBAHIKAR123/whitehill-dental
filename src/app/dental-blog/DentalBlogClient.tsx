@@ -78,12 +78,10 @@ export default function DentalBlogClient() {
         <div className="max-w-7xl mx-auto text-center">
           <Fade direction="down" triggerOnce>
             <h1>
-              Dental Care Insights & Oral Health Updates from Urban Dental &
-              Braces in Bayonne, NJ
+              Learn, Smile & Stay Informed with White Hill Dental
             </h1>
             <h2>
-              Tips & Guidance on Family, Cosmetic, and Orthodontic Dentistry for
-              Bayonne Smiles
+              Tips & Dental Guidance for Families in Levittown, Fairless Hills & Bristol
             </h2>
           </Fade>
         </div>

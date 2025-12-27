@@ -33,7 +33,7 @@ export default function ServiceAreaPage() {
     <div>
       {/* Header Section */}
       <div className="details-page-header-section ">
-        <h1>Family & Cosmetic Dentist in Greenville, NJ 07305</h1>
+        <h1>Dental Care Designed for You and Your Family in Bristol, PA</h1>
       </div>
 
       {/* Main Content Section */}
@@ -45,7 +45,7 @@ export default function ServiceAreaPage() {
             <div className="image_section-cover">
               <div className="main-image">
                 <img
-                  src="/Images/areas/Modern Dental Care in Greenville.webp"
+                  src="/Images/areas/Comprehensive Dental Care in Bayonne.webp"
                   alt="Main Banner"
                   className="rounded-xl"
                 />
@@ -56,23 +56,10 @@ export default function ServiceAreaPage() {
           {/* Text Section with Fade-in after delay */}
           <div className="desc-text-section">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
-              Modern Dental Care in Greenville | Urban Dental & Braces | Dentist
-              Near You
+              Bringing Healthier Smiles to Bristol, PA | White Hill Dental | Your Comfort Is Our Priority
             </h2>
             <p>
-              At{" "}
-              <Link href="/" className="text-primary hover:underline">
-                Urban Dental & Braces Greenville
-              </Link>
-              , our mission is to create healthy, beautiful smiles for the whole
-              family. Conveniently located in Greenville, NJ 07305, we provide
-              patients with advanced treatment options in a comfortable,
-              welcoming environment. Whether you’re searching for a “dentist
-              near me” for routine checkups or specialized care, our{" "}
-              <Link href="/providers" className="text-primary hover:underline">
-                dedicated team
-              </Link>{" "}
-              is here for you every step of the way.
+              Your family deserves a dental team that truly listens and delivers care with comfort in mind. That’s why White Hill Dental proudly serves patients from Bristol, PA (19007) with advanced dental treatments tailored to your lifestyle and oral health needs. From preventive checkups to restorative and cosmetic improvements, we focus on making every visit smooth, supportive, and centered around what matters most - a confident, healthy smile that lasts.
             </p>
           </div>
         </div>
@@ -80,58 +67,40 @@ export default function ServiceAreaPage() {
         {/* Comprehensive Dental Care Section */}
         <div className="flex flex-col gap-4 p-6 md:p-0">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold">
-            Complete Dental Services for All Ages
+            High-Quality Dental Care Tailored to Your Needs in Bristol, PA
           </h2>
           <p>
-            Our Greenville dental office is fully equipped with modern
-            technology and designed to make your visits stress-free. We proudly
-            offer:
+            Whether you’re keeping up with routine smile maintenance or addressing more advanced concerns, White Hill Dental offers comprehensive solutions right here near home. Our goal is to help Bristol patients enjoy healthier smiles with comfort, convenience, and individualized support.
           </p>
           <ul className="list-disc pl-6 space-y-2 text-sm md:text-lg">
             <li>
-              <h3 className="text-lg font-semibold">Emergency Dentistry</h3>
+              <h3 className="text-lg font-semibold">Strong Cavity Protection for All Ages</h3>
               <p>
-                <Link
-                  href="/services/dental-emergencies-greenville-nj"
-                  className="text-primary hover:underline"
-                >
-                  Immediate care
-                </Link>{" "}
-                for tooth pain, broken teeth, or urgent dental needs
+                Preventive cleanings and enamel-strengthening care that help stop decay before it starts.{" "}
               </p>
             </li>
             <li>
-              <h3 className="text-lg font-semibold">Preventive Dentistry</h3>
+              <h3 className="text-lg font-semibold">Tooth Repair & Reinforcement</h3>
               <p>
-                Regular checkups, cleanings, and guidance to maintain lifelong
-                oral health
+                Modern solutions to restore chipped or weakened teeth with strength and natural appearance.
               </p>
             </li>
             <li>
-              <h3 className="text-lg font-semibold">Cosmetic Dentistry</h3>
+              <h3 className="text-lg font-semibold">Smile Brightening & Aesthetic Upgrades</h3>
               <p>
-                Professional whitening, veneers,{" "}
-                <Link
-                  href="/services/invisalign-clear-aligners-greenville-nj"
-                  className="text-primary hover:underline"
-                >
-                  Invisalign
-                </Link>
-                , and treatments to enhance your smile
+                Cosmetic options that refresh your look - from whitening to bonding and minor contouring.
               </p>
             </li>
             <li>
-              <h3 className="text-lg font-semibold">Restorative Dentistry</h3>
+              <h3 className="text-lg font-semibold">Advanced Bone & Tissue Support</h3>
               <p>
-                Crowns, bridges, dental implants, and fillings to restore both
-                function and aesthetics{" "}
+                Specialized care to maintain healthy jawbone structure and gum stability over time.
               </p>
             </li>
             <li>
-              <h3 className="text-lg font-semibold">Pediatric Dentistry</h3>
+              <h3 className="text-lg font-semibold">Healthy Bite + TMJ Relief</h3>
               <p>
-                Gentle, child-friendly dental care that makes visits positive
-                for kids and teens
+                Treatment plans that reduce strain, improve chewing comfort, and prevent teeth grinding damage.
               </p>
             </li>
           </ul>
@@ -141,47 +110,39 @@ export default function ServiceAreaPage() {
         <div className="wcu-section">
           <div className="wcu-text-section">
             <div className="wcu-title">
-              <h2>Why Greenville Families Choose Urban Dental & Braces</h2>
+              <h2>Making Exceptional Dental Care Easily Accessible in Bristol, PA</h2>
             </div>
             <div className="wcu-desc">
-              Families across Greenville (07305),{" "}
-              <Link
-                href="/service-areas/bayonne-nj-dentist-near-you"
-                className="text-white font-semibold hover:underline"
-              >
-                Bayonne (07002)
-              </Link>{" "}
-              and surrounding neighborhoods trust us because:
+              Bristol (19007) families - along with those from Levittown (19054, 19055, 19056, 19057), Fairless Hills (19030), Fallsington (19054), and Tullytown (19007) - choose White Hill Dental for care that’s convenient, compassionate, and focused on long-term healthy smiles:
             </div>
             <div className="wcu-points-section">
               <ul className="wcu-points">
                 <li>
                   <CheckCircle />
-                  We provide personalized, patient-centered dental care
+                  We take time to understand each patient’s comfort level and dental goals
                 </li>
                 <li>
                   <CheckCircle />
-                  Our technology ensures efficient and comfortable treatments
+                  Advanced diagnostics help us detect and treat concerns early
                 </li>
                 <li>
                   <CheckCircle />
-                  Same-day and flexible scheduling options are available
+                  Easy access to both routine and specialized services close to home
                 </li>
                 <li>
                   <CheckCircle />
-                  Insurance-friendly with budget-friendly payment plans
+                  We help simplify dental care with guidance, budgeting support, and clear steps
                 </li>
                 <li>
                   <CheckCircle />
-                  Conveniently located near Greenville and surrounding
-                  communities
+                  A familiar team that remembers you - not just your appointment
                 </li>
               </ul>
             </div>
           </div>
           <div className="wcu-img-section">
             <img
-              src="/Images/areas/Why Greenville Families Choose Urban Dental.webp"
+              src="/Images/areas/Why Bayonne Families Trust Urban Dental and Braces.webp"
               alt="dental"
               className="rounded-xl block"
             />
@@ -191,17 +152,10 @@ export default function ServiceAreaPage() {
         {/* Schedule Appointment Section */}
         <div className="features-section">
           <h2 className="features-heading">
-            Schedule Your Appointment in Greenville Today
+            Your Go-To Dentist in Bristol - Just a Call Away
           </h2>
           <p className="features-description">
-            From preventive checkups to advanced restorative and cosmetic
-            procedures,{" "}
-            <Link href="/" className="text-primary hover:underline">
-              Urban Dental & Braces
-            </Link>{" "}
-            is proud to serve Greenville families with care and expertise. If
-            you’ve been searching for a trusted “dentist near me” in Greenville,
-            NJ, our friendly team is ready to help.
+            Choosing the right dental home shouldn’t be complicated. At White Hill Dental, we make quality care convenient for Bristol families - with compassionate service, modern technology, and a team that always puts your comfort first. Whether you’re visiting for preventive care or need help fast, we’re here to support a confident, healthy smile every step of the way.
           </p>
 
           <BookCallBtn />

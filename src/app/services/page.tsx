@@ -104,17 +104,17 @@ const services = [
   {
     title: "Perio Protect",
     image: "/Images/services/perio-protect.webp",
-    link: "/services/perio-protect-bayonne-nj",
+    link: "/services/perio-protect-levittown-pa",
   },
   {
     title: "Halitosis",
     image: "/Images/services/halitosis.webp",
-    link: "/services/halitosis-treatment-bayonne-nj",
+    link: "/services/halitosis-treatment-levittown-pa",
   },
   {
     title: "Dentures",
     image: "/Images/services/denture.avif",
-    link: "/services/dentures-bayonne-nj",
+    link: "/services/dentures-levittown-pa",
   },
 ];
 

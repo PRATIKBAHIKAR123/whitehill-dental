@@ -156,7 +156,7 @@ export const metadataConfig = {
       keywords:
         "painless dental treatment bayonne nj, comfortable dentistry bayonne, anxiety-free dental care bayonne, gentle dentist bayonne, sedation dentistry bayonne",
     },
-    "perio-protect-bayonne-nj": {
+    "perio-protect-levittown-pa": {
       title:
         "Perio Protect in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
       description:
@@ -180,7 +180,7 @@ export const metadataConfig = {
       keywords:
         "sports dentistry bayonne nj, athletic dental care bayonne, mouthguards bayonne, sports mouth protection bayonne, athlete dental care bayonne",
     },
-    "dentures-bayonne-nj": {
+    "dentures-levittown-pa": {
       title:
         "Dentures in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
       description:
@@ -190,7 +190,7 @@ export const metadataConfig = {
     },
   },
   serviceAreas: {
-    "bayonne-nj-dentist-near-you": {
+    "levittown-pa-dentist-near-you": {
       title:
         "Your Trusted Dentist in Bayonne, NJ 07002 | Urban Dental Bayonne | Family & Cosmetic Dentist",
       description:
@@ -198,7 +198,7 @@ export const metadataConfig = {
       keywords:
         "dentist bayonne nj, family dentist bayonne, cosmetic dentist bayonne, dental office bayonne, bayonne dental care",
     },
-    "greenville-nj-dentist-near-you": {
+    "fairless-hills-pa-dentist-near-you": {
       title:
         "Dentist for Families & Smiles in Greenville, NJ 07305 | Urban Dental Bayonne | Family & Cosmetic Dentist",
       description:

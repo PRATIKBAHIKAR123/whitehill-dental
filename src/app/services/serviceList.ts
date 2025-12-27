@@ -98,16 +98,16 @@ export const services = [
   {
     name: "Perio Protect",
     icon: "/Images/icons/teeth-protection.png",
-    link: "/services/perio-protect-bayonne-nj",
+    link: "/services/perio-protect-levittown-pa",
   },
   {
     name: "Halitosis",
     icon: "/Images/icons/teeth-whitening.png",
-    link: "/services/halitosis-treatment-bayonne-nj",
+    link: "/services/halitosis-treatment-levittown-pa",
   },
   {
     name: "Dentures",
     icon: "/Images/icons/dentures.png",
-    link: "/services/dentures-bayonne-nj",
+    link: "/services/dentures-levittown-pa",
   },
 ];

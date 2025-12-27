@@ -17,38 +17,38 @@ export default function PerioProtectPage() {
   const features = [
     {
       icon: "/Images/icons/medicine.png",
-      title: "Customized Perio Protect Trays",
+      title: "Targets Gum Disease at the Source",
       description:
-        "The treatment starts with the creation of custom-fit trays designed specifically for your mouth. These trays are comfortable and allow medication to reach deep below the gumline where toothbrushes and floss can't.",
+        "",
       points: [
-        "Precision-fit trays tailored to your smile",
-        "Deliver medication directly to infected gum tissue",
-        "Easy to use at home as part of your daily routine",
-        "Enhances results of professional cleanings",
+        "Reduces harmful bacteria beneath the gums",
+        "Helps stop bleeding, swelling, and tenderness",
+        "Supports healing for healthier gum tissue",
+        "Limits the risk of bone and tooth loss",
       ],
     },
     {
       icon: "/Images/icons/dental-drill.png",
-      title: "Non-Surgical Gum Disease Therapy",
+      title: "Easy, Comfortable Daily Care",
       description:
-        "For many patients, Perio Protect can reduce or even eliminate the need for invasive gum surgery. This treatment targets harmful bacteria without discomfort or downtime.",
+        "",
       points: [
-        "Effective alternative to traditional surgery",
-        "Reduces pocket depths and bleeding gums",
-        "Promotes natural healing and gum reattachment",
-        "Comfortable, stress-free treatment process",
+        "Only 10–15 minutes of use per day",
+        "Soft, flexible trays made just for you",
+        "No needles, surgery, or lengthy appointments",
+        "Simple and stress-free to maintain long-term results",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Whole-Body Health Benefits",
+      title: "Advanced Periodontal Support",
       description:
-        "Treating gum disease isn't just about saving your smile-it also plays a vital role in protecting your overall health. Bacteria from untreated gum disease have been linked to conditions like heart disease and diabetes.",
+        "",
       points: [
-        "Helps lower risk of systemic health issues",
-        "Improves oral health and freshens breath",
-        "Supports long-term tooth retention",
-        "Boosts confidence with a healthier smile",
+        "Helps maintain improvements after deep cleanings",
+        "Protects dental restorations like crowns or implants",
+        "Reduces the need for frequent scaling appointments",
+        "Encourages healthier gums long into the future",
       ],
     },
   ];
@@ -58,11 +58,11 @@ export default function PerioProtectPage() {
         <div className="details-page">
           <div className="details-page-header-section">
             <Fade direction="up" duration={1000}>
-              <h1>Perio Protect in Bayonne, NJ</h1>
+              <h1>Perio Protect in Levittown, PA</h1>
             </Fade>
             <Fade direction="down" duration={1000}>
               <h2 className="text-center">
-                Advanced Gum Disease Treatment | Urban Dental & Braces
+                A Gentle, At-Home Solution for Better Gum Health | White Hill Dental
               </h2>
             </Fade>
           </div>
@@ -83,46 +83,13 @@ export default function PerioProtectPage() {
             <div className="desc-text-section">
               <div className="desc-text-subtitle">Perio Protect</div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-                About Perio Protect
+                What You Need to Know About Perio Protect
               </h2>
               <p>
-                Perio Protect is a revolutionary, non-surgical treatment
-                designed to combat gum disease (periodontitis) comfortably and
-                effectively. Instead of relying solely on deep cleanings or
-                invasive procedures, Perio Protect uses customized trays that
-                deliver antibacterial medication directly to the source of
-                infection-beneath the gums. At{" "}
-                <Link href="/" className="text-primary hover:underline">
-                  Urban Dental & Braces{" "}
-                </Link>
-                in Bayonne, we specialize in modern periodontal solutions that
-                not only stop disease progression but also help{" "}
-                <Link
-                  href="/services/preventive-dentistry-bayonne-nj"
-                  className="text-primary hover:underline"
-                >
-                  preserve your natural smile
-                </Link>
-                .
+                Gum disease often develops silently - starting with redness, bleeding, or bad breath before progressing into bone loss and loosened teeth. While professional cleanings are essential, harmful bacteria hide deep beneath the gums where daily brushing simply can’t reach.Perio Protect is an advanced, non-invasive therapy designed to treat periodontal disease comfortably at home. Using custom-fitted trays, safe medication is delivered below the gumline to stop bacterial growth, reduce inflammation, and help gums heal faster.
               </p>
               <p>
-                If you’re searching for a dentist in Bayonne or typing perio
-                protect near me for gum health solutions, our team is here to
-                help. We proudly serve patients from{" "}
-                <Link
-                  href="/service-areas/bayonne-nj-dentist-near-you"
-                  className="text-primary hover:underline"
-                >
-                  Bayonne (07002)
-                </Link>
-                ,
-                <Link
-                  href="/service-areas/greenville-nj-dentist-near-you"
-                  className="text-primary hover:underline"
-                >
-                  Greenville, NJ (07305)
-                </Link>
-                , and surrounding communities.
+                Patients searching for Perio Protect near me in Levittown (19054, 19055, 19056, 19057), along with those from Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007), trust White Hill Dental for healthier gums and fresher smiles - without surgery. By combining Perio Protect with regular periodontal cleanings, you can enjoy improved oral comfort, better breath, and stronger overall health.
               </p>
             </div>
           </div>
@@ -133,7 +100,7 @@ export default function PerioProtectPage() {
                     </div> */}
               <div className="wcu-title">
                 <h2>
-                  Top Reasons to Choose Urban Dental & Braces for Perio Protect
+                  Your Best Choice for Perio Protect in Levittown
                 </h2>
               </div>
               <div className="wcu-points-section">
@@ -141,31 +108,31 @@ export default function PerioProtectPage() {
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Customized Perio Trays{" "}
+                      Custom-Fitted Trays Designed for Precise Gum Treatment{" "}
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Non-Surgical Gum Disease Therapy
+                      Minimally Invasive Approach with No Need for Surgery
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Improved Oral & Overall Health
+                      Helps Protect the Natural Teeth You Want to Keep
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Gentle, Comfortable Approach
+                      Personalized Plans for Each Stage of Gum Disease
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Convenient Location in Bayonne
+                      Convenient Care for Bucks County Families
                     </h3>
                   </li>
                 </ul>
@@ -180,17 +147,11 @@ export default function PerioProtectPage() {
             </div>
           </div>
           <div className="features-section">
-            <h2 className="features-heading">Our Perio Protect Services</h2>
+            <h2 className="features-heading">Explore Our Perio Protect Treatment Solutions</h2>
             <p className="features-description">
-              At Urban Dental & Braces, we understand that gum disease is one of
-              the most common yet overlooked oral health issues. With Perio
-              Protect in Bayonne, we provide patients with an easy and effective
-              way to fight infection at home while supporting in-office
-              periodontal care.
+             Healthy gums are the foundation of a confident smile - and Perio Protect supports that foundation every day with simple and effective home therapy. With consistent use, it helps reverse gum irritation, boosts freshness, and keeps your smile strong between dental visits.
             </p>
-            <p className="features-description">
-              Here’s how Perio Protect helps restore your gum health:
-            </p>
+           
 
             <div className="features-grid">
               {features.map((service, idx) => (
@@ -221,64 +182,55 @@ export default function PerioProtectPage() {
               <Accordion type="single" collapsible className="w-full space-y-6">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                    <h3 className="text-lg">What is Perio Protect?</h3>
+                    <h3 className="text-lg">How long do I need to use the trays?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans ">
-                    Perio Protect is a non-invasive gum disease treatment that
-                    uses custom trays to deliver medication directly below the
-                    gumline, fighting infection at its source.
+                    Most patients begin with daily use, then transition to a maintenance routine based on progress.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      How often do I need to use the trays?
+                      Does this replace periodontal cleanings?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      Most patients wear their trays for just a few minutes each
-                      day, as directed by their dentist. Your treatment plan
-                      will be customized based on your gum health.
+                      Not at all - Perio Protect works alongside dental cleanings to control periodontitis more effectively. 
                     </p>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
-                    <h3 className="text-lg">Is Perio Protect painful?</h3>
+                    <h3 className="text-lg">Can this help prevent tooth loss?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      No, Perio Protect is completely painless. The trays are
-                      soft, comfortable, and easy to use at home.
+                      Yes - stronger gums and reduced infection help preserve bone and keep natural teeth stable.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      Can Perio Protect replace professional cleanings?
+                      Is Perio Protect safe?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      No. Perio Protect works best alongside professional dental
-                      cleanings. It’s designed to enhance your in-office care
-                      and help control bacteria between visits.
+                      Yes - the medication and trays are gentle, proven, and suitable for long-term use.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="q6" className="faq-acc">
                   <AccordionTrigger className="faq-qn rounded-md">
                     <h3 className="text-lg">
-                      Does insurance cover Perio Protect?
+                      Who is a candidate for this treatment?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p className="mt-2">
-                      Some insurance plans may cover part of the treatment. Our
-                      team at Urban Dental & Braces will help you explore your
-                      coverage and provide flexible payment options if needed.
+                      Anyone with early-stage to advanced gum disease may benefit - our dentist will recommend the right plan for your needs.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -287,20 +239,9 @@ export default function PerioProtectPage() {
           </div>
           <div className="features-section">
             {" "}
-            <h2 className="features-heading">Need Perio Protect in Bayonne?</h2>
+            <h2 className="features-heading">Where Can You Get Perio Protect in Levittown?</h2>
             <p className="features-description">
-              At{" "}
-              <Link
-                href="/contact-whitehill-dental-levittown-pa"
-                className="text-primary hover:underline"
-              >
-                Urban Dental & Braces
-              </Link>
-              , we believe healthy gums are the foundation of a beautiful smile.
-              If you’re struggling with gum disease or want to prevent its
-              progression, our Perio Protect treatment offers a gentle,
-              effective solution. Contact us today to schedule a consultation
-              and take the first step toward restoring your gum health.
+              White Hill Dental is a top-rated provider of Perio Protect near me in Levittown. If gum disease has been causing bleeding gums, bad breath, or discomfort, our non-surgical periodontal treatments can help restore gum health and protect your smile for the future. Call us today to schedule an evaluation - your gums will thank you!
             </p>
           </div>
           <BookCallBtn />
