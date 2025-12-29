@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="flex items-center gap-2 mb-4">
             <Image
               src="/Images/White Hill Logo_new.png"
-              alt="urban Dental Logo"
+              alt="White Hill Dental Logo"
               width={160}
               height={100}
               className="w-32 sm:w-40 md:w-48 h-auto"
@@ -200,7 +200,7 @@ export default function Footer() {
         <div className="flex items-center ">
           {/* <div className="flex items-center"> */}
           <span>
-            &copy; {new Date().getFullYear()} Urban Dental. All rights reserved.
+            &copy; {new Date().getFullYear()} White Hill Dental. All rights reserved.
           </span>
           {/* <span className="hidden md:inline"></span> */}
           {/* <span> */}

@@ -21,12 +21,12 @@ export default function Accessibility() {
       <p className="mb-4">
         This Accessibility Statement applies to:{" "}
         <a
-          href="https://urbandentalnj.com/"
+          href="https://whitehilldentalpa.com/"
           className="text-blue-600 underline"
           target="_blank"
           rel="noopener noreferrer"
         >
-          www.urbandentalnj.com
+          www.whitehilldentalpa.com
         </a>
       </p>
       <section className="mb-6">
@@ -52,7 +52,7 @@ export default function Accessibility() {
 We test using modern web browsers and assistive technologies such as JAWS, NVDA, VoiceOver, magnifiers, voice dictation tools, and keyboard-only navigation.
         </p>
         <p className="font-bold">
-          AudioEye certifies that www.urbandentalnj.com has engaged AudioEye to help www.urbandentalnj.com conform with WCAG 2.2 Level, AA Success Criteria.
+          AudioEye certifies that www.whitehilldentalpa.com has engaged AudioEye to help www.whitehilldentalpa.com conform with WCAG 2.2 Level, AA Success Criteria.
         </p>
         <p>
             AudioEye uses the following web browsers and web-based assistive technologies in testing its solutions:
@@ -72,7 +72,7 @@ We test using modern web browsers and assistive technologies such as JAWS, NVDA,
 
 Improving the user experience for everyone
 
-www.urbandentalnj.com has leveraged the Web Content Accessibility Guidelines (WCAG) 2.2 as reference to help ensure the web content made available from this website is more accessible for individuals with disabilities and user-friendly for everyone. These globally recognized best practices (as recommended by the World Wide Web Consortium) consist of three levels of accessibility measurement (A, AA, and AAA). AudioEye references Level AA of these guidelines in helping provide accessibility.
+www.whitehilldentalpa.com has leveraged the Web Content Accessibility Guidelines (WCAG) 2.2 as reference to help ensure the web content made available from this website is more accessible for individuals with disabilities and user-friendly for everyone. These globally recognized best practices (as recommended by the World Wide Web Consortium) consist of three levels of accessibility measurement (A, AA, and AAA). AudioEye references Level AA of these guidelines in helping provide accessibility.
         </p>
       </section>
 
@@ -86,7 +86,7 @@ www.urbandentalnj.com has leveraged the Web Content Accessibility Guidelines (WC
       <section className="mb-6">
         <h2 className="text-md font-semibold mb-2">Feedback & Support</h2>
         <p className="mb-2">
-          AudioEye is available to assist website visitors with any issues accessing content and the various services and functions made available across www.urbandentalnj.com. Website visitors are encouraged to engage with the Help Desk to report and troubleshoot web accessibility related issues.
+          AudioEye is available to assist website visitors with any issues accessing content and the various services and functions made available across www.whitehilldentalpa.com. Website visitors are encouraged to engage with the Help Desk to report and troubleshoot web accessibility related issues.
         </p>
       </section>
 
@@ -105,7 +105,7 @@ www.urbandentalnj.com has leveraged the Web Content Accessibility Guidelines (WC
             <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Core features of AudioEye Accessibility Help Desk</h2>
         <p className="mb-2">
-          AudioEye is available to assist website visitors with any issues accessing content and the various services and functions made available across www.urbandentalnj.com. Website visitors are encouraged to engage with the Help Desk to report and troubleshoot web accessibility related issues.
+          AudioEye is available to assist website visitors with any issues accessing content and the various services and functions made available across www.whitehilldentalpa.com. Website visitors are encouraged to engage with the Help Desk to report and troubleshoot web accessibility related issues.
         </p>
                 <h2 className="text-md font-bold mb-2">AudioEye Help Desk</h2>
         <p className="mb-2">
@@ -124,7 +124,7 @@ www.urbandentalnj.com has leveraged the Web Content Accessibility Guidelines (WC
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Third-party Websites</h2>
         <p className="mb-2">
-          Throughout this website, we may make use of different third-party websites such as Facebook, Google Maps, X (formerly known as Twitter), LinkedIn, Instagram, and YouTube to spread news and information about www.urbandentalnj.com's products and services. These websites, which are not controlled by www.urbandentalnj.com, may present challenges for individuals with disabilities that we are not able to control or remedy. As made publicly available, here are the Accessibility Policies provided from these third-party websites:
+          Throughout this website, we may make use of different third-party websites such as Facebook, Google Maps, X (formerly known as Twitter), LinkedIn, Instagram, and YouTube to spread news and information about www.whitehilldentalpa.com's products and services. These websites, which are not controlled by www.whitehilldentalpa.com, may present challenges for individuals with disabilities that we are not able to control or remedy. As made publicly available, here are the Accessibility Policies provided from these third-party websites:
         </p>
         <ul className="list-disc list-inside space-y-1">
           <li>

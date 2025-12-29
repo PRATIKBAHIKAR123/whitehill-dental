@@ -67,7 +67,7 @@ export default function Header() {
         isScrolled ? "py-2 lg:py-4" : "py-3 lg:py-6"
       }`}
     >
-      <div className=" mx-auto flex items-center justify-between px-4 lg:px-8">
+      <div className=" mx-auto flex items-center justify-between px-3 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <Image
@@ -78,7 +78,7 @@ export default function Header() {
             className="hidden lg:block transition-all duration-300"
           />
           <Image
-            src="/Images/White Hill Logo (1).png"
+            src="/Images/White Hill Logo Scaled.png"
             alt="White Hill Dental Logo"
             width={isScrolled ? 28 : 32}
             height={isScrolled ? 14 : 18}
@@ -359,8 +359,8 @@ export default function Header() {
           {/* Mobile Menu Header */}
           <div className="flex items-center justify-between p-4 border-b">
             <Image
-              src="/Images/urban-dental-2048x609.webp"
-              alt="Urban Dental & Braces Logo"
+              src="/Images/White Hill Logo.png"
+              alt="White Hill Dental Logo"
               width={138}
               height={40}
             />

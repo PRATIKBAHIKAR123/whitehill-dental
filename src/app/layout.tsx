@@ -27,22 +27,22 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title:
-    "Dentist in Bayonne, NJ | Urban Dental Bayonne | Cosmetic & Family Dentist",
+    "Dentist in Levittown, PA | White Hill Dental | Trusted Dental Care in Levittown",
   description:
-    "Trusted family & cosmetic dentistry in Bayonne, NJ. Urban Dental & Braces, Bayonne serves patients from Bayonne, Greenville, NJ and nearby areas. Call +1 (201) 479-2100 or visit 393 Avenue C, Bayonne, NJ 07002.",
+    "White Hill Dental in Levittown, PA offers comprehensive preventive, cosmetic, and emergency dental services. Patients from Levittown (19054, 19055, 19056, 19057), Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007) rely on our experienced team. Quality dental care near you made comfortable and convenient.",
   keywords:
     "dentist harrisburg pa, cosmetic dentist harrisburg, family dentist harrisburg, dental implants harrisburg, root canal harrisburg, emergency dentist harrisburg",
-  authors: [{ name: "Urban Dental Bayonne" }],
-  creator: "Urban Dental Bayonne",
-  publisher: "Urban Dental Bayonne",
+  authors: [{ name: "White Hill Dental Levittown" }],
+  creator: "White Hill Dental Levittown",
+  publisher: "White Hill Dental Levittown",
   robots: "index, follow",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://www.urbandentalnj.com",
-    siteName: "Urban Dental Bayonne",
+    siteName: "White Hill Dental Levittown",
     title:
-      "Urban Dental Bayonne | Dentist in Bayonne, NJ | Cosmetic & Family Dentist",
+      "White Hill Dental Levittown | Dentist in Levittown, PA | Cosmetic & Family Dentist",
     description:
       "Top-rated cosmetic & family dentist in Harrisburg, PA. Serving patients from Colonial Park, Linglestown, Paxtang, and nearby. Call 717-745-2700 or visit us at 2017 Eg Drive, Suite 200, Harrisburg, PA 17110.",
     images: [
@@ -50,14 +50,14 @@ export const metadata: Metadata = {
         url: "/Images/Maple-logo.jpeg",
         width: 1200,
         height: 630,
-        alt: "Urban Dental Bayonne",
+        alt: "White Hill Dental Levittown",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Urban Dental Bayonne | Dentist in Harrisburg, PA | Cosmetic & Family Dentist",
+      "White Hill Dental Levittown | Dentist in Harrisburg, PA | Cosmetic & Family Dentist",
     description:
       "Top-rated cosmetic & family dentist in Harrisburg, PA. Serving patients from Colonial Park, Linglestown, Paxtang, and nearby. Call 717-745-2700 or visit us at 2017 Eg Drive, Suite 200, Harrisburg, PA 17110.",
     images: ["/Images/Maple-logo.jpeg"],

@@ -64,7 +64,7 @@ export default function OurOffers() {
               Conveniently located in the heart of Levittown, PA,{" "}
               <strong>
                 White Hill Dental
-              </strong>
+              </strong>{" "}
               welcomes patients of all ages with gentle
               {" "}<strong>family dentistry</strong>, advanced {" "}<strong>cosmetic dental treatments</strong>,
               and fast{" "}<strong>emergency dental care</strong>. If you're looking for a{" "}<strong>dentist in Levittown, PA</strong>,

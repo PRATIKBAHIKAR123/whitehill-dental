@@ -4,205 +4,205 @@ import { Metadata } from "next";
 export const metadataConfig = {
   default: {
     title:
-      "Dentist in Bayonne, NJ | Urban Dental Bayonne | Cosmetic & Family Dentist",
+      "Dentist in Levittown, PA | White Hill Dental | Trusted Dental Care in Levittown",
     description:
-      "Trusted family & cosmetic dentistry in Bayonne, NJ. Urban Dental & Braces, Bayonne serves patients from Bayonne, Greenville, NJ and nearby areas. Call +1 (201) 479-2100 or visit 393 Avenue C, Bayonne, NJ 07002.",
+      "White Hill Dental in Levittown, PA offers comprehensive preventive, cosmetic, and emergency dental services. Patients from Levittown (19054, 19055, 19056, 19057), Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007) rely on our experienced team. Quality dental care near you made comfortable and convenient.",
     keywords:
-      "dentist bayonne nj, cosmetic dentist bayonne, family dentist bayonne, dental implants bayonne, root canal bayonne, emergency dentist bayonne",
+      "dentist levittown pa, cosmetic dentist levittown, family dentist levittown, dental implants levittown, root canal levittown, emergency dentist levittown",
   },
   services: {
     // New SEO-optimized service routes
     "emergency-dentistry-levittown-pa": {
       title:
-        "Emergency Dentist in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Emergency Dentistry in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Need urgent dental care? Urban Dental & Braces in Bayonne, NJ offers same-day emergency dentistry for tooth pain, broken teeth, and dental injuries. Serving Bayonne (07002), Greenville (07305), and nearby communities.",
+        "Experiencing a dental emergency in Levittown, PA? White Hill Dental offers same-day urgent care for tooth pain, infections, broken teeth, and dental injuries. Serving Levittown, Bristol, Fairless Hills, and nearby communities. Call now for fast relief!",
       keywords:
-        "emergency dentist bayonne nj, urgent dental care bayonne, dental emergency bayonne, toothache bayonne, broken tooth bayonne, 24/7 dentist bayonne",
+        "emergency dentist levittown pa, urgent dental care levittown, dental emergency levittown, toothache levittown, broken tooth levittown, 24/7 dentist levittown",
     },
     "root-canal-treatment-levittown-pa": {
       title:
-        "Root Canal Treatment in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Root Canal Treatment in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Suffering from tooth pain? Urban Dental & Braces in Bayonne, NJ provides gentle, modern root canal treatments to stop infection and save your natural tooth. Serving Bayonne (07002), Greenville (07305), and nearby communities.",
+        "Dealing with severe tooth pain or infection? White Hill Dental provides gentle and effective root canal treatment in Levittown, PA. We proudly serve families in Fairless Hills, Bristol, Fallsington, Tullytown and nearby communities. Book today for fast relief and expert care!",
       keywords:
-        "root canal bayonne nj, endodontics bayonne, root canal treatment bayonne, painless root canal bayonne, endodontist bayonne",
+        "root canal levittown pa, endodontics levittown, root canal treatment levittown, painless root canal levittown, endodontist levittown",
     },
     "oral-surgery-levittown-pa": {
       title:
-        "Oral Surgery in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Oral Surgery in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Urban Dental & Braces in Bayonne, NJ (07002) provides trusted oral surgery services, including tooth extractions, wisdom teeth removal, bone grafts, and more. Serving Bayonne, Greenville, and nearby communities.",
+        "White Hill Dental provides safe, comfortable oral surgery in Levittown, PA - including tooth extractions, impacted wisdom teeth removal, and treatment for dental infections. We proudly serve patients in Levittown, Bristol, Fairless Hills, Fallsington, Tullytown, and nearby communities. Call today for expert care and lasting relief.",
       keywords:
-        "oral surgery bayonne nj, dental surgery bayonne, oral surgeon bayonne, wisdom teeth removal bayonne, dental implants bayonne",
+        "oral surgery levittown pa, dental surgery levittown, oral surgeon levittown, wisdom teeth removal levittown, dental implants levittown",
     },
     "cosmetic-dentistry-levittown-pa": {
       title:
-        "Cosmetic Dentist in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Cosmetic Dentistry in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Transform your smile with Urban Dental & Braces in Bayonne, NJ. We offer professional cosmetic dentistry, including veneers, teeth whitening, bonding, and smile makeovers. Serving Bayonne (07002), Greenville (07305), NJ and nearby communities.",
+        "White Hill Dental offers cosmetic dentistry in Levittown, PA to enhance your smile with whitening, veneers, bonding, and custom smile makeovers. Proudly serving Levittown, Bristol, Fairless Hills, Fallsington, and Tullytown. Reveal your best smile today!",
       keywords:
-        "cosmetic dentist bayonne nj, teeth whitening bayonne, veneers bayonne, smile makeover bayonne",
+        "cosmetic dentist levittown pa, teeth whitening levittown, veneers levittown, smile makeover levittown",
     },
     "dental-fillings-levittown-pa": {
       title:
-        "Dental Fillings in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Dental Fillings in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Need a dental filling in Bayonne, NJ? Urban Dental & Braces provides same-day tooth-colored fillings to repair cavities, cracks, or damage. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+        "White Hill Dental offers tooth-colored dental fillings in Levittown, PA to repair cavities and restore natural function. Proudly serving Levittown, Fairless Hills, Bristol, Fallsington, and Tullytown. Schedule gentle, effective cavity care today!",
       keywords:
-        "dental fillings bayonne nj, tooth fillings bayonne, cavity fillings bayonne, composite fillings bayonne, dental restoration bayonne",
+        "dental fillings levittown pa, tooth fillings levittown, cavity fillings levittown, composite fillings levittown, dental restoration levittown",
     },
     "dental-implants-levittown-pa": {
       title:
-        "Dental Implants in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Dental Implants in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Restore your smile with dental implants at Urban Dental & Braces in Bayonne, NJ. Offering single, multiple, and full-mouth implants for long-lasting, natural results. Serving Bayonne (07002), Greenville (07305), NJ and nearby communities.",
+        "White Hill Dental offers durable and natural-looking dental implants in Levittown, PA to replace missing teeth with long-lasting confidence. Serving Levittown, Bristol, Fairless Hills, Fallsington, and Tullytown. Book your consultation today!",
       keywords:
-        "dental implants bayonne nj, tooth replacement bayonne, implant dentist bayonne, dental implant surgery bayonne, permanent teeth bayonne",
+        "dental implants levittown pa, tooth replacement levittown, implant dentist levittown, dental implant surgery levittown, permanent teeth levittown",
     },
     "orthodontics-levittown-pa": {
       title:
-        "Orthodontist in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Orthodontics in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Straighten your smile with orthodontic care at Urban Dental & Braces in Bayonne, NJ. Offering Invisalign®, braces, and early orthodontics for children and adults. Serving Bayonne (07002), Greenville (07305),NJ and nearby communities.",
+        "White Hill Dental provides orthodontics in Levittown, PA with Invisalign® and braces for kids, teens, and adults. Serving Levittown, Bristol, Fairless Hills, Fallsington, and Tullytown. Straighten your smile with expert care today!",
       keywords:
-        "orthodontics bayonne nj, braces bayonne, invisalign bayonne, orthodontist bayonne, teeth straightening bayonne",
+        "orthodontics levittown pa, braces levittown, invisalign levittown, orthodontist levittown, teeth straightening levittown",
     },
     "crowns-and-bridges-levittown-pa": {
       title:
-        "Dental Crowns & Bridges in Bayonne, NJ | Urban Dental Bayonne | Restorative & Cosmetic Dentistry",
+        "Dental Crowns & Bridges in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Restore your smile with dental crowns & bridges at Urban Dental & Braces in Bayonne, NJ. Natural-looking, durable solutions for damaged or missing teeth. Serving Bayonne (07002), Greenville (07305), and nearby communities.",
+        "Restore damaged or missing teeth with custom crowns and bridges at White Hill Dental in Levittown, PA. Proudly serving Levittown, Bristol, Fairless Hills, Fallsington, and Tullytown. Get durable, natural-looking results today!",
       keywords:
-        "dental crowns bayonne nj, dental bridges Bayonne, crown and bridge Bayonne, restorative dentistry Bayonne, tooth restoration Bayonne",
+        "dental crowns levittown pa, dental bridges Bayonne, crown and bridge Bayonne, restorative dentistry Bayonne, tooth restoration Bayonne",
     },
     "dental-emergencies-levittown-pa": {
       title:
-        "Dental Emergencies in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Dental Emergencies in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Need urgent dental care in Bayonne, NJ? Urban Dental & Braces offers same-day emergency dentistry for tooth pain, broken teeth, and infections. Serving Bayonne (07002), Greenville, NJ (07305) and nearby areas.",
+        "Get fast relief from dental emergencies in Levittown, PA. White Hill Dental treats tooth pain, swelling, broken teeth, and urgent issues for families in Levittown, Bristol, Fairless Hills, Fallsington & Tullytown. Call now for immediate care!",
       keywords:
-        "dental emergencies bayonne nj, emergency dental care bayonne, urgent dentist bayonne, toothache bayonne, broken tooth bayonne",
+        "dental emergencies levittown pa, emergency dental care levittown, urgent dentist levittown, toothache levittown, broken tooth levittown",
     },
     "tooth-extraction-levittown-pa": {
       title:
-        "Tooth Extraction in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Tooth Extraction in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Need a tooth removed? Urban Dental & Braces in Bayonne, NJ offers gentle, same-day tooth extractions for pain relief and oral health. Serving Bayonne (07002), Greenville, NJ (07305) and nearby communities.",
+        "Need a tooth removed safely and comfortably? White Hill Dental provides gentle tooth extractions in Levittown, PA - including wisdom teeth removal. Proudly serving Levittown, Bristol, Fairless Hills, Fallsington, and Tullytown. Schedule fast relief today!",
       keywords:
-        "tooth extraction bayonne nj, gentle tooth removal bayonne, dental extraction bayonne, painless extraction bayonne, tooth removal bayonne",
+        "tooth extraction levittown pa, gentle tooth removal levittown, dental extraction levittown, painless extraction levittown, tooth removal levittown",
     },
     "teeth-whitening-and-veneers-levittown-pa": {
       title:
-        "Teeth Whitening & Veneers in Bayonne, NJ | Urban Dental Bayonne | Cosmetic Dentist Near You",
+        "Teeth Whitening & Veneers in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Enhance your smile with professional teeth whitening and dental veneers at Urban Dental & Braces in Bayonne, NJ. Brighten stained teeth or transform your smile with natural-looking veneers. Serving Bayonne (07002), Greenville (07305), NJ and nearby communities.",
+        "Brighten your smile with professional teeth whitening and custom veneers at White Hill Dental in Levittown, PA. Serving Levittown, Bristol, Fairless Hills, Fallsington, and Tullytown. Discover the confidence of a beautifully enhanced smile!",
       keywords:
-        "teeth whitening bayonne nj, veneers bayonne, professional whitening bayonne, dental veneers bayonne, smile makeover bayonne",
+        "teeth whitening levittown pa, veneers levittown, professional whitening levittown, dental veneers levittown, smile makeover levittown",
     },
     "invisalign-clear-aligners-levittown-pa": {
       title:
-        "Invisalign in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Invisalign in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Straighten your smile discreetly with Invisalign at Urban Dental & Braces in Bayonne, NJ. Comfortable, removable, and nearly invisible clear aligners - serving Bayonne (07002), Greenville (07305), and nearby communities.",
+        "Straighten your smile comfortably and discreetly with Invisalign at White Hill Dental in Levittown, PA. Serving Levittown, Bristol, Fairless Hills, Fallsington, and Tullytown. Enjoy clear aligners made for confidence and convenience!",
       keywords:
-        "invisalign bayonne nj, clear aligners bayonne, invisible braces bayonne, teeth straightening bayonne, invisalign provider bayonne",
+        "invisalign levittown pa, clear aligners levittown, invisible braces levittown, teeth straightening levittown, invisalign provider levittown",
     },
     "kids-and-children-dentistry-levittown-pa": {
       title:
-        "Kids & Children’s Dentistry in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Pediatric Dentistry in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Urban Dental & Braces in Bayonne, NJ provides gentle pediatric dental care-checkups, cleanings, fluoride, sealants, and tooth-colored fillings. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+        "White Hill Dental offers gentle pediatric dentistry in Levittown, PA for infants, kids, and teens - including preventive visits, cavity care, sealants, and more. Serving Levittown, Bristol, Fairless Hills, Fallsington, and Tullytown. Healthy smiles start here!",
       keywords:
-        "kids dentist bayonne nj, children dentistry bayonne, pediatric dentist bayonne, family dentist bayonne, kids dental care bayonne",
+        "kids dentist levittown pa, children dentistry levittown, pediatric dentist levittown, family dentist levittown, kids dental care levittown",
     },
     "permanent-teeth-replacement-levittown-pa": {
       title:
-        "Permanent Teeth Replacement in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Permanent Teeth Replacement in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Restore your smile with permanent teeth replacement at Urban Dental & Braces in Bayonne, NJ. We offer dental implants, bridges, and full arch solutions. Serving Bayonne (07002), Greenville, NJ (07305), and nearby areas.",
+        "Replace missing teeth with secure, natural-looking permanent solutions at White Hill Dental in Levittown, PA. Serving Levittown, Bristol, Fairless Hills, Fallsington, and Tullytown. Restore your bite and confidence today!",
       keywords:
-        "permanent teeth replacement bayonne nj, dental implants bayonne, tooth replacement bayonne, missing teeth bayonne, dental restoration bayonne",
+        "permanent teeth replacement levittown pa, dental implants levittown, tooth replacement levittown, missing teeth levittown, dental restoration levittown",
     },
     "wisdom-teeth-removal-levittown-pa": {
       title:
-        "Wisdom Teeth Treatment in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Wisdom Teeth Removal in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Community Smiles in Hillside, NJ offers safe, stress-free wisdom teeth removal for teens and adults. We help patients from Hillside, Elizabeth, Union, and Newark with evaluations, extractions, and recovery support.",
+        "White Hill Dental provides comfortable and safe wisdom teeth removal in Levittown, PA to prevent pain, swelling, and crowding. Proudly serving Levittown, Bristol, Fairless Hills, Fallsington, and Tullytown. Schedule your consultation today!",
       keywords:
-        "wisdom teeth removal bayonne nj, wisdom tooth extraction bayonne, oral surgery bayonne, tooth extraction bayonne, dental surgery bayonne",
+        "wisdom teeth removal levittown pa, wisdom tooth extraction levittown, oral surgery levittown, tooth extraction levittown, dental surgery levittown",
     },
     "endodontics-levittown-pa": {
       title:
-        "Endodontics in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Endodontics in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Expert endodontic treatments and root canal therapy in Bayonne, NJ. Urban Dental & Braces provides advanced pain-free root canals and pulp therapy. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+        "White Hill Dental provides advanced endodontic care in Levittown, PA to treat tooth infections, save natural teeth, and relieve pain fast. Serving Levittown, Bristol, Fairless Hills, Fallsington, and Tullytown. Get expert root canal treatment near you today!",
       keywords:
-        "endodontics bayonne nj, root canal specialist bayonne, endodontist bayonne, root canal therapy bayonne, endodontic treatment bayonne",
+        "endodontics levittown pa, root canal specialist levittown, endodontist levittown, root canal therapy levittown, endodontic treatment levittown",
     },
     "same-day-dentistry-levittown-pa": {
       title:
-        "Same Day Dentistry in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Same-Day Dentistry in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Get dental treatments completed in a single visit with same day dentistry in Bayonne, NJ. Urban Dental & Braces offers same-day crowns, fillings, and emergency care. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+        "White Hill Dental provides same-day dentistry in Levittown, PA - including crowns, fillings, and urgent care - so you can restore your smile in just one visit. Serving Levittown, Bristol, Fairless Hills, Fallsington & Tullytown. Fast relief, long-lasting results!",
       keywords:
-        "same day dentistry bayonne nj, quick dental care bayonne, same day crowns bayonne, immediate dental treatment bayonne, fast dental care bayonne",
+        "same day dentistry levittown pa, quick dental care levittown, same day crowns levittown, immediate dental treatment levittown, fast dental care levittown",
     },
     "painless-dental-treatment-levittown-pa": {
       title:
-        "Painless Dental Treatment in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Painless Dental Treatments in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Experience gentle, stress-free dental care with Urban Dental & Braces in Bayonne, NJ. We provide advanced painless treatments, including fillings, root canals, extractions, and cosmetic dentistry. Serving Bayonne (07002), Greenville (07305), NJ and nearby communities.",
+        "Experience painless dentistry at White Hill Dental in Levittown, PA. Gentle techniques, modern technology, and anxiety-free care for a relaxed dental visit. Serving Levittown, Bristol, Fairless Hills, Fallsington & Tullytown.",
       keywords:
-        "painless dental treatment bayonne nj, comfortable dentistry bayonne, anxiety-free dental care bayonne, gentle dentist bayonne, sedation dentistry bayonne",
+        "painless dental treatment levittown pa, comfortable dentistry levittown, anxiety-free dental care levittown, gentle dentist levittown, sedation dentistry levittown",
     },
     "perio-protect-levittown-pa": {
       title:
-        "Perio Protect in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Perio Protect in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Advanced Perio Protect treatment in Bayonne, NJ for gum disease management. Urban Dental & Braces provides non-surgical periodontal care with custom trays. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+        "Treat gum disease gently with Perio Protect at White Hill Dental in Levittown, PA. Non-surgical periodontal therapy for healthier gums and fresher breath. Serving Levittown, Bristol, Fairless Hills, Fallsington & Tullytown.",
       keywords:
-        "perio protect bayonne nj, gum disease treatment bayonne, periodontal treatment bayonne, gum health bayonne, perio protect therapy bayonne",
+        "perio protect levittown pa, gum disease treatment levittown, periodontal treatment levittown, gum health levittown, perio protect therapy levittown",
     },
-    "halitosis-bayonne-nj": {
+    "halitosis-treatment-levittown-pa": {
       title:
-        "Halitosis Treatment in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Halitosis Treatment in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Professional halitosis (bad breath) treatment in Bayonne, NJ. Urban Dental & Braces offers personalized solutions to freshen breath and improve oral health. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+        "White Hill Dental provides professional halitosis treatment in Levittown, PA with personalized care to restore fresh breath and healthier oral balance. Serving Levittown, Fairless Hills, Bristol, Fallsington, and Tullytown. Breathe fresh with expert dental support!",
       keywords:
-        "halitosis treatment bayonne nj, bad breath treatment bayonne, chronic bad breath bayonne, halitosis cure bayonne, fresh breath bayonne",
+        "halitosis treatment levittown pa, bad breath treatment levittown, chronic bad breath levittown, halitosis cure levittown, fresh breath levittown",
     },
     "sports-dentistry-levittown-pa": {
       title:
-        "Sports Dentistry in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Sports Dentistry in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Protect your smile during sports with custom mouthguards and athletic dental care. Urban Dental & Braces in Bayonne, NJ offers sports dentistry for athletes. Serving Bayonne (07002), Greenville, NJ (07305), and nearby communities.",
+        "White Hill Dental offers sports dentistry in Levittown, PA, including custom athletic mouthguards and fast care for dental injuries. Proudly serving Levittown, Bristol, Fairless Hills, Fallsington, and Tullytown. Protect your smile while you play!",
       keywords:
-        "sports dentistry bayonne nj, athletic dental care bayonne, mouthguards bayonne, sports mouth protection bayonne, athlete dental care bayonne",
+        "sports dentistry levittown pa, athletic dental care levittown, mouthguards levittown, sports mouth protection levittown, athlete dental care levittown",
     },
     "dentures-levittown-pa": {
       title:
-        "Dentures in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Dentures in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Restore your smile with custom dentures at Urban Dental & Braces in Bayonne, NJ. We offer full, partial, and implant-supported dentures for natural comfort and function. Serving Bayonne (07002), Greenville (07305), NJ and nearby communities.",
+        "Restore your smile with full, partial, or implant-supported dentures at White Hill Dental in Levittown, PA. Proudly serving Levittown, Fairless Hills, Fallsington, Bristol & Tullytown. Feel confident and comfortable again!",
       keywords:
-        "dentures bayonne nj, full dentures bayonne, partial dentures bayonne, implant supported dentures bayonne, tooth replacement bayonne, dentures near me bayonne",
+        "dentures levittown pa, full dentures levittown, partial dentures levittown, implant supported dentures levittown, tooth replacement levittown, dentures near me levittown",
     },
   },
   serviceAreas: {
     "levittown-pa-dentist-near-you": {
       title:
-        "Your Trusted Dentist in Bayonne, NJ 07002 | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Leading Dentistry Services in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Urban Dental & Braces in Bayonne, NJ 07002 offers complete dental care for children and adults, including family, cosmetic, restorative, and emergency dentistry. Serving Bayonne, Greenville, NJ and nearby communities.",
+        "White Hill Dental provides comprehensive family, cosmetic, restorative, and emergency dentistry in Levittown, PA (19054, 19055, 19056, 19057). Proudly serving patients from Bristol, Fairless Hills, Fallsington & Tullytown with advanced care and a friendly experience.",
       keywords:
-        "dentist bayonne nj, family dentist bayonne, cosmetic dentist bayonne, dental office bayonne, bayonne dental care",
+        "dentist levittown pa, family dentist levittown, cosmetic dentist levittown, dental office levittown, levittown dental care",
     },
     "fairless-hills-pa-dentist-near-you": {
       title:
-        "Dentist for Families & Smiles in Greenville, NJ 07305 | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Leading Dentistry Services in Fairless Hills, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Urban Dental & Braces in Greenville, NJ 07305 offers quality dental care for children and adults, including preventive, cosmetic, restorative, and emergency treatments. Serving Bayonne, Greenville, NJ and nearby communities.",
+        "White Hill Dental delivers exceptional family, cosmetic, restorative, and emergency dentistry in Fairless Hills, PA (19030). Serving patients from Levittown, Fallsington, Bristol & Tullytown with modern care and a friendly touch.",
       keywords:
         "dentist greenville nj, dental care greenville, Bayonne dentist greenville, family dentist greenville, cosmetic dentist greenville",
     },
@@ -210,180 +210,138 @@ export const metadataConfig = {
   providers: {
     "kinjal-mehta-levittown-pa-dentist": {
       title:
-        "Dr. Dalia Khan, DDS in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Dr. Kinjal Mehta, DDS in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Discover Dr. Dalia Khan, DDS at Urban Dental & Braces. Providing quality general and cosmetic dentistry for patients in Bayonne (07002), Greenville, NJ (07305), and nearby communities. Call (201) 479-2100.",
+        "Meet Dr. Kinjal Mehta, DDS at White Hill Dental in Levittown, PA. Providing gentle preventive and family dentistry for patients from Levittown (19054, 19055, 19056, 19057), Fairless Hills (19030), Fallsington (19054), Bristol & Tullytown (19007). Call +1 (215) 607-7200 to schedule your visit.",
       keywords:
-        "dr dalia khan bayonne nj, dentist bayonne nj, urban dental bayonne, family dentist bayonne, cosmetic dentist bayonne",
+        "dr dalia khan levittown pa, dentist levittown pa, White Hill Dental levittown, family dentist levittown, cosmetic dentist levittown",
     },
     "manreet-kaur-levittown-pa-dentist": {
       title:
-        "Dr. Hala Elsamna, DMD in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Dr. Manreet Kaur, DDS in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Learn about Dr. Hala Elsamna, DMD at Urban Dental & Braces. Compassionate, experienced dental care for patients in Bayonne (07002), Greenville, NJ (07305), and nearby communities. Call (201) 479-2100.",
+        "Get to know Dr. Manreet Kaur, DDS, providing family-focused care and advanced restorative treatments at White Hill Dental in Levittown, PA. Welcoming patients from Levittown (19054 -19057) and surrounding areas Fairless Hills (19030), Fallsington (19054), and Bristol & Tullytown (19007). Call +1 (215) 607-7200 or book online to reserve your appointment.",
       keywords:
-        "dr hala elsamna bayonne nj, dentist bayonne nj, urban dental bayonne, family dentist bayonne, cosmetic dentist bayonne",
+        "dr hala elsamna levittown pa, dentist levittown pa, White Hill Dental levittown, family dentist levittown, cosmetic dentist levittown",
     },
     "steven-reff-levittown-pa-dentist": {
       title:
-        "Dr. Steven Reff, DDS in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Dr. Steven Reff, DDS in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Meet Dr. Steven Reff, DDS at Urban Dental & Braces. Providing advanced restorative and cosmetic dentistry for patients in Bayonne (07002), Greenville, NJ (07305), and nearby communities. Call (201) 479-2100.",
+        "Learn more about Dr. Steven Reff, DDS at White Hill Dental in Levittown, PA. Providing advanced family and cosmetic dentistry to patients from Levittown (19054–19057), Fairless Hills (19030), Fallsington (19054), Bristol & Tullytown (19007). Call +1 (215) 607-7200 to schedule your visit.",
       keywords:
-        "dr steven reff bayonne nj, dentist bayonne nj, urban dental bayonne, family dentist bayonne, cosmetic dentist bayonne",
+        "dr steven reff levittown pa, dentist levittown pa, White Hill Dental levittown, family dentist levittown, cosmetic dentist levittown",
     },
   },
   pages: {
     "about-whitehill-dental-levittown-pa": {
       title:
-        "About Urban Dental Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "About White Hill Dental in Levittown, PA | Trusted Dental Care Near You",
       description:
-        "Learn about Urban Dental & Braces – your trusted family & cosmetic dentist serving Bayonne (07002), Greenville (07305), and surrounding communities. Modern, affordable care for all ages. Call +1 (201) 479-2100 or Book Online.",
+        "White Hill Dental provides compassionate, high-quality dental care for families throughout Levittown, PA and surrounding areas including zip codes 19054, 19055, 19056, 19057, Fairless Hills (19030), Fallsington (19054), Bristol & Tullytown (19007). From checkups to complete smile makeovers, we’re here to support better oral health. Call +1 (215) 607-7200 to meet your local dental team.",
       keywords:
-        "about urban dental bayonne, family dentist bayonne nj, cosmetic dentist bayonne, dental practice bayonne, bayonne dental team",
+        "about White Hill Dental levittown, family dentist levittown pa, cosmetic dentist levittown, dental practice levittown, levittown dental team",
     },
 
     "contact-whitehill-dental-levittown-pa": {
       title:
-        "Contact Urban Dental & Braces in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Contact White Hill Dental in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Reach out to Urban Dental & Braces in Bayonne, NJ for appointments, dental questions, or urgent care needs. Proudly serving Bayonne (07002), Greenville, NJ (07305), and your neighbouring communities.",
+        "Reach out to White Hill Dental in Levittown, PA for appointments, dental questions, or urgent care needs. Proudly serving Levittown (19054–19057), Fairless Hills (19030), Fallsington (19054), Bristol & Tullytown (19007) with convenient, family-friendly dentistry.",
       keywords:
-        "contact urban dental bayonne, dentist appointment bayonne nj, dental consultation bayonne, urban dental phone number, bayonne dental office",
+        "contact White Hill Dental levittown, dentist appointment levittown pa, dental consultation levittown, White Hill Dental phone number, levittown dental office",
     },
 
     "patient-reviews-levittown-pa": {
       title:
-        "Patient Reviews in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "5-Star Dental Reviews in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "See why patients choose Urban Dental & Braces in Bayonne, NJ for family, cosmetic, and emergency dental care. Read real reviews from patients treated by Dr. Hala Elsamna, Dr. Dalia Khan, and Dr. Steven Reff.",
+        "Learn why patients rate White Hill Dental 5 stars. Families across Levittown (19054, 19055, 19056, 19057), Fairless Hills (19030), Fallsington (19054), and Bristol & Tullytown (19007) trust our team for modern, comfortable care. Read real reviews from patients who love their smiles!",
       keywords:
-        "urban dental reviews bayonne, patient testimonials bayonne, dentist reviews bayonne nj, dental practice reviews bayonne, bayonne dentist ratings",
+        "White Hill Dental reviews levittown, patient testimonials levittown, dentist reviews levittown pa, dental practice reviews levittown, levittown dentist ratings",
     },
     providers: {
       title:
-        "Meet Our Dentists in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Meet Our Dentists in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Discover the experienced dental team at Urban Dental & Braces – Dr. Hala Elsamna, DMD, Dr. Dalia Khan, DDS, and Dr. Steven Reff, DDS. Trusted family & cosmetic dentists serving Bayonne (07002), Greenville (07305), and nearby communities.",
+        "Meet the trusted dentists at White Hill Dental - Dr. Steven Reff, DDS, Dr. Kinjal Mehta, DDS, and Dr. Manreet Kaur, DDS - providing exceptional family and cosmetic dentistry in Levittown (19054–19057), Fairless Hills (19030), Bristol & Tullytown (19007). Book your visit today!",
       keywords:
-        "dental team bayonne nj, dentists bayonne, urban dental team bayonne, bayonne dental staff, family dentists bayonne",
+        "dental team levittown pa, dentists levittown, White Hill Dental team levittown, levittown dental staff, family dentists levittown",
     },
     services: {
       title:
-        "Comprehensive Dental Services in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+        "Complete Dental Treatments in Levittown, PA | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Urban Dental & Braces Bayonne provides complete family, cosmetic, and restorative dental care. Serving Bayonne (07002), Greenville (07305), and nearby communities with modern, gentle dentistry.",
+        "White Hill Dental in Levittown, PA offers complete dental care for all ages - cleanings, cosmetic dentistry, implants, Invisalign®, emergencies, and more. Proudly serving Levittown (19054–19057), Fairless Hills (19030), Fallsington (19054), Bristol & Tullytown (19007).",
       keywords:
-        "dental services bayonne nj, family dentist Bayonne, cosmetic dentist Bayonne, dental care Bayonne, Bayonne dental services",
+        "dental services levittown pa, family dentist Bayonne, cosmetic dentist Bayonne, dental care Bayonne, Bayonne dental services",
     },
     offers: {
       title:
-        "$299 Teeth Whitening in Bayonne, NJ | Urban Dental Bayonne | Cosmetic & Family Dentist",
+        "In-Office Teeth Whitening for Only $299 | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Brighten your smile with Urban Dental & Braces in Bayonne, NJ. Take advantage of our limited-time $299 professional teeth whitening special—safe, fast, and effective for new and existing patients. Serving Bayonne, Greenville, and nearby communities.",
+        "Brighten your smile with $299 in-office teeth whitening at White Hill Dental in Levittown, PA. We proudly serve Levittown (19054, 19055, 19056, 19057), Fairless Hills (19030), Fallsington (19054), Bristol & Tullytown (19007). Call us today for fast, safe results you’ll love.",
       keywords:
-        "dental offers bayonne nj, dental specials Bayonne, new patient specials Bayonne, dental discounts Bayonne, Bayonne dental promotions",
+        "dental offers levittown pa, dental specials Bayonne, new patient specials Bayonne, dental discounts Bayonne, Bayonne dental promotions",
     },
     "teeth-whitening-offer-levittown-pa": {
       title:
-        "$299 Teeth Whitening in Bayonne, NJ | Urban Dental Bayonne | Cosmetic & Family Dentist",
+        "In-Office Teeth Whitening for Only $299 | White Hill Dental | Trusted Dental Care Near You",
       description:
-        "Brighten your smile with Urban Dental & Braces in Bayonne, NJ. Take advantage of our limited-time $299 professional teeth whitening special—safe, fast, and effective for new and existing patients. Serving Bayonne, Greenville, and nearby communities.",
+        "Brighten your smile with $299 in-office teeth whitening at White Hill Dental in Levittown, PA. We proudly serve Levittown (19054, 19055, 19056, 19057), Fairless Hills (19030), Fallsington (19054), Bristol & Tullytown (19007). Call us today for fast, safe results you’ll love.",
       keywords:
-        "teeth whitening special bayonne nj, $299 teeth whitening bayonne, professional whitening bayonne, teeth whitening offer bayonne, bayonne dental specials",
+        "dental offers levittown pa, dental specials Bayonne, new patient specials Bayonne, dental discounts Bayonne, Bayonne dental promotions",
     },
     "privacy-policy": {
-      title: "Privacy Policy | Urban Dental & Braces",
+      title: "Privacy Policy | White Hill Dental & Braces",
       description:
-        "Privacy policy for Urban Dental & Braces. Learn how we protect your personal information and maintain patient confidentiality.",
+        "Privacy policy for White Hill Dental & Braces. Learn how we protect your personal information and maintain patient confidentiality.",
       keywords:
-        "privacy policy urban dental Bayonne, patient privacy Bayonne, dental privacy policy Bayonne, Bayonne dental confidentiality",
+        "privacy policy White Hill Dental Bayonne, patient privacy Bayonne, dental privacy policy Bayonne, Bayonne dental confidentiality",
     },
     "terms-and-conditions": {
-      title: "Terms and Conditions | Urban Dental & Braces",
+      title: "Terms and Conditions | White Hill Dental & Braces",
       description:
-        "Terms and conditions for Urban Dental & Braces. Read our service terms and patient agreement information.",
+        "Terms and conditions for White Hill Dental & Braces. Read our service terms and patient agreement information.",
       keywords:
-        "terms and conditions urban dental Bayonne, dental service terms Bayonne, patient agreement Bayonne, Bayonne dental terms",
+        "terms and conditions White Hill Dental Bayonne, dental service terms Bayonne, patient agreement Bayonne, Bayonne dental terms",
     },
     accessibility: {
-      title: "Accessibility Statement | Urban Dental & Braces",
+      title: "Accessibility Statement | White Hill Dental & Braces",
       description:
-        "Accessibility statement for Urban Dental & Braces. Learn about our commitment to providing accessible dental care for all patients.",
+        "Accessibility statement for White Hill Dental & Braces. Learn about our commitment to providing accessible dental care for all patients.",
       keywords:
-        "accessibility urban dental Bayonne, accessible dental care Bayonne, disability friendly dentist Bayonne, Bayonne dental accessibility",
+        "accessibility White Hill Dental Bayonne, accessible dental care Bayonne, disability friendly dentist Bayonne, Bayonne dental accessibility",
     },
   },
 
   "dental-blog": {
     title:
-      "Dental Care Blog & Tips in Bayonne, NJ | Urban Dental Bayonne | Family & Cosmetic Dentist",
+      "Dental Care Articles from Levittown Dentists | White Hill Dental | Trusted Dental Care Near You",
     description:
-      "Stay informed with dental care tips, oral health guides, and updates from Urban Dental & Braces in Bayonne, NJ. Serving Bayonne (07002), Greenville, NJ (07305), and neighbouring communities.",
+      "Explore oral health advice and dental insights from the experienced team at White Hill Dental in Levittown, PA. Learn about preventive care, cosmetic treatments, kids’ dental health, emergencies, and more - trusted by patients across Levittown, Fairless Hills, Fallsington, Bristol & Tullytown.",
     keywords:
-      "dental blog bayonne, dental health tips bayonne, oral health advice bayonne, dental education bayonne, Bayonne dental blog",
+      "dental blog levittown, dental health tips levittown, oral health advice levittown, dental education levittown, Bayonne dental blog",
   },
   blogPosts: {
-    "dental-emergencies-bayonne": {
+    "role-of-oral-hygiene-in-halitosis-treatment-levittown": {
       title:
-        "Emergency Dental Pain Bayonne NJ: Causes, Symptoms & Emergency Treatment",
+        "Oral Hygiene's Role in Halitosis Treatment - WhiteHill Dental Levittown PA",
       description:
-        "Sudden dental pain can be alarming. Learn what it means, how to manage pain at home, and when to call an emergency dentist in Bayonne.",
-      keywords: "sudden dental pain Bayonne NJ",
+        "WhiteHill Dental explains how brushing, flossing, and professional care eliminate bad breath. Get expert halitosis treatment advice from Levittown specialists.",
+      keywords: "sudden dental pain levittown pa",
     },
-    "5-common-mistakes-bayonne-dentists-want-you-to-avoid-in-oral-care": {
-      title: "Bayonne Dentists Reveal 5 Oral Care Mistakes You're Making Today",
+    "emergency-dentistry-trenton": {
+      title: "Sports Dentistry Excellence: WhiteHill Dental's Levittown PA Approach",
       description:
-        "Learn from Urban dental professionals about the top 5 oral care mistakes that damage your teeth and gums. Get expert prevention tips now",
+        "Discover WhiteHill Dental's proven methods for preventing and treating sports-related dental injuries. Our Levittown team keeps athletes game-ready always.",
       keywords: "oral care mistakes Bayonne dentists",
     },
-    "how-urban-dental-in-bayonne-nj-makes-root-canal-treatments-stress-free": {
-      title: "Root Canal Treatment Bayonne: Urban Dental's Pain-Free Approach",
+    "whitening-veneers-levittown-pa": {
+      title: "Whitening & Veneers Lifespan Maintenance by WhiteHill Dental Levittown",
       description:
-        "Experience stress-free root canal treatment at Urban Dental Bayonne. Learn how the expert dentists in Bayonne eliminate stress with gentle care, advanced technology, and expert skill.",
-      keywords: "root canal Bayonne NJ",
-    },
-    "how-urban-dental-transforms-kids-smiles-bayonne-nj": {
-      title:
-        "Urban Dental Bayonne NJ - Kids Smile Transformation & Pediatric Care",
-      description:
-        "Learn how Urban Dental transforms kids' smiles in Bayonne, NJ with expert pediatric care. Creating beautiful, healthy smiles for children every day.",
-      keywords: "Kids Dentist Bayonne NJ",
-    },
-    "why-urban-dental-bayonne-nj-top-choice-tooth-extractions": {
-      title:
-        "Urban Dental Bayonne NJ: Top Choice for Safe Tooth Extractions Care",
-      description:
-        "Learn why patients choose Urban Dental in Bayonne, NJ for tooth extractions. Expert oral surgery with comfortable, safe extraction procedures.",
-      keywords: "Tooth Extractions Bayonne NJ",
-    },
-    "same-day-dentistry-levittown-pa-urban-dental": {
-      title: "Same-Day Dental Services Bayonne NJ: Urban Dental Complete Guide",
-      description:
-        "Discover what to expect with same-day dental services at Urban Dental in Bayonne, NJ. Fast, convenient treatments that save you time and trips.",
-      keywords: "Same-Day Dentistry Bayonne NJ",
-    },
-    "how-urban-dental-uses-modern-dental-fillings-prevent-tooth-decay-bayonne-nj":
-      {
-        title:
-          "Preventing Tooth Decay: Modern Dental Fillings at Urban Dental Bayonne",
-        description:
-          "Learn how Urban Dental in Bayonne, NJ uses advanced dental fillings to combat tooth decay. Get durable, natural-looking restorations that last.",
-        keywords: "dental fillings bayonne NJ",
-      },
-    "dentures-or-implants-urban-dental-bayonne-informed-choice": {
-      title:
-        "Choose Dentures or Implants with Urban Dental Bayonne's Expert Help",
-      description:
-        "Urban Dental Bayonne helps patients choose between dentures or implants with expert advice. Learn which tooth replacement solution fits your lifestyle.",
-      keywords: "dental implants bayonne NJ",
-    },
-    "what-problems-can-cosmetic-dentistry-fix-urban-dental-bayonne": {
-      title:
-        "Problems Cosmetic Dentistry Fixes - Urban Dental Bayonne Insights",
-      description:
-        "Discover what problems cosmetic dentistry can fix with Urban Dental Bayonne. Learn about veneers, whitening, bonding, and smile transformation options.",
-      keywords: "cosmetic dentistry bayonne NJ",
+        "Discover the lifespan of cosmetic dental treatments and how to maintain them. WhiteHill Dental in Levittown provides essential care tips for lasting results.",
+      keywords: "root canal levittown pa",
     },
   },
 };

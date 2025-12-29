@@ -119,7 +119,7 @@ export default function AboutUsClient() {
             Here, dentistry goes beyond the chair. Kids can enjoy our
             {" "}<strong>in-office movie theater</strong>,
             helping them feel excited for appointments. Adults benefit from our experience in cosmetic dentistry - including Invisalign®, whitening, implants, and smile enhancements - for results that look beautiful and natural. And when urgent dental needs arise, our team provides support quickly with
-            <strong>same-day emergency visits</strong>
+            {" "}<strong>same-day emergency visits</strong>
           </p>
           <p>
             We use{" "}

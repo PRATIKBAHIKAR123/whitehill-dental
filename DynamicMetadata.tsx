@@ -175,7 +175,7 @@ export default function DynamicMetadata() {
       const localBusinessData = {
         "@context": "https://schema.org",
         "@type": "Dentist",
-        name: "Urban Dental & Braces",
+        name: "White Hill Dental",
         description: metadata.description,
         url: `https://www.urbandentalnj.com${pathname}`,
         telephone: "+1-717-745-2700",

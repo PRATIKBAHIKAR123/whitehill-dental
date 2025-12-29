@@ -12,7 +12,7 @@
 //   {
 //     id: 1,
 //     name: "Emma's mom",
-//     content: "My daughter was really anxious about her first dental visit, but the team at Urban Dental was incredible! They made her feel safe, showed her all the tools, and even let her 'help' with the exam. Now she actually looks forward to her check-ups!",
+//     content: "My daughter was really anxious about her first dental visit, but the team at White Hill Dental was incredible! They made her feel safe, showed her all the tools, and even let her 'help' with the exam. Now she actually looks forward to her check-ups!",
 //     rating: 5
 //   },
 //   {
@@ -24,13 +24,13 @@
 //   {
 //     id: 3,
 //     name: "Michelle D.",
-//     content: "I've always been self-conscious about my stained teeth, but after a professional whitening session at Urban Dental, I feel so much more confident. The results were instant, and my smile looks amazing!",
+//     content: "I've always been self-conscious about my stained teeth, but after a professional whitening session at White Hill Dental, I feel so much more confident. The results were instant, and my smile looks amazing!",
 //     rating: 5
 //   },
 //   {
 //     id: 4,
 //     name: "David R.",
-//     content: "The entire staff is professional and caring. They explained every procedure clearly and made sure I was comfortable throughout my visit. Highly recommend Urban Dental for anyone looking for quality dental care.",
+//     content: "The entire staff is professional and caring. They explained every procedure clearly and made sure I was comfortable throughout my visit. Highly recommend White Hill Dental for anyone looking for quality dental care.",
 //     rating: 5
 //   },
 //   {
@@ -284,50 +284,50 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Maria S.",
+    name: "Brianna S.",
     title: "Parent",
-    company: "Urban Dental Patient",
-    content: "Dr. Hala Elsamna is absolutely amazing! She took the time to explain my treatment plan and made me feel at ease throughout my visit. The office is clean, modern, and welcoming. I finally found a dentist in Bayonne who truly cares about patients.",
+    company: "White Hill Dental Patient",
+    content: "Dr. Steven Reff is phenomenal! He took extra time to show me my X-rays and explained what was happening with a tooth that had been bothering me for months. I left feeling confident and pain-free. The entire team is so friendly - I’m really glad I switched to a dentist in Levittown that truly cares.",
     avatar: "/api/placeholder/80/80",
     rating: 5,
     companyLogos: ["/Images/tech-companies/123577.png", "/Images/tech-companies/12357910.png", "/api/placeholder/120/60"]
   },
   {
     id: 2,
-    name: "Thomas K.",
+    name: "Nara S.",
     title: "Orthodontic Patient",
-    company: "Urban Dental",
-    content: "I brought my son in for a checkup with Dr. Dalia Khan, and she was so patient and kind. He usually hates going to the dentist, but she made the experience fun and stress-free. I’m grateful to have found a family-friendly dental office right here in Bayonne.",
+    company: "White Hill Dental",
+    content: "I really appreciate how organized and clean the office is. The hygienist was super gentle during my cleaning, and everything felt very high-tech. It’s refreshing to find dental care that is both efficient and kind.",
     avatar: "/api/placeholder/80/80",
     rating: 5,
     companyLogos: ["/api/placeholder/120/60", "/api/placeholder/120/60", "/api/placeholder/120/60"]
   },
   {
     id: 3,
-    name: "Aisha R.",
+    name: "Reuben D.",
     title: "Whitening Patient",
-    company: "Urban Dental",
-    content: "Dr. Steven Reff helped me with a dental emergency, and I couldn’t be more thankful. I was in a lot of pain, but he quickly diagnosed the issue and took care of it the same day. The whole team is professional and compassionate.",
+    company: "White Hill Dental",
+    content: "I cracked a tooth while eating and panicked, but White Hill Dental got me in right away. Dr. Manreet Kaur was so calm and reassuring - she fixed my tooth in the same visit, and you can’t even tell anything happened. This will definitely be our go-to office for emergencies.",
     avatar: "/api/placeholder/80/80",
     rating: 5,
     companyLogos: ["/api/placeholder/120/60", "/api/placeholder/120/60", "/api/placeholder/120/60"]
   },
   {
     id: 4,
-    name: "Kevin D.",
+    name: "Ophelia R.",
     title: "General Patient",
-    company: "Urban Dental",
-    content: "From the front desk to the hygienists and doctors, Urban Dental & Braces is top-notch. My cleaning was thorough, and Dr. Elsamna followed up to make sure I was comfortable. You can tell they prioritize patient care and comfort.",
+    company: "White Hill Dental",
+    content: "White Hill Dental is amazing! They helped me set up a payment plan that worked for my budget, and they never made me feel embarrassed about needing dental work. Everyone there makes you feel like you matter.",
     avatar: "/api/placeholder/80/80",
     rating: 5,
     companyLogos: ["/api/placeholder/120/60", "/api/placeholder/120/60", "/api/placeholder/120/60"]
   },
   {
     id: 5,
-    name: "Stephanie M. ",
+    name: "Zack V.",
     title: "Surgical Patient",
-    company: "Urban Dental",
-    content: "I recently got Invisalign with Dr. Khan, and the results are incredible. She explained the process clearly and made the journey so easy. I love my new smile! Highly recommend Urban Dental to anyone in Bayonne or Greenville.",
+    company: "White Hill Dental",
+    content: "My daughter usually gets very anxious at the dentist, but Dr. Kinjal Mehta was incredible with her. She talked her through everything in a fun, encouraging way. They even showed her a movie while we waited! We finally found a family dentist in Levittown that my kids enjoy visiting.",
     avatar: "/api/placeholder/80/80",
     rating: 5,
     companyLogos: ["/api/placeholder/120/60", "/api/placeholder/120/60", "/api/placeholder/120/60"]

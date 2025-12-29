@@ -17,38 +17,38 @@ export default function OralSurgeryPage() {
   const features = [
     {
       icon: "/Images/icons/medicine.png",
-      title: "Common Oral Surgery Services We Provide",
+      title: "Tooth Extractions",
       description:
-        "We offer a wide range of oral surgery treatments designed to restore comfort and improve dental health.",
+        "",
       points: [
-        "Tooth Extractions (simple & surgical)",
-        "Wisdom Teeth Removal",
-        "Bone Grafting for Dental Implants",
-        "Treatment of Oral Infections & Abscesses",
+        "Removes severely damaged or decayed teeth",
+        "Prevents the spread of infection to nearby teeth",
+        "Prepares the mouth for future restoration when needed",
+        "Promotes healthy healing and comfort",
       ],
     },
     {
       icon: "/Images/icons/dental-drill.png",
-      title: "Comfort & Sedation Options",
+      title: "Wisdom Teeth Removal",
       description:
-        "Your comfort is always our priority. We provide safe sedation and pain-management options to help you feel relaxed and worry-free.",
+        "",
       points: [
-        "Local anesthesia for targeted numbness",
-        "Nitrous oxide (laughing gas) for relaxation",
-        "Supportive, calm surgical environment",
-        "Post-treatment care and recovery guidance",
+        "Treats impacted or partially erupted wisdom teeth",
+        "Reduces swelling, pain, and jaw pressure",
+        "Helps prevent crowding and misalignment",
+        "Supports long-term oral health and comfort",
       ],
     },
     {
       icon: "/Images/icons/Serving Harrisburg Nearby Communities.png",
-      title: "Oral Surgery Care Focused on Your Needs",
+      title: "Infection & Abscess Treatment",
       description:
-        "We go beyond just performing procedures - our approach is built around comfort, safety, and long-term results. Patients choose us for:",
+        "",
       points: [
-        "Detailed consultations before every procedure",
-        "Clear explanations and personalized treatment plans",
-        "Gentle techniques that reduce discomfort and speed recovery",
-        "Ongoing follow-up care to ensure proper healing",
+        "Clears infected tissues to stop pain quickly",
+        "Protects nearby teeth and bone from further damage",
+        "Prevents serious complications from spreading infection",
+        "Ideal for cases requiring urgent surgical attention",
       ],
     },
   ];
@@ -98,38 +98,38 @@ export default function OralSurgeryPage() {
           <div className="wcu-section">
             <div className="wcu-text-section">
               <div className="wcu-title">
-                Why Choose Urban Dental & Braces for Oral Surgery?
+                Your Best Choice for Oral Surgery in Levittown
               </div>
               <div className="wcu-points-section">
                 <ul className="wcu-points">
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Experienced Dental Surgeons You Can Trust
+                      Skilled Dentists Experienced in Surgical Care
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Modern Technology for Precision & Safety
+                      Gentle Treatment Focused on Comfort & Recovery
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Comfortable, Patient-Focused Environment
+                      Same-Day Appointments for Urgent Needs
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Same-Day Appointments When Urgent Care is Needed
+                      Affordable Options with Insurance Assistance
                     </h3>
                   </li>
                   <li>
                     <h3 className="service-point-title">
                       <CheckCircle className="service-point-icon" />
-                      Conveniently Located in Bayonne, NJ
+                      Convenient Levittown Location for Local Families
                     </h3>
                   </li>
                 </ul>
@@ -144,18 +144,11 @@ export default function OralSurgeryPage() {
             </div>
           </div>
           <div className="features-section">
-            <h2 className="features-heading">Our Oral Surgery Services</h2>
+            <h2 className="features-heading">Explore Our Oral Surgery Solutions</h2>
             <p className="features-description">
-              Oral surgery doesn’t need to feel overwhelming. At Urban Dental &
-              Braces, our goal is to provide smooth, predictable care from start
-              to finish. We combine gentle techniques with advanced tools to
-              protect your health, relieve discomfort, and support long-term
-              dental wellness.
+              Certain dental concerns require specialized surgical procedures to restore health, function, and comfort. Our goal is to ensure the process is handled efficiently and comfortably so you can move forward with confidence.
             </p>
-            <p className="features-description">
-              Here’s what you can expect when you choose us for your surgical
-              needs:
-            </p>
+            
 
             <div className="features-grid">
               {features.map((service, idx) => (
@@ -186,25 +179,22 @@ export default function OralSurgeryPage() {
               <Accordion type="single" className="w-full space-y-5">
                 <AccordionItem value="q1" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">When is oral surgery needed?</h3>
+                    <h3 className="text-lg">Is oral surgery painful?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Oral surgery may be required for impacted teeth, severe
-                      decay, infection, or to prepare for implants.{" "}
+                      You will be fully numbed during the procedure, and most discomfort afterward is manageable with recommended care.{" "}
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q2" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">Will oral surgery hurt?</h3>
+                    <h3 className="text-lg">Why might I need a tooth extraction?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      No. With local anesthesia and sedation options, most
-                      patients experience little to no discomfort during
-                      treatment.{" "}
+                      If a tooth is too damaged for repair - or infection has spread too deeply - removing it may be the best option.{" "}
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -212,27 +202,23 @@ export default function OralSurgeryPage() {
                 <AccordionItem value="q3" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      What can I expect after surgery?
+                      When should wisdom teeth be removed?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Mild swelling or soreness is normal, but recovery usually
-                      happens within a few days. We’ll provide aftercare
-                      instructions to make healing smooth.
+                      If they cause swelling, jaw pain, or crowding, or if X-rays show they may become impacted.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
 
                 <AccordionItem value="q4" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
-                    <h3 className="text-lg">How do I prepare for surgery?</h3>
+                    <h3 className="text-lg">How long does recovery take?</h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Follow our guidance carefully. If sedation is planned,
-                      avoid eating beforehand and arrange transportation home
-                      after your visit.
+                      Most patients return to normal activities within a day or two, depending on the procedure.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -240,14 +226,12 @@ export default function OralSurgeryPage() {
                 <AccordionItem value="q5" className="faq-acc">
                   <AccordionTrigger className="faq-qn">
                     <h3 className="text-lg">
-                      Is oral surgery covered by insurance?
+                      Do you provide oral surgery for emergencies?
                     </h3>
                   </AccordionTrigger>
                   <AccordionContent className="faq-ans">
                     <p>
-                      Many procedures are covered by dental insurance. Our team
-                      will help confirm your benefits and review payment
-                      options.
+                      Yes - we strive to see urgent cases promptly to relieve discomfort and protect your health.
                     </p>
                   </AccordionContent>
                 </AccordionItem>
@@ -256,13 +240,10 @@ export default function OralSurgeryPage() {
           </div>
           <div className="features-section">
             <h2 className="features-heading">
-              Need Oral Surgery in Bayonne, NJ?
+              Where Can You Get Oral Surgery in Levittown?
             </h2>
             <p className="features-description">
-              From tooth extractions to wisdom teeth removal, Urban Dental &
-              Braces provides skilled, compassionate oral surgery right here in
-              Bayonne. Protect your smile and your overall health with expert
-              care close to home.
+              White Hill Dental is a top-rated practice for safe and comfortable oral surgery in Levittown. If you need care from the best oral surgeon near me, our experienced team is here to relieve pain, remove infection, and protect your oral health. Call today to schedule a visit and feel confident in your smile again!
             </p>
           </div>
           <BookCallBtn />
