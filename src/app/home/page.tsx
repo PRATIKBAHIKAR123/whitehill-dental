@@ -455,11 +455,46 @@ export default function HomePage() {
             </p>
 
             <p>
-              We proudly care for patients from <strong>Levittown (19054, 19055, 19056, 19057)</strong> and nearby <strong>Fairless Hills (19030), Fallsington (19054), Bristol (19007) and Tullytown (19007)</strong>. From dental cleanings and cosmetic upgrades to Invisalign® and <strong>same-day emergency appointments</strong>, we offer complete dental solutions for all ages under one roof.
+              We proudly care for patients from{" "}
+              <Link
+                href="/service-areas/levittown-pa-dentist-near-you"
+                className="text-blue-600 font-semibold hover:underline"
+              >
+                Levittown (19054, 19055, 19056, 19057)
+              </Link>
+              {" "}and nearby{" "}
+              <Link
+                href="/service-areas/fairless-hills-pa-dentist-near-you"
+                className="text-blue-600 font-semibold hover:underline"
+              >
+                Fairless Hills (19030)
+              </Link>
+              ,{" "}
+              <Link
+                href="/service-areas/fallsington-pa-dentist-near-you"
+                className="text-blue-600 font-semibold hover:underline"
+              >
+                Fallsington (19054)
+              </Link>
+              ,{" "}
+              <Link
+                href="/service-areas/bristol-pa-dentist-near-you"
+                className="text-blue-600 font-semibold hover:underline"
+              >
+                Bristol (19007)
+              </Link>
+              {" "}and{" "}
+              <Link
+                href="/service-areas/tullytown-pa-dentist-near-you"
+                className="text-blue-600 font-semibold hover:underline"
+              >
+                Tullytown (19007)
+              </Link>
+              . From dental cleanings and cosmetic upgrades to <Link href={'/services/invisalign-levittown-pa'} className="text-blue-600 font-semibold hover:underline">Invisalign®</Link> and <Link href={'/services/same-day-dentistry-levittown-pa'} className="text-blue-600 font-semibold hover:underline">same-day emergency appointments</Link>, we offer complete dental solutions for all ages under one roof.
             </p>
 
             <p>
-              Local families love White Hill Dental because of our advanced technology, flexible scheduling, and a team that truly listens. If you’re searching for a <strong>dentist near you</strong> who values comfort, trust, and long-lasting results - your smile is in the right place.
+              Local families love White Hill Dental because of our advanced technology, flexible scheduling, and a team that truly listens. If you’re searching for a dentist near you who values comfort, trust, and long-lasting results - your smile is in the right place.
             </p>
           </div>
         </div>

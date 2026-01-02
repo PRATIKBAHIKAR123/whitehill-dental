@@ -3,6 +3,7 @@ import { CheckCircle } from 'lucide-react';
 import Image from 'next/image';
 import { useState } from 'react';
 import BookingModal from '@/app/booking/bookingScreen';
+import Link from 'next/link';
 
 export default function OffersPage() {
     const [isBookingOpen, setIsBookingOpen] = useState(false);
@@ -22,7 +23,40 @@ export default function OffersPage() {
                 <h2 className="text-xl md:text-3xl font-bold mb-2">Achieve a Whiter Smile with Our $299 Whitening Treatment in Levittown, PA</h2>
                 <p className="mb-2">A brighter smile can change how you feel in every moment - from the way you greet people to how confidently you show up in photos. At <strong>White Hill Dental</strong>, our <strong> $299 in-office whitening </strong> is designed to lift years of stains from coffee, tea, wine, and everyday life - revealing a fresher, more youthful smile in just one visit.</p>
                 <p className="mb-2">With advanced whitening technology and guidance from our experienced cosmetic team, you get a safer and more predictable result than any supermarket kit can offer - no wait, no hassle, no disappointment.</p>
-                <p className="mb-2 p-4">Patients visit us from <strong> Levittown (19054, 19055, 19056, 19057)</strong> and nearby <strong>Fairless Hills (19030), Fallsington (19054), Bristol & Tullytown (19007) </strong> for professional whitening that looks natural - not artificially bright. When searching for <strong> teeth whitening near me </strong>, your answer is right here at White Hill Dental.</p>
+                <p className="mb-2 p-4">Patients visit us from <Link
+                href="/service-areas/levittown-pa-dentist-near-you"
+                className="text-blue-600 font-semibold hover:underline"
+              >
+                Levittown (19054, 19055, 19056, 19057)
+              </Link>
+              {" "}and nearby{" "}
+              <Link
+                href="/service-areas/fairless-hills-pa-dentist-near-you"
+                className="text-blue-600 font-semibold hover:underline"
+              >
+                Fairless Hills (19030)
+              </Link>
+              ,{" "}
+              <Link
+                href="/service-areas/fallsington-pa-dentist-near-you"
+                className="text-blue-600 font-semibold hover:underline"
+              >
+                Fallsington (19054)
+              </Link>
+              ,{" "}
+              <Link
+                href="/service-areas/bristol-pa-dentist-near-you"
+                className="text-blue-600 font-semibold hover:underline"
+              >
+                Bristol (19007)
+              </Link>
+              {" "}&{" "}
+              <Link
+                href="/service-areas/tullytown-pa-dentist-near-you"
+                className="text-blue-600 font-semibold hover:underline"
+              >
+                Tullytown (19007)
+              </Link> for professional whitening that looks natural - not artificially bright. When searching for <Link href="/services/teeth-whitening-and-veneers-levittown-pa" className="text-blue-600 font-semibold hover:underline">teeth whitening near me</Link>, your answer is right here at White Hill Dental.</p>
                 
                 <button 
                     onClick={() => setIsBookingOpen(true)}
@@ -58,7 +92,7 @@ export default function OffersPage() {
                             <span className="text-primary mt-1"><CheckCircle /></span>
                             <div>
                             <h3 className="text-base font-semibold">Long-Lasting Brightness You Can Maintain</h3>
-                            <div>We don’t stop once the whitening is done - our team provides simple after-care guidance so you can keep your fresh new look shining for months to come.</div>
+                            <div>We don’t stop once the whitening is done - <Link href={'/providers'} className="font-bold text-primary">our team</Link> provides simple after-care guidance so you can keep your fresh new look shining for months to come.</div>
                             </div>
                         </li>
                     </ul>

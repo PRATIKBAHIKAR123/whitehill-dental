@@ -89,7 +89,42 @@ export default function Page() {
                 Persistent bad breath isn’t just embarrassing - it’s often a sign that something deeper is going on with your oral health. Gum disease, bacteria buildup, dry mouth, or underlying infections can all contribute to chronic odor that won’t fade with mints or mouthwash. At White Hill Dental, we go beyond masking the problem. We identify the root cause and design a personalized fresh-breath plan that restores comfort, confidence, and oral wellness.
               </p>
               <p>
-                We proudly care for patients searching for halitosis treatment near me in Levittown (19054, 19055, 19056, 19057) as well as surrounding communities including Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007). Fresh breath is possible - and we’re here to help you achieve it.
+                We proudly care for patients searching for halitosis treatment near me in{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                {" "}as well as surrounding communities including{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                . Fresh breath is possible - and we're here to help you achieve it.
               </p>
             </div>
           </div>
@@ -243,7 +278,7 @@ export default function Page() {
               Where Can You Find Halitosis Treatment in Levittown?
             </h2>
             <p className="features-description">
-              White Hill Dental is a trusted provider of fresh-breath solutions in Levittown. If you’re searching for the best halitosis dentist near me, our expert team is ready to help you breathe easy and smile with confidence again. Schedule a visit today and enjoy the comfort of long-lasting freshness!
+              White Hill Dental is a trusted provider of fresh-breath solutions in Levittown. If you’re searching for the best halitosis dentist near me, <Link href={'/providers'} className="text-blue-600 font-semibold hover:underline">our expert team</Link> is ready to help you breathe easy and smile with confidence again. Schedule a visit today and enjoy the comfort of long-lasting freshness!
             </p>
           </div>
           <BookCallBtn />

@@ -89,7 +89,42 @@ export default function PerioProtectPage() {
                 Gum disease often develops silently - starting with redness, bleeding, or bad breath before progressing into bone loss and loosened teeth. While professional cleanings are essential, harmful bacteria hide deep beneath the gums where daily brushing simply can’t reach.Perio Protect is an advanced, non-invasive therapy designed to treat periodontal disease comfortably at home. Using custom-fitted trays, safe medication is delivered below the gumline to stop bacterial growth, reduce inflammation, and help gums heal faster.
               </p>
               <p>
-                Patients searching for Perio Protect near me in Levittown (19054, 19055, 19056, 19057), along with those from Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007), trust White Hill Dental for healthier gums and fresher smiles - without surgery. By combining Perio Protect with regular periodontal cleanings, you can enjoy improved oral comfort, better breath, and stronger overall health.
+                Patients searching for Perio Protect near me in{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                , along with those from{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                , trust White Hill Dental for healthier gums and fresher smiles - without surgery. By combining Perio Protect with regular periodontal cleanings, you can enjoy improved oral comfort, better breath, and stronger overall health.
               </p>
             </div>
           </div>

@@ -90,7 +90,42 @@ export default function ToothExtractionPage() {
                 At White Hill Dental, we always work hard to save natural teeth - but sometimes removing a tooth is the safest way to protect your overall oral health. Teeth that are badly infected, severely broken, or causing overcrowding may need to be extracted to relieve pain and prevent future complications.
               </p>
               <p>
-                If you’re searching for tooth extraction near me or wisdom tooth removal near me in Levittown (19054, 19055, 19056, 19057), our team offers skilled and compassionate care for nearby patients from Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007). We focus on a smooth, comfortable experience so you can return to normal life confidently.
+                If you're searching for tooth extraction near me or wisdom tooth removal near me in{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                , our team offers skilled and compassionate care for nearby patients from{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                . We focus on a smooth, comfortable experience so you can return to normal life confidently.
               </p>
             </div>
           </div>
@@ -251,7 +286,7 @@ export default function ToothExtractionPage() {
               Where Can You Get Tooth Extractions in Levittown?
             </h2>
             <p className="features-description">
-              White Hill Dental is a trusted and top-rated provider for gentle tooth extractions near me in Levittown. Whether you are dealing with infection, a severely damaged tooth, or overcrowding, our experienced team delivers comfortable care and helps you move forward with confidence.
+              White Hill Dental is a trusted and top-rated provider for gentle tooth extractions near me in Levittown. Whether you are dealing with infection, a severely damaged tooth, or overcrowding, <Link href={'/providers'} className="text-blue-600 font-semibold hover:underline">our experienced team</Link> delivers comfortable care and helps you move forward with confidence.
             </p>
           </div>
           <BookCallBtn />

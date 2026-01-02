@@ -113,7 +113,42 @@ export default function ServiceAreaPage() {
               <h2>Making Exceptional Dental Care Easily Accessible in Levittown, PA</h2>
             </div>
             <div className="wcu-desc">
-              Here’s why families across Levittown (19054, 19055, 19056, 19057), as well as Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007), love choosing White Hill Dental:
+              Here's why families across{" "}
+              <Link
+                href="/service-areas/levittown-pa-dentist-near-you"
+                className="font-semibold hover:underline"
+              >
+                Levittown (19054, 19055, 19056, 19057)
+              </Link>
+              , as well as{" "}
+              <Link
+                href="/service-areas/fairless-hills-pa-dentist-near-you"
+                className="font-semibold hover:underline"
+              >
+                Fairless Hills (19030)
+              </Link>
+              ,{" "}
+              <Link
+                href="/service-areas/fallsington-pa-dentist-near-you"
+                className="font-semibold hover:underline"
+              >
+                Fallsington (19054)
+              </Link>
+              ,{" "}
+              <Link
+                href="/service-areas/bristol-pa-dentist-near-you"
+                className="font-semibold hover:underline"
+              >
+                Bristol (19007)
+              </Link>
+              , and{" "}
+              <Link
+                href="/service-areas/tullytown-pa-dentist-near-you"
+                className="font-semibold hover:underline"
+              >
+                Tullytown (19007)
+              </Link>
+              , love choosing White Hill Dental:
             </div>
             <div className="wcu-points-section">
               <ul className="wcu-points">

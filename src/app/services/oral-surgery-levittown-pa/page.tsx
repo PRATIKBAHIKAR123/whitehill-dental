@@ -88,10 +88,42 @@ export default function OralSurgeryPage() {
               <p>Oral surgery helps treat dental issues that can’t be resolved with routine care - including painful infections, damaged teeth, and concerns affecting your jaw or gums. At White Hill Dental, we focus on providing comfortable and efficient surgical treatment to restore your health and protect your smile. Whether it’s removing a problematic tooth or addressing infection below the gumline, our team ensures you feel supported every step of the way.
               </p>
               <p>
-                We proudly care for patients looking for an{" "}
-                <strong>oral surgeon near me </strong> in <strong> Levittown (19054, 19055, 19056, 19057)</strong>{" "}
-                as well as those traveling from <strong>Fairless Hills (19030), Fallsington (19054), Bristol (19007)</strong> and <strong>Tullytown (19007)</strong>.
-                With personalized care and advanced technology, we make oral surgery a smooth and stress-free experience while prioritizing your long-term oral health.
+                We proudly care for patients looking for an oral surgeon near me in{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                {" "}as well as those traveling from{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                . With personalized care and advanced technology, we make oral surgery a smooth and stress-free experience while prioritizing your long-term oral health.
               </p>
             </div>
           </div>

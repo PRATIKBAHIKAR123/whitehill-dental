@@ -85,7 +85,42 @@ export default function CrownsPage() {
                 At White Hill Dental, we understand that weakened, fractured, or missing teeth can affect not just your smile but your ability to bite and speak comfortably. Dental crowns and bridges are trusted restorative solutions that rebuild durability and restore natural aesthetics. Crowns cover and strengthen damaged teeth, while bridges fill missing spaces to keep your bite aligned and prevent shifting - helping you maintain everyday function with confidence.
               </p>
               <p>
-                For patients searching for dental crowns near me or dental bridges near me in Levittown (19054, 19055, 19056, 19057) and surrounding communities such as Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007) - White Hill Dental delivers precise, custom restorations designed for long-lasting comfort and seamless results.
+                For patients searching for dental crowns near me or dental bridges near me in{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                {" "}and surrounding communities such as{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                {" "}— White Hill Dental delivers precise, custom restorations designed for long-lasting comfort and seamless results.
               </p>
             </div>
           </div>
@@ -244,7 +279,7 @@ export default function CrownsPage() {
               Where Can You Get Crowns & Bridges in Levittown?
             </h2>
             <p className="features-description">
-              White Hill Dental is a top-rated choice for dental crowns and bridges near me in Levittown. If you want durable restorations that look natural, feel comfortable, and support everyday function, our expert team is ready to help. Contact us today and restore your smile with confidence!
+              White Hill Dental is a top-rated choice for dental crowns and bridges near me in Levittown. If you want durable restorations that look natural, feel comfortable, and support everyday function, <Link href={'/providers'} className="font-bold text-primary">our expert team</Link> is ready to help. Contact us today and restore your smile with confidence!
             </p>
           </div>
           <BookCallBtn />

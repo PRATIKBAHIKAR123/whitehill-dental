@@ -85,7 +85,42 @@ export default function PainlessTreatmentPage() {
                 A positive dental experience can transform the way you care for your smile. That’s why we take a comfort-first approach - reducing anxiety, minimizing discomfort, and ensuring you feel fully supported from start to finish. Thanks to modern techniques and a compassionate team, your visit can be calm, smooth, and pain-free, even during advanced treatments.
               </p>
               <p>
-                We regularly welcome patients searching for a gentle dentist near me or painless dental care near me in Levittown (19054, 19055, 19056, 19057), as well as nearby areas including Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007). Whether it’s been months or years since your last visit, our goal is to help you feel safe, heard, and fully supported while we look after your smile.
+                We regularly welcome patients searching for a gentle dentist near me or painless dental care near me in{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                , as well as nearby areas including{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                . Whether it's been months or years since your last visit, our goal is to help you feel safe, heard, and fully supported while we look after your smile.
               </p>
             </div>
           </div>

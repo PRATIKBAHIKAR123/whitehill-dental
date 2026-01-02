@@ -113,7 +113,42 @@ export default function ServiceAreaPage() {
               <h2>Making Exceptional Dental Care Easily Accessible in Fairless Hills, PA</h2>
             </div>
             <div className="wcu-desc">
-              Patients across Fallsington (19054), along with neighboring communities including Levittown (19054, 19055, 19056, 19057), Fairless Hills (19030), Bristol (19007), and Tullytown (19007), choose White Hill Dental because we make quality care simple, stress-free, and centered around what matters most to you:
+              Patients across{" "}
+              <Link
+                href="/service-areas/fallsington-pa-dentist-near-you"
+                className="font-semibold hover:underline"
+              >
+                Fallsington (19054)
+              </Link>
+              , along with neighboring communities including{" "}
+              <Link
+                href="/service-areas/levittown-pa-dentist-near-you"
+                className="font-semibold hover:underline"
+              >
+                Levittown (19054, 19055, 19056, 19057)
+              </Link>
+              ,{" "}
+              <Link
+                href="/service-areas/fairless-hills-pa-dentist-near-you"
+                className="font-semibold hover:underline"
+              >
+                Fairless Hills (19030)
+              </Link>
+              ,{" "}
+              <Link
+                href="/service-areas/bristol-pa-dentist-near-you"
+                className="font-semibold hover:underline"
+              >
+                Bristol (19007)
+              </Link>
+              , and{" "}
+              <Link
+                href="/service-areas/tullytown-pa-dentist-near-you"
+                className="font-semibold hover:underline"
+              >
+                Tullytown (19007)
+              </Link>
+              , choose White Hill Dental because we make quality care simple, stress-free, and centered around what matters most to you:
             </div>
             <div className="wcu-points-section">
               <ul className="wcu-points">

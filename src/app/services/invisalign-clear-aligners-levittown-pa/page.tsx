@@ -87,10 +87,45 @@ export default function InvisilinePage() {
                 What You Need to Know About Invisalign
               </h2>
               <p>
-                Invisalign offers a modern and nearly invisible way to straighten teeth without the look of metal braces. Using a custom series of smooth, clear aligners, teeth are guided into alignment gradually - making everyday life easier while improving your smile’s appearance and function. Whether you want to fix crowding, gaps, or bite concerns, Invisalign blends seamlessly into your routine so you can keep smiling confidently throughout treatment.
+                Invisalign <Link href={'/teeth-whitening-offer-levittown-pa'} className="text-blue-600 font-semibold hover:underline">offers</Link> a modern and nearly invisible way to straighten teeth without the look of metal braces. Using a custom series of smooth, clear aligners, teeth are guided into alignment gradually - making everyday life easier while improving your smile’s appearance and function. Whether you want to fix crowding, gaps, or bite concerns, Invisalign blends seamlessly into your routine so you can keep smiling confidently throughout treatment.
               </p>
               <p>
-                We welcome patients searching for Invisalign near me in Levittown (19054, 19055, 19056, 19057) as well as Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007). With personalized care and digital precision, we make straightening your teeth a comfortable, exciting transformation.
+                We welcome patients searching for Invisalign near me in{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                {" "}as well as{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                . With personalized care and digital precision, we make straightening your teeth a comfortable, exciting transformation.
               </p>
             </div>
           </div>
@@ -246,7 +281,7 @@ export default function InvisilinePage() {
               Where Can You Get Invisalign in Levittown?
             </h2>
             <p className="features-description">
-              White Hill Dental is a top-rated Invisalign provider in Levittown. If you’re looking for the best Invisalign near me to straighten your smile without braces, our skilled team is ready to help you enjoy a confident, beautifully aligned result. Schedule your consultation today and start your journey toward a straighter smile!
+              White Hill Dental is a top-rated Invisalign provider in Levittown. If you’re looking for the best Invisalign near me to straighten your smile without braces, <Link href={'/providers'} className="text-blue-600 font-semibold hover:underline">our skilled team</Link> is ready to help you enjoy a confident, beautifully aligned result. Schedule your consultation today and start your journey toward a straighter smile!
             </p>
           </div>
           <BookCallBtn />

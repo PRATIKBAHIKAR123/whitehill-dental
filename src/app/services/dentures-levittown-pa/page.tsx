@@ -91,7 +91,42 @@ export default function DenturesPage() {
                 A complete smile plays a major role in how you eat, speak, and express yourself. When several or all teeth are missing, dentures offer a reliable and personalized way to bring back confidence and everyday comfort. At White Hill Dental, we design dentures that feel secure, fit properly, and look incredibly natural - so you can enjoy life without worry.
               </p>
               <p>
-                Patients searching for dentures near me in Levittown (19054, 19055, 19056, 19057), and nearby communities like Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007), trust our friendly team for customized care and long-lasting results.
+                Patients searching for dentures near me in{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                , and nearby communities like{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                , trust our friendly team for customized care and long-lasting results.
                 {" "}<strong>With today’s advanced materials and technology, your dentures can blend seamlessly with your smile and support strong bite function. We’re here to help you smile confidently again - every meal, every conversation, and every day.</strong>
               </p>
             </div>
@@ -244,7 +279,7 @@ export default function DenturesPage() {
               Where Can You Get Dentures in Levittown?
             </h2>
             <p className="features-description">
-              White Hill Dental is a trusted provider of full dentures, partial dentures, and implant-supported dentures near me in Levittown. Our dedicated team is here to restore comfort, confidence, and function with a smile that looks great and feels natural. Schedule your consultation today and rediscover the ease of a complete smile!
+              White Hill Dental is a trusted provider of full dentures, partial dentures, and implant-supported dentures near me in Levittown. <Link href={'/providers'} className="text-blue-600 font-semibold hover:underline">Our dedicated team</Link> is here to restore comfort, confidence, and function with a smile that looks great and feels natural. Schedule your consultation today and rediscover the ease of a complete smile!
             </p>
           </div>
           <BookCallBtn />

@@ -66,8 +66,8 @@ export default function OurOffers() {
                 White Hill Dental
               </strong>{" "}
               welcomes patients of all ages with gentle
-              {" "}<strong>family dentistry</strong>, advanced {" "}<strong>cosmetic dental treatments</strong>,
-              and fast{" "}<strong>emergency dental care</strong>. If you're looking for a{" "}<strong>dentist in Levittown, PA</strong>,
+              {" "}family dentistry, advanced {" "}<Link href={'/services/cosmetic-dentistry-levittown-pa'} className="text-blue-600 font-semibold hover:underline">cosmetic dental treatments</Link>,
+              and fast{" "}<Link href={'/services/emergency-dentistry-levittown-pa'} className="text-blue-600 font-semibold hover:underline">emergency dental care</Link>. If you're looking for a{" "}<Link href={'/service-areas/levittown-pa-dentist-near-you'} className="text-blue-600 font-semibold hover:underline">dentist in Levittown, PA</Link>,
               our experienced and caring team ensures comfortable treatment and long-lasting oral health for every smile. We provide trusted, affordable services designed around your comfort, schedule, and needs - keeping our community smiling brighter every day.
              
             </p>

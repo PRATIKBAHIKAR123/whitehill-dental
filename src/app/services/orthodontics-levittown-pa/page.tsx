@@ -88,11 +88,42 @@ export default function OrthodonticsPage() {
               <p>
                Orthodontic treatment helps align your teeth and bite for better appearance, function, and long-term oral health. Whether your concern is crowding, spacing, or bite issues, our orthodontic solutions can help improve confidence and support healthier teeth and gums. At White Hill Dental, we create personalized plans for children, teens, and adults who want a straighter, more balanced smile.</p>
               <p>
-                We welcome patients searching for orthodontics near me or Invisalign® near me in{" "}
-                <strong>Levittown (19054, 19055, 19056, 19057)</strong>, along with
-                {" "}<strong>Fairless Hills (19030), Fallsington (19054), Bristol (19007)</strong>{" "}
-                and <strong>Tullytown (19007)</strong>. 
-                Our team makes achieving a straighter smile simple, comfortable, and tailored to your lifestyle
+                We welcome patients searching for orthodontics near me or <Link href={'/services/invisalign-clear-aligners-levittown-pa'} className="text-blue-600 font-semibold hover:underline">Invisalign®</Link> near me in{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                , along with{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                . <Link href={'/providers'} className="text-blue-600 font-semibold hover:underline">Our team</Link> makes achieving a straighter smile simple, comfortable, and tailored to your lifestyle
               </p>
             </div>
           </div>

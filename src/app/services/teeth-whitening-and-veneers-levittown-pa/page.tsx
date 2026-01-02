@@ -91,7 +91,42 @@ export default function WhiteningVeneersPage() {
                 A bright, balanced smile can make every first impression feel incredible. Teeth whitening lifts deep stains for a fresher, more radiant look, while veneers correct chips, uneven edges, gaps, and stubborn discoloration that whitening alone can’t fix. At White Hill Dental, our cosmetic solutions are designed to deliver noticeable improvements while keeping your smile natural and uniquely yours.
               </p>
               <p>
-                We proudly serve patients searching for veneers near me or teeth whitening near me across Levittown (19054, 19055, 19056, 19057), Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007). Whether you want a subtle refresh or a full transformation, we make achieving your dream smile simple and rewarding.
+                We proudly serve patients searching for veneers near me or teeth whitening near me across{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                . Whether you want a subtle refresh or a full transformation, we make achieving your dream smile simple and rewarding.
               </p>
             </div>
           </div>
@@ -243,7 +278,7 @@ export default function WhiteningVeneersPage() {
               Where Can You Get Teeth Whitening & Veneers in Levittown?
             </h2>
             <p className="features-description">
-              White Hill Dental is a top-rated practice for cosmetic smile improvements in Levittown. If you’re searching for the best teeth whitening near me or veneers dentist near me, our experienced team is ready to help you achieve a beautiful, confident smile you’ll love showing off. Book your consultation today and take the first step toward a brighter you!
+              White Hill Dental is a top-rated practice for cosmetic smile improvements in Levittown. If you’re searching for the best teeth whitening near me or veneers dentist near me, <Link href={'/providers'} className="text-blue-600 font-semibold hover:underline">our experienced team</Link> is ready to help you achieve a beautiful, confident smile you’ll love showing off. Book your consultation today and take the first step toward a brighter you!
             </p>
           </div>
           <BookCallBtn />

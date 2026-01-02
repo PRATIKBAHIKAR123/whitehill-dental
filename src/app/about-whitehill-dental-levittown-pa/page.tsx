@@ -103,27 +103,62 @@ export default function AboutUsClient() {
           </h2>
           <p>
             Every smile deserves a team that understands more than just teeth - a team that understands people. {" "}
-            <b>White Hill Dental</b> was created to bring that level of care to families across Levittown and the surrounding Bucks County community.
+            <Link href={'/'} className="font-bold text-primary">White Hill Dental</Link> was created to bring that level of care to families across Levittown and the surrounding Bucks County community.
           </p>
           <p>
             Conveniently located at{" "}<strong>1146 Bristol Oxford Valley Rd, Levittown, PA 19057</strong>, our office welcomes patients from:
             <br/>
             <ul className="list-disc ml-4">
-              <li>Levittown<strong>(19054, 19055, 19056, 19057)</strong></li>
-              <li>Fairless Hills <strong>(19030)</strong></li>
-              <li>Fallsington <strong>(19054)</strong></li>
-              <li>Bristol & Tullytown <strong>(19007)</strong></li>
+              <li>
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol
+                </Link>
+                {" "}&{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+              </li>
             </ul>
           </p>
           <p>
             Here, dentistry goes beyond the chair. Kids can enjoy our
             {" "}<strong>in-office movie theater</strong>,
-            helping them feel excited for appointments. Adults benefit from our experience in cosmetic dentistry - including Invisalign®, whitening, implants, and smile enhancements - for results that look beautiful and natural. And when urgent dental needs arise, our team provides support quickly with
-            {" "}<strong>same-day emergency visits</strong>
+            helping them feel excited for appointments. Adults benefit from our experience in cosmetic dentistry - including Invisalign®, whitening, implants, and smile enhancements - for results that look beautiful and natural. And when urgent dental needs arise, <Link href={'/providers'} className="font-bold text-primary">our team</Link> provides support quickly with
+            {" "}<Link href={'/services/same-day-dentistry-levittown-pa'} className="font-bold text-primary">same-day emergency visits</Link>
           </p>
           <p>
             We use{" "}
-            <strong>advanced digital technology</strong>
+            <strong>advanced digital technology</strong>{" "}
             not as a selling point, but because your smile deserves accuracy and efficiency at every step. Our approach blends clinical excellence with the kind of personal attention that helps patients feel understood, respected, and confident in their care decisions.
           </p>
           <p>

@@ -90,11 +90,41 @@ export default function CosmeticDentistryPage() {
               </p>
               <p>
                 We proudly support patients who are searching for cosmetic dentistry near me in{" "}
-                <strong>Levittown (19054, 19055, 19056, 19057)</strong>
-                {" "}and surrounding communities such as
-                {" "}<strong>Fairless Hills (19030), Fallsington (19054), Bristol (19007)</strong>{" "}
-                and <strong>Tullytown (19007)</strong>.
-                From quick enhancements to complete smile makeovers, our team focuses on personalized care that helps you look - and feel - your very best.
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                {" "}and surrounding communities such as{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                . From quick enhancements to complete smile makeovers, <Link href={'/providers'} className="font-bold text-primary">our team</Link> focuses on personalized care that helps you look - and feel - your very best.
               </p>
             </div>
           </div>

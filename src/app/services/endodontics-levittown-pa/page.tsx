@@ -86,10 +86,45 @@ export default function Page() {
                 What You Need to Know About Endodontics
               </h2>
               <p>
-                When decay, trauma, or deep infection reaches the inner nerve of a tooth, discomfort can become intense - and fast. Endodontic care focuses on treating the inside of the tooth to stop pain at its source while preserving your natural smile. By carefully removing irritated or infected pulp and sealing the tooth, these treatments prevent the need for extraction and restore healthy function.
+                When decay, trauma, or deep infection reaches the inner nerve of a tooth, discomfort can become intense - and fast. Endodontic care focuses on treating the inside of the tooth to stop pain at its source while preserving your natural smile. By carefully removing irritated or infected pulp and sealing the tooth, these treatments prevent the need for <Link href={'/services/tooth-extraction-levittown-pa'} className="font-bold text-primary">extraction</Link>  and restore healthy function.
               </p>
               <p>
-                If you’re searching for endodontic treatment near me or a root canal specialist in Levittown (19054, 19055, 19056, 19057), White Hill Dental proudly supports patients across Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007) with advanced techniques designed to protect long-term oral health.
+                If you're searching for endodontic treatment near me or a <Link href={'/services/root-canal-treatment-levittown-pa'} className="font-bold text-primary">root canal</Link> specialist in{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                , White Hill Dental proudly supports patients across{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                {" "}with advanced techniques designed to protect long-term oral health.
               </p>
             </div>
           </div>

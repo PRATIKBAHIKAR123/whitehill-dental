@@ -86,10 +86,45 @@ export default function RootCanalClient() {
                 What You Need to Know About Root Canal Treatment
               </h2>
               <p>
-                Root canal treatment removes infection inside a tooth, stops pain, and helps you keep your natural smile instead of needing an extraction. It is a safe and highly successful procedure that prevents the infection from spreading to surrounding teeth or the jawbone. At White Hill Dental, we use gentle, modern techniques so the procedure feels comfortable and provides fast relief.
+                <Link href={'/services/endodontics-levittown-pa'} className="font-bold text-primary">Root canal</Link> treatment removes infection inside a tooth, stops pain, and helps you keep your natural smile instead of needing an extraction. It is a safe and highly successful procedure that prevents the infection from spreading to surrounding teeth or the jawbone. At White Hill Dental, we use gentle, modern techniques so the procedure feels comfortable and provides fast relief.
               </p>
               <p>
-                If you’ve been searching for root canal treatment near me or a root canal dentist in Levittown (19054, 19055, 19056, 19057), our office is conveniently located to assist nearby communities including Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007). We’re here to help you prevent the infection from getting worse - and protect your natural teeth for the long run.
+                If you've been searching for root canal treatment near me or a root canal dentist in{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                , our office is conveniently located to assist nearby communities including{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                . We're here to help you prevent the infection from getting worse - and protect your natural teeth for the long run.
               </p>
             </div>
           </div>

@@ -89,7 +89,42 @@ export default function DentalEmergencyPage() {
                 Some dental problems simply can’t wait for a routine appointment. A sharp pain that comes out of nowhere, a tooth injury during daily activities, or sudden swelling can all indicate deeper issues that must be treated quickly. Delaying care may lead to worsening infection or long-term damage - so it’s important to get help right away.
               </p>
               <p>
-                White Hill Dental is a trusted source for urgent dental care for families in Levittown (19054, 19055, 19056, 19057) and nearby communities including Fairless Hills (19030), Fallsington (19054), Bristol (19007), and Tullytown (19007). Whether you’re dealing with discomfort or visible damage, our experienced team will assess the situation promptly and provide relief as quickly as possible. We’re here to protect your smile and give you peace of mind when unexpected problems arise.
+                White Hill Dental is a trusted source for urgent dental care for families in{" "}
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                {" "}and nearby communities including{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                . Whether you're dealing with discomfort or visible damage, <Link href={'/providers'} className="text-blue-600 font-semibold hover:underline">our experienced team</Link> will assess the situation promptly and provide relief as quickly as possible. We're here to protect your smile and give you peace of mind when unexpected problems arise.
               </p>
             </div>
           </div>

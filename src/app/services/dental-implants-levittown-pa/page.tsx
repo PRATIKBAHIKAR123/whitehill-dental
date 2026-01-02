@@ -93,11 +93,41 @@ export default function DentalImplantsPage() {
               <p>Dental implants are a modern, long-term solution for replacing missing teeth. They are securely placed into the jawbone to mimic the natural tooth root - giving you the ability to chew, smile, and speak comfortably again. Implants help preserve bone structure, prevent shifting teeth, and restore your smile with results that feel completely natural.</p>
               <p>
                 If you’re searching for dental implants near me or a trusted implant dentist in{" "}
-                <strong>Levittown (19054, 19055, 19056, 19057)</strong>
-                ,{" "}White Hill Dental proudly serves patients throughout
-                {" "}<strong>Fairless Hills (19030), Fallsington (19054), Bristol (19007)</strong>{" "}and{" "}
-                <strong>Tullytown (19007)</strong>.
-                Combining advanced technology and personalized care, we help rebuild smiles with lasting confidence and function.
+                <Link
+                  href="/service-areas/levittown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Levittown (19054, 19055, 19056, 19057)
+                </Link>
+                , White Hill Dental proudly serves patients throughout{" "}
+                <Link
+                  href="/service-areas/fairless-hills-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fairless Hills (19030)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/fallsington-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Fallsington (19054)
+                </Link>
+                ,{" "}
+                <Link
+                  href="/service-areas/bristol-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Bristol (19007)
+                </Link>
+                , and{" "}
+                <Link
+                  href="/service-areas/tullytown-pa-dentist-near-you"
+                  className="text-blue-600 font-semibold hover:underline"
+                >
+                  Tullytown (19007)
+                </Link>
+                . Combining advanced technology and personalized care, we help rebuild smiles with lasting confidence and function.
               </p>
             </div>
           </div>
@@ -247,12 +277,12 @@ export default function DentalImplantsPage() {
               Where Can You Get Dental Implants in Levittown?
             </h2>
             <p className="features-description">
-              White Hill Dental is a top-rated choice for dental implants in Levittown. If you’re looking for the best implant dentist near me to restore missing teeth with long-lasting results, our experienced team is here to help. Schedule your consultation today and bring back a confident, complete smile!
+              White Hill Dental is a top-rated choice for dental implants in Levittown. If you’re looking for the best implant dentist near me to restore missing teeth with long-lasting results, <Link href={'/providers'} className="font-bold text-primary">our experienced team</Link> is here to help. Schedule your consultation today and bring back a confident, complete smile!
             </p>
           </div>
           <BookCallBtn />
         </div>
-      </main>
+      </main> 
     </div>
   );
 }
