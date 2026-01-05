@@ -58,7 +58,7 @@ const services = [
   },
   {
     title: "Whitening & Veneers",
-    image: "/Images/Whitening Veneers.webp",
+    image: "/Images/services/whitening-veneers.webp",
     link: "/services/teeth-whitening-and-veneers-levittown-pa",
   },
   {
@@ -83,7 +83,7 @@ const services = [
   },
   {
     title: "Wisdom Teeth",
-    image: "/Images/Wisdom Teeth.webp",
+    image: "/Images/services/wisdom-teeth.webp",
     link: "/services/wisdom-teeth-removal-levittown-pa",
   },
   {
@@ -113,7 +113,7 @@ const services = [
   },
   {
     title: "Dentures",
-    image: "/Images/services/denture.avif",
+    image: "/Images/services/dentures.webp",
     link: "/services/dentures-levittown-pa",
   },
 ];

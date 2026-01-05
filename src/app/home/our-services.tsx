@@ -16,7 +16,7 @@ export default function OurOffers() {
       subtitle: "Act Fast & Save!",
       description:
         "Don’t let a dental emergency disrupt your day. Get immediate relief and expert care from our trusted team for only $55",
-      image: "/Images/banners/offer-1.webp",
+      image: "/Images/banners/Dental Emergency Visit.webp",
       badge: "Special Offer",
       buttonText: "Book Now",
     },
@@ -26,7 +26,7 @@ export default function OurOffers() {
       subtitle: "A Warm Welcome to Your Healthiest Smile!",
       description:
         "Begin your dental care with a gentle exam, refreshing cleaning, and digital X-rays - all for just $79. A brighter, healthier smile starts with White Hill Dental.",
-      image: "/Images/banners/offer-2.webp",
+      image: "/Images/banners/New Patient Special.webp",
       badge: "New Patient",
       buttonText: "Book Now",
     },

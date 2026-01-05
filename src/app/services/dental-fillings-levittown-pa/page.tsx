@@ -74,7 +74,7 @@ export default function DentalFillingPage() {
                 <div className="main-image">
                   <img
                     src="/Images/services/dental-fillings.webp"
-                    alt="Main Banner"
+                    alt="Dental Fillings at White Hill Dental in Levittown PA"
                   />
                 </div>
               </div>

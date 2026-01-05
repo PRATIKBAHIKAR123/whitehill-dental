@@ -74,7 +74,7 @@ export default function CosmeticDentistryPage() {
                 <div className="main-image">
                   <img
                     src="/Images/services/cosmetic-dentistry.webp"
-                    alt="Main Banner"
+                    alt="Cosmetic Dentistry at White Hill Dental in Levittown PA"
                   />
                 </div>
               </div>

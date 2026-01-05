@@ -73,7 +73,7 @@ export default function OralSurgeryPage() {
                 <div className="main-image">
                   <img
                     src="/Images/services/oral-surgery.webp"
-                    alt="Main Banner"
+                    alt="Oral Surgery at White Hill Dental in Levittown PA"
                   />
                 </div>
               </div>

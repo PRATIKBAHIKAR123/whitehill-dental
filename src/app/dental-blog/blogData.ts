@@ -11,7 +11,7 @@ export const blogPostsData: BlogPost[] = [
     {
     slug: "role-of-oral-hygiene-in-halitosis-treatment-levittown",
     title: "The Role of Oral Hygiene in Halitosis Treatment | Insights from WhiteHill Dental in Levittown, PA",
-    image: "/Images/Blogs/Modern Dental Fillings.jpg",
+    image: "/Images/Blogs/blog-1.webp",
     datetime: "Nov 01, 2025",
     shortDescription:
       "Bad breath - known medically as halitosis - can be more than a minor inconvenience. It affects personal confidence, social interactions, and may even signal deeper oral health issues. The good news? Most cases are both preventable and treatable with proper oral hygiene and professional dental care.",
@@ -300,7 +300,7 @@ export const blogPostsData: BlogPost[] = [
   {
     slug: "emergency-dentistry-trenton",
     title: "WhiteHill Dental’s Winning Strategy for Sports Dentistry in Levittown, PA",
-    image: "/Images/Blogs/Dentures or Implants.jpg",
+    image: "/Images/Blogs/blog-2.webp",
     datetime: "Nov 15, 2025",
     shortDescription:
       "Sports are exciting, empowering, and life-changing - but they can also be hard on your smile. Whether you or your child plays football, basketball, baseball, hockey, or wrestling, dental injuries happen more often than people think. That’s where WhiteHill Dental in Levittown, PA steps in.",
@@ -639,7 +639,7 @@ export const blogPostsData: BlogPost[] = [
   {
     slug: "whitening-veneers-levittown-pa",
     title: "Do Whitening & Veneers Wear Out? Duration & Maintenance Tips from WhiteHill Dental Levittown, PA",
-    image: "/Images/Blogs/Cosmetic Dentistry.jpg",
+    image: "/Images/Blogs/blog-3.webp",
     datetime: "Nov 29, 2025",
     shortDescription:
       "A bright smile can make a lasting first impression. Two of the most popular treatments for enhancing the brightness and appearance of teeth are professional teeth whitening and dental veneers. But while the results can be transformative, many patients understandably want to know how long those results will last and what upkeep is required.",

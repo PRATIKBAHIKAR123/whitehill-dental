@@ -74,7 +74,7 @@ export default function InvisilinePage() {
                 <div className="main-image">
                   <img
                     src="/Images/services/invisalign.webp"
-                    alt="Main Banner"
+                    alt="Invisalign treatment at White Hill Dental in Levittown PA"
                   />
                 </div>
               </div>

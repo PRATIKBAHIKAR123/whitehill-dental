@@ -75,7 +75,7 @@ export default function WhiteningVeneersPage() {
                 <div className="main-image">
                   <img
                     src="/Images/services/whitening-veneers.webp"
-                    alt="Main Banner"
+                    alt="Teeth Whitening & Veneers at White Hill Dental in Levittown PA"
                   />
                 </div>
               </div>

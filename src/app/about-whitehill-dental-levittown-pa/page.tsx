@@ -48,15 +48,15 @@ const features = [
 
 const team = [
   {
-    img: "/Images/Team/Hala Elsamna.webp",
+    img: "/Images/Team/Steven Reff.webp",
     name: "Dr. Steven Reff, DDS",
     role: "Doctor of Dental Surgery",
     time: "11 am - 03 pm",
     rating: 5.0,
-    slug: "providers/manreet-kaur-levittown-pa-dentist",
+    slug: "providers/steven-reff-levittown-pa-dentist",
   },
   {
-    img: "/Images/Team/Dalia Khan.webp",
+    img: "/Images/Team/Kinjal Mehta.png",
     name: "Dr. Kinjal Mehta, DDS",
     role: "Doctor of Dental Surgery",
     time: "11 am - 03 pm",
@@ -65,12 +65,12 @@ const team = [
   },
 
   {
-    img: "/Images/Team/Steven Reff.webp",
+    img: "/Images/Team/Dr. Manreet Kaur.png",
     name: "Dr. Manreet Kaur, DDS",
     role: "Doctor of Dental Surgery",
     time: "11 am - 03 pm",
     rating: 5.0,
-    slug: "providers/steven-reff-levittown-pa-dentist",
+    slug: "providers/manreet-kaur-levittown-pa-dentist",
   },
 ];
 
@@ -180,7 +180,7 @@ export default function AboutUsClient() {
           <div>
             <img
               src="/Images/banners/about-us-1.webp"
-              alt="Dentists with patient"
+              alt="Dental checkup at White Hill Dental in Levittown PA"
               className="rounded-xl shadow-lg w-full max-w-sm sm:max-w-md lg:max-w-lg object-cover"
               loading="lazy"
             />

@@ -27,14 +27,14 @@ import { contactDetails } from "@/lib/hooks/addressDetails";
 
 const banners = [
   {
-    image: "/Images/banners/Urban-Dental-Bayonne-NJ.webp",
+    image: "/Images/banners/banner-1.webp",
     title: "Welcome to White Hill Dental",
     subtitle:
       "Your Home for Advanced Dental Care in Levittown, PA",
     image2: "/Images/Banner1.jpg",
   },
   {
-    image: "/Images/banners/Emergency-Dental-Visit.webp",
+    image: "/Images/banners/banner-2.webp",
     title: "Toothache or Broken Tooth? $55 Emergency Exam",
     subtitle:
       "Don’t Wait in Pain - Get Quick Answers and Trusted Relief Right When You Need It",
@@ -48,7 +48,7 @@ const banners = [
     image2: "/Images/Banner3.webp",
   },
   {
-    image: "/Images/banners/teeth-whitening-bayonne-nj.webp",
+    image: "/Images/banners/banner-4.webp",
     title: "Achieve Your Brightest Smile for $299",
     subtitle:
       "Professional Whitening for a Visibly Brighter, Confident Look",
@@ -313,7 +313,7 @@ export default function HomePage() {
       <div className="w-full bg-[#ffffff84] flex items-center justify-center overflow-hidden py-4 md:py-8">
         <img
           src="/Images/White Hill Logo.png"
-          alt="dental-banner"
+          alt="Dental treatment at White Hill Dental in Levittown PA"
           className="w-auto h-16 md:h-32 object-cover"
         />
       </div>
@@ -438,8 +438,8 @@ export default function HomePage() {
           {/* Left Side - Image */}
           <div className="w-full md:w-1/2 h-64 md:h-120">
             <img
-              src="/Images/banners/Urban-outside.webp"
-              alt="dental-banner"
+              src="/Images/banners/Compassionate Care.webp"
+              alt="Professional teeth whitening at White Hill Dental in Levittown PA"
               className="rounded-md md:rounded-xl w-full h-full object-cover shadow-md"
             />
           </div>
@@ -625,8 +625,8 @@ export default function HomePage() {
           {/* Left Side - Image */}
           <div className="w-full md:w-1/2 h-64 md:h-80">
             <img
-              src="/Images/banners/Bayonne.webp"
-              alt="dental-banner"
+              src="/Images/banners/Special Offers.webp"
+              alt="Affordable dental treatments at White Hill Dental in Levittown PA"
               className="rounded-md md:rounded-xl w-full h-full object-cover shadow-md"
             />
           </div>

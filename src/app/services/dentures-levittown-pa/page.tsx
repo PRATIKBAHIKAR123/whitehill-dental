@@ -76,7 +76,7 @@ export default function DenturesPage() {
             <div className="image_section">
               <div className="image_section-cover">
                 <div className="main-image">
-                  <img src="/Images/services/denture.avif" alt="dentures" />
+                  <img src="/Images/services/dentures.webp" alt="dentures" />
                 </div>
               </div>
             </div>

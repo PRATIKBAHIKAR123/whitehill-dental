@@ -73,7 +73,7 @@ export default function RootCanalClient() {
                 <div className="main-image">
                   <img
                     src="/Images/services/root-canal.webp"
-                    alt="Main Banner"
+                    alt="Root Canal Specialists at White Hill Dental in Levittown PA"
                   />
                 </div>
               </div>

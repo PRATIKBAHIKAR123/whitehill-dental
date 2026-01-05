@@ -79,7 +79,7 @@ export default function EmergencyDentistryPage() {
                 <div className="main-image">
                   <img
                     src="/Images/services/emergency-dentistry.webp"
-                    alt="Main Banner"
+                    alt="Emergency Dentistry at White Hill Dental in Levittown PA"
                   />
                 </div>
               </div>

@@ -73,7 +73,7 @@ export default function OrthodonticsPage() {
                 <div className="main-image">
                   <img
                     src="/Images/services/orthodontics.webp"
-                    alt="Main Banner"
+                    alt="Orthodontics treatment at White Hill Dental in Levittown PA"
                   />
                 </div>
               </div>

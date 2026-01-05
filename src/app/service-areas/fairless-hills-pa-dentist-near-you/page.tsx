@@ -45,7 +45,7 @@ export default function ServiceAreaPage() {
             <div className="image_section-cover">
               <div className="main-image">
                 <img
-                  src="/Images/areas/Modern Dental Care in Greenville.webp"
+                  src="/Images/areas/Fairless Hills.webp"
                   alt="Main Banner"
                   className="rounded-xl"
                 />
@@ -177,7 +177,7 @@ export default function ServiceAreaPage() {
           </div>
           <div className="wcu-img-section">
             <img
-              src="/Images/areas/Why Greenville Families Choose Urban Dental.webp"
+              src="/Images/areas/Fairless Hills-1.webp"
               alt="dental"
               className="rounded-xl block"
             />

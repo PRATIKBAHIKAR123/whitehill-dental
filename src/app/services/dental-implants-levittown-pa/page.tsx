@@ -78,7 +78,7 @@ export default function DentalImplantsPage() {
                 <div className="main-image">
                   <img
                     src="/Images/services/dental-implants.webp"
-                    alt="Main Banner"
+                    alt="Dental Implants at White Hill Dental in Levittown PA"
                   />
                 </div>
               </div>

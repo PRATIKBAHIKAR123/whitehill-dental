@@ -69,7 +69,7 @@ export default function CrownsPage() {
                 <div className="main-image">
                   <img
                     src="/Images/services/crown-bridge.webp"
-                    alt="Main Banner"
+                    alt="Dental crowns & bridges at White Hill Dental in Levittown PA"
                   />
                 </div>
               </div>

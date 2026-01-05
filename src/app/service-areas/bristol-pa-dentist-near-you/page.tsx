@@ -45,7 +45,7 @@ export default function ServiceAreaPage() {
             <div className="image_section-cover">
               <div className="main-image">
                 <img
-                  src="/Images/areas/Comprehensive Dental Care in Bayonne.webp"
+                  src="/Images/areas/bristol.webp"
                   alt="Main Banner"
                   className="rounded-xl"
                 />
@@ -176,8 +176,8 @@ export default function ServiceAreaPage() {
           </div>
           <div className="wcu-img-section">
             <img
-              src="/Images/areas/Why Bayonne Families Trust Urban Dental and Braces.webp"
-              alt="dental"
+              src="/Images/areas/bristol-1.webp"
+              alt="Family & Cosmetic Dentistry in Levittown PA"
               className="rounded-xl block"
             />
           </div>

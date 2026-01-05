@@ -74,7 +74,7 @@ export default function KidsAndChildrenPage() {
                 <div className="main-image">
                   <img
                     src="/Images/services/kids-dentistry.webp"
-                    alt="Main Banner"
+                    alt="Kids & Children Dentistry at White Hill Dental in Levittown PA"
                   />
                 </div>
               </div>

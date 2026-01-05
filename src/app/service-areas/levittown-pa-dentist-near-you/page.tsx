@@ -45,7 +45,7 @@ export default function ServiceAreaPage() {
             <div className="image_section-cover">
               <div className="main-image">
                 <img
-                  src="/Images/areas/Comprehensive Dental Care in Bayonne.webp"
+                  src="/Images/areas/Levittown.webp"
                   alt="Main Banner"
                   className="rounded-xl"
                 />
@@ -115,7 +115,7 @@ export default function ServiceAreaPage() {
             <div className="wcu-desc">
               Here's why families across{" "}
               <Link
-                href="/service-areas/levittown-pa-dentist-near-you"
+                href="/Images/areas/Levittown-1.webp"
                 className="font-semibold hover:underline"
               >
                 Levittown (19054, 19055, 19056, 19057)

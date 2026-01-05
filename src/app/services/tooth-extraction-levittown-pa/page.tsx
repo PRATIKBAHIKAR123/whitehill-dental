@@ -74,7 +74,7 @@ export default function ToothExtractionPage() {
                 <div className="main-image">
                   <img
                     src="/Images/services/tooth-extraction (1).webp"
-                    alt="Main Banner"
+                    alt="Tooth extractions at White Hill Dental in Levittown PA"
                   />
                 </div>
               </div>

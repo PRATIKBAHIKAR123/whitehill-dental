@@ -45,7 +45,7 @@ export default function ServiceAreaPage() {
             <div className="image_section-cover">
               <div className="main-image">
                 <img
-                  src="/Images/areas/Comprehensive Dental Care in Bayonne.webp"
+                  src="/Images/areas/Fallsington.webp"
                   alt="Main Banner"
                   className="rounded-xl"
                 />
@@ -177,7 +177,7 @@ export default function ServiceAreaPage() {
           </div>
           <div className="wcu-img-section">
             <img
-              src="/Images/areas/Why Bayonne Families Trust Urban Dental and Braces.webp"
+              src="/Images/areas/Fallsington-1.webp"
               alt="dental"
               className="rounded-xl block"
             />
