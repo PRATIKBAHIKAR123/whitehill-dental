@@ -57,7 +57,7 @@ export default function ProvidersPage() {
                                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 320px"
                                     priority={idx < 3}
                                 />
-                                <div className="absolute inset-0 bg-gradient-to-t from-secondary/20 to-transparent" />
+                                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
                             </div>
                             <div className="flex-1 flex flex-col justify-end items-center p-3 sm:p-4 w-full">
                                 <h2 className="text-sm sm:text-base lg:text-lg font-bold text-primary mb-2 text-center leading-tight">

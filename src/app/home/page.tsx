@@ -438,7 +438,7 @@ export default function HomePage() {
           {/* Left Side - Image */}
           <div className="w-full md:w-1/2 h-64 md:h-120">
             <img
-              src="/Images/banners/Compassionate Care.webp"
+              src="/Images/banners/White Hill - Outdoor picture.webp"
               alt="Professional teeth whitening at White Hill Dental in Levittown PA"
               className="rounded-md md:rounded-xl w-full h-full object-cover shadow-md"
             />
@@ -447,55 +447,55 @@ export default function HomePage() {
           {/* Right Side - Text */}
           <div className="w-full md:w-1/2 text-center md:text-left space-y-6">
             <h2 className="text-3xl md:text-5xl font-semibold text-primary leading-tight">
-              Why Is White Hill Dental a Favorite Among Levittown, PA Patients?
+              Comfort-Driven, Quality Dentistry in Levittown, PA
             </h2>
 
             <p>
-              At <strong>White Hill Dental</strong>, we believe every patient deserves a smile they feel proud of - and that’s why families all over Levittown choose us as their trusted dental home. Located at <strong>1146 Bristol Oxford Valley Rd, Levittown, PA 19057, United States</strong>, we offer a friendly, high-tech environment where comfort and quality come together. Whether you need a <strong>dentist in Levittown, PA</strong> for routine care or urgent attention, we’re here to make every visit stress-free.
+              At <strong>White Hill Dental</strong>, comfort and quality are at the heart of every visit. Conveniently located at <strong>1146 Bristol Oxford Valley Rd, Levittown, PA 19057</strong>, our modern dental office combines advanced technology with a calm, patient-first approach. Families looking for a trusted <strong>dentist in Levittown, PA</strong> rely on our team for gentle routine care, cosmetic dentistry, Invisalign®, and prompt emergency dental services - all delivered with a focus on stress-free treatment and lasting results
             </p>
 
             <p>
-              We proudly care for patients from{" "}
+              We proudly serve patients from{" "}
               <Link
                 href="/service-areas/levittown-pa-dentist-near-you"
                 className="text-blue-600 font-semibold hover:underline"
               >
                 Levittown (19054, 19055, 19056, 19057)
               </Link>
-              {" "}and nearby{" "}
+              {" "}and nearby communities including{" "}
               <Link
                 href="/service-areas/fairless-hills-pa-dentist-near-you"
                 className="text-blue-600 font-semibold hover:underline"
               >
-                Fairless Hills (19030)
+                Fairless Hills
               </Link>
               ,{" "}
               <Link
                 href="/service-areas/fallsington-pa-dentist-near-you"
                 className="text-blue-600 font-semibold hover:underline"
               >
-                Fallsington (19054)
+                Fallsington
               </Link>
               ,{" "}
               <Link
                 href="/service-areas/bristol-pa-dentist-near-you"
                 className="text-blue-600 font-semibold hover:underline"
               >
-                Bristol (19007)
+                Bristol
               </Link>
               {" "}and{" "}
               <Link
                 href="/service-areas/tullytown-pa-dentist-near-you"
                 className="text-blue-600 font-semibold hover:underline"
               >
-                Tullytown (19007)
-              </Link>
-              . From dental cleanings and cosmetic upgrades to <Link href={'/services/invisalign-levittown-pa'} className="text-blue-600 font-semibold hover:underline">Invisalign®</Link> and <Link href={'/services/same-day-dentistry-levittown-pa'} className="text-blue-600 font-semibold hover:underline">same-day emergency appointments</Link>, we offer complete dental solutions for all ages under one roof.
+                Tullytown
+              </Link>.
+              Known for flexible scheduling, same-day emergency appointments, and personalized care, White Hill Dental continues to be a top choice for local families searching for <strong>comfortable, high-quality dentistry near them.</strong>
             </p>
 
-            <p>
+            {/* <p>
               Local families love White Hill Dental because of our advanced technology, flexible scheduling, and a team that truly listens. If you’re searching for a dentist near you who values comfort, trust, and long-lasting results - your smile is in the right place.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>

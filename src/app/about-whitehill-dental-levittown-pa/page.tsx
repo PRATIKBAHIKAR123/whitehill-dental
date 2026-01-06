@@ -102,69 +102,44 @@ export default function AboutUsClient() {
             White Hill Dental - Built for Family Smiles
           </h2>
           <p>
-            Every smile deserves a team that understands more than just teeth - a team that understands people. {" "}
-            <Link href={'/'} className="font-bold text-primary">White Hill Dental</Link> was created to bring that level of care to families across Levittown and the surrounding Bucks County community.
-          </p>
-          <p>
-            Conveniently located at{" "}<strong>1146 Bristol Oxford Valley Rd, Levittown, PA 19057</strong>, our office welcomes patients from:
-            <br/>
-            <ul className="list-disc ml-4">
-              <li>
-                <Link
+            Every smile deserves care that goes beyond the clinical, and at {" "}
+            <Link href={'/'} className="font-bold text-primary">White Hill Dental</Link> we focus on treating people, not just teeth. Created to serve families across Levittown and the greater Bucks County area, our practice is built around comfort, trust, and personalized attention.
+          
+            Conveniently located at{" "}<strong>1146 Bristol Oxford Valley Rd, Levittown, PA 19057</strong>, we welcome patients from {" "}<Link
                   href="/service-areas/levittown-pa-dentist-near-you"
                   className="text-blue-600 font-semibold hover:underline"
                 >
                   Levittown (19054, 19055, 19056, 19057)
                 </Link>
-              </li>
-              <li>
+                {" "}as well as{" "}
                 <Link
                   href="/service-areas/fairless-hills-pa-dentist-near-you"
                   className="text-blue-600 font-semibold hover:underline"
                 >
-                  Fairless Hills (19030)
-                </Link>
-              </li>
-              <li>
+                  Fairless Hills
+                </Link>,{" "}
                 <Link
                   href="/service-areas/fallsington-pa-dentist-near-you"
                   className="text-blue-600 font-semibold hover:underline"
                 >
-                  Fallsington (19054)
-                </Link>
-              </li>
-              <li>
+                  Fallsington
+                </Link>,{" "}
                 <Link
                   href="/service-areas/bristol-pa-dentist-near-you"
                   className="text-blue-600 font-semibold hover:underline"
                 >
                   Bristol
-                </Link>
-                {" "}&{" "}
+                </Link>,{" "}
                 <Link
                   href="/service-areas/tullytown-pa-dentist-near-you"
                   className="text-blue-600 font-semibold hover:underline"
                 >
-                  Tullytown (19007)
+                  Tullytown
                 </Link>
-              </li>
-            </ul>
           </p>
+         
           <p>
-            Here, dentistry goes beyond the chair. Kids can enjoy our
-            {" "}<strong>in-office movie theater</strong>,
-            helping them feel excited for appointments. Adults benefit from our experience in cosmetic dentistry - including Invisalign®, whitening, implants, and smile enhancements - for results that look beautiful and natural. And when urgent dental needs arise, <Link href={'/providers'} className="font-bold text-primary">our team</Link> provides support quickly with
-            {" "}<Link href={'/services/same-day-dentistry-levittown-pa'} className="font-bold text-primary">same-day emergency visits</Link>
-          </p>
-          <p>
-            We use{" "}
-            <strong>advanced digital technology</strong>{" "}
-            not as a selling point, but because your smile deserves accuracy and efficiency at every step. Our approach blends clinical excellence with the kind of personal attention that helps patients feel understood, respected, and confident in their care decisions.
-          </p>
-          <p>
-            Financial transparency matters to us, too. With
-            {" "}<strong>Medicaid acceptance</strong>, most major insurance plans, and flexible payment options for those without coverage, families can focus on their health - not their bills. At White Hill Dental,
-            {" "}<strong>quality care isn’t a luxury - it’s the standard you can count on</strong>.
+            Our office is designed to make dental visits easier for all ages, with kid-friendly features like an in-office movie theater and a calm, modern environment for adults. We offer comprehensive care under one roof, including cosmetic dentistry, Invisalign®, whitening, dental implants, and same-day emergency appointments when urgent needs arise. Using advanced digital technology and a transparent financial approach - accepting Medicaid, most major insurance plans, and flexible payment options - White Hill Dental delivers high-quality, accessible dental care families can rely on with confidence.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-4 sm:mt-6 items-center sm:items-center">
@@ -179,7 +154,7 @@ export default function AboutUsClient() {
         <div className="flex-1 flex justify-center lg:justify-end order-1 lg:order-2 w-full">
           <div>
             <img
-              src="/Images/banners/about-us-1.webp"
+              src="/Images/about-us.webp"
               alt="Dental checkup at White Hill Dental in Levittown PA"
               className="rounded-xl shadow-lg w-full max-w-sm sm:max-w-md lg:max-w-lg object-cover"
               loading="lazy"
@@ -193,7 +168,7 @@ export default function AboutUsClient() {
         <section className="flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-8 py-8 sm:py-12 lg:py-16 px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto">
           <div className="flex-1 flex justify-center lg:justify-start mb-6 lg:mb-0 order-2 lg:order-1 w-full">
             <img
-              src="/Images/banners/about-us.webp"
+              src="/Images/about-us 1.webp"
               alt="Dental procedure"
               className="rounded-xl shadow-lg w-full max-w-sm sm:max-w-md lg:max-w-lg object-cover"
               loading="lazy"
