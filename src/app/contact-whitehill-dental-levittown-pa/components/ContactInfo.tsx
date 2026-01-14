@@ -5,12 +5,12 @@ import Image from 'next/image'
 
 export default function ContactInfo() {
   const hours = [
-    "Monday: 9:00 AM - 6:00 PM",
-    "Tuesday: 9:00 AM - 6:00 PM",
-    "Wednesday: 9:00 AM - 6:00 PM",
-    "Thursday: 9:00 AM - 6:00 PM",
-    "Friday: 9:00 AM - 6:00 PM",
-    "Saturday: 8:30 AM - 3:30 PM",
+    "Monday: 8:00 AM - 5:30 PM",
+    "Tuesday: 8:00 AM - 5:30 PM",
+    "Wednesday: 8:00 AM - 5:30 PM",
+    "Thursday: 8:00 AM - 5:30 PM",
+    "Friday: Closed",
+    "Saturday: 8:30 AM - 3:00 PM",
     "Sunday: Closed",
   ];
 
